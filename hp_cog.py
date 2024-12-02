@@ -205,7 +205,7 @@ class HPCog(commands.Cog):
 
         if reporter_steamid: # if a steamid for the reporter was passed, add it to the record and log it in the log channel
             reporter.profile_id = int(reporter_steamid)
-            await self.log_channel.send(f"Associated SteamID {reporter_steamid} with user {owner.mention}")
+            await self.log_channel.send(f"Associated SteamID {reporter_steamid} with user {owner.mention}", silent=True)
 
         # log channel message
         msg = f"{thread.jump_url} {owner.mention} cheater exposed (+{points} points, {reporter.points()+points} total)"
@@ -216,7 +216,7 @@ class HPCog(commands.Cog):
         # mark toplist for rebuild
         self.toplist_needs_rebuild = True
         # send confirmation message in log channel
-        await self.log_channel.send(msg)
+        await self.log_channel.send(msg, silent=True)
 
         await thread.remove_tags(*statics.TAGS) # remove "Needs info", "Not a cheater" and "Already reported" tags
         await thread.add_tags(statics.CONFIRMED_TAG) # add "Confirmed" tag
@@ -255,9 +255,9 @@ class HPCog(commands.Cog):
         # remove the "Confirmed" tag
         await thread.remove_tags(statics.CONFIRMED_TAG)
         # log unapproval in log channel
-        await self.log_channel.send(f"{thread.jump_url} <@{thread.owner_id}> unapproved ({reporter.points()} points)")
+        await self.log_channel.send(f"{thread.jump_url} <@{thread.owner_id}> unapproved ({reporter.points()} points)", silent=True)
         # tell command user that everything worked (:
-        await interaction.response.send_message(f"Report by <@{thread.owner_id}> unapproved", ephemeral=True)
+        await interaction.response.send_message(f"Report by <@{thread.owner_id}> unapproved", ephemeral=True, silent=True)
 
 async def setup(bot: commands.Bot):
     # create new HPCog (just a self-contained module that provides commands) and add it to the bot
