@@ -255,9 +255,9 @@ class HPCog(commands.Cog):
         # remove the "Confirmed" tag
         await thread.remove_tags(statics.CONFIRMED_TAG)
         # log unapproval in log channel
-        await self.log_channel.send(f"{thread.jump_url} <@{thread.owner_id}> unapproved")
+        await self.log_channel.send(f"{thread.jump_url} <@{thread.owner_id}> unapproved ({reporter.points()} points)")
         # tell command user that everything worked (:
-        await interaction.response.send_message(f"Report by {thread.owner_id} unapproved", ephemeral=True)
+        await interaction.response.send_message(f"Report by <@{thread.owner_id}> unapproved", ephemeral=True)
 
 async def setup(bot: commands.Bot):
     # create new HPCog (just a self-contained module that provides commands) and add it to the bot
