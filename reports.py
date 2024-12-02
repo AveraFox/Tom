@@ -1,5 +1,5 @@
 import aiofiles, json, statics
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Self
 
 # data classes to interact with the json data (I don't like working with dicts directly)
 
@@ -12,7 +12,7 @@ class Report:
         self.points: int = points
     
     # creates a Report object from a json dict
-    def from_json(json_report) -> Report:
+    def from_json(json_report) -> Self:
         return Report(
             json_report["msg"], 
             json_report["steamids"],
@@ -55,11 +55,11 @@ class Reporter:
                 return report
         return None
 
-    def from_json(userid: int, json_map: dict) -> Reporter:
+    def from_json(userid: int, json_map: dict) -> Self:
         reports: List[Report] = []
         for report in json_map["reports"]:
             reports.append(Report.from_json(report))
-        return Reporter(userid, reports, None)
+        return Reporter(userid, reports, json_map["profile_id"])
     
     # sums up all the points of the reports of this reporter
     def points(self) -> int:
@@ -102,7 +102,7 @@ class Reports:
         return None
 
     # loads Report data from the data file
-    async def load() -> Reports:
+    async def load() -> Self:
         async with aiofiles.open(statics.REPORTS_DATA_FILE) as f:
             reports = json.loads(await f.read())
             return Reports.from_json(reports)
@@ -119,7 +119,7 @@ class Reports:
         return reporter_list[:min(20, len(reporter_list))]
     
     # creates a Reports object from a json dict
-    def from_json(json_map: dict) -> Reports:
+    def from_json(json_map: dict) -> Self:
         for key in json_map:
             json_map[key] = Reporter.from_json(int(key), json_map[key])
         return Reports(json_map)
