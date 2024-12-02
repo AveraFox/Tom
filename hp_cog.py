@@ -153,12 +153,19 @@ class HPCog(commands.Cog):
     )
     @app_commands.describe(
         points="Amount of points this report gives (default 1)", 
-        steamids="Comma seperated list of reported steamids, ex. \"76561199796492647,76561199532619504\""
+        steamids="Comma seperated list of reported steamids, ex. \"76561199796492647,76561199532619504\"",
+        allow_duplicate="Skip checking if the user was already reported"
     )
     @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
     @app_commands.check(check_in_thread)
     @app_commands.rename(steamids="cheater_steamids")
-    async def approve(self, interaction: discord.Interaction, steamids: str, points: int = 1, reporter_steamid: typing.Optional[str] = None):            
+    async def approve(self, 
+        interaction: discord.Interaction, 
+        steamids: str, 
+        points: int = 1, 
+        reporter_steamid: typing.Optional[str] = None,
+        allow_duplicate: bool = False,
+    ):            
         # Approves the report the command is executed in
         thread: discord.Thread = interaction.channel
         owner = await self.bot.fetch_user(thread.owner_id)
@@ -185,12 +192,16 @@ class HPCog(commands.Cog):
                 return
             steamids.append(int(steamid))
         
-        duplicate = False
-        for steamid in steamids: # check steamids if they were reported before
-            report = self.reports.find_cheater(steamid)
-            if report:
-                await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{report.message}", ephemeral=True)
-                return
+        if len(steamids) == 0:
+            await interaction.response.send_message("At least one cheater SteamID is required")
+            return
+        
+        if not allow_duplicate:
+            for steamid in steamids: # check steamids if they were reported before
+                report = self.reports.find_cheater(steamid)
+                if report:
+                    await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{report.message}", ephemeral=True)
+                    return
 
         if reporter_steamid: # if a steamid for the reporter was passed, add it to the record and log it in the log channel
             reporter.profile_id = int(reporter_steamid)
