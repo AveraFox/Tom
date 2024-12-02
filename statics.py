@@ -1,11 +1,13 @@
 from discord import Object
 from discord.app_commands import Choice
 
+# Parameter file for all the things you might need to change
+
 class Images:
     TOM_APPROVE = "https://cdn.discordapp.com/attachments/1121780046928023613/1306707037350006925/tomapp.gif"
     TOM_MAYBE_NEXT_TIME = "https://cdn.discordapp.com/attachments/1121780046928023613/1312484775889735680/tomnexttime.gif"
 
-REPORT_CHANNEL_ID = 1312815909697622106
+REPORT_CHANNEL_ID = 1312815909697622106 # report log channel id
 CONFIRM_ROLE_WHITELIST = [
     739206335949701241,  # testing role
     1272988674455375872, # HP Officer
@@ -17,7 +19,7 @@ TAGS = [
     Object(1312935861784150056), # already reported
     Object(1312951292146221056) # not a cheater
 ]
-TAG_CHOICES = [
+TAG_CHOICES = [ # Options for mark/unmark command autocomplete (value is index of tag in TAGS)
     Choice(name="Needs more info", value=0),
     Choice(name="Duplicate", value=1),
     Choice(name="Not cheating", value=2)
