@@ -2544,7 +2544,7 @@
         ]
     },
     "682167661634781191": {
-        "count": 17,
+        "count": 19,
         "profile_id": 76561198090852347,
         "reports": [
             {
@@ -2626,6 +2626,20 @@
                 "points": 1,
                 "steamids": [
                     76561199506097879
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1313247580561477652 doogeqt (682167661634781191) cheater exposed",
+                "points": 1,
+                "steamids": [
+                    76561199805754273
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1313246451723145318 doogeqt (682167661634781191) cheater exposed",
+                "points": 1,
+                "steamids": [
+                    76561199310124064
                 ]
             }
         ]
