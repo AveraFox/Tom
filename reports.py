@@ -94,12 +94,13 @@ class Reports:
             return self._reporters[reporter_id]
         
     # looks up if a cheater has been reported before, if yes returns the first Report
-    def find_cheater(self, steamid: int) -> Optional[Report]:
+    def find_cheater(self, steamid: int) -> List[Report]:
+        matching_reports: List[Report] = []
         for reporter in self._reporters.values():
             for report in reporter.reports:
                 if steamid in report.steamids:
-                    return report
-        return None
+                    matching_reports.append(report)
+        return matching_reports
 
     # loads Report data from the data file
     async def load() -> Self:

@@ -62,7 +62,7 @@ class HPCog(commands.Cog):
         self.toplist_needs_rebuild = False
 
         top_reporters = self.reports.get_top_n(20)
-        msg = "```\n"
+        msg = ""
         for reporter in top_reporters:
             try:
                 user = await self.bot.fetch_user(reporter.userid)
@@ -72,9 +72,8 @@ class HPCog(commands.Cog):
                         self.global_name = id
                 user =  Mockuser(reporter.userid) # dummy class object, so the user id is used instead of the name
 
-            msg += f"{reporter.points()}: {user.global_name}\n"
+            msg += f"{reporter.points()}: {user.mention} ({user.global_name})\n"
 
-        msg += "```"
         self.toplist = msg # Store toplist for later use
         logger.info("Toplist rebuilt")
         
@@ -103,7 +102,7 @@ class HPCog(commands.Cog):
             steamprofile = f"https://steamcommunity.com/profiles/{reporter.profile_id}" if reporter.profile_id else "not on record"
             embed.add_field(name="Steam profile", value=steamprofile, inline=False)
             
-            recentreports = "\n".join(map(lambda r: r.message[:r.message.find(" ")], reversed(reporter.reports[max(0,len(reporter.reports)-5):])))
+            recentreports = "\n".join(map(lambda r: r.message, reversed(reporter.reports[max(0,len(reporter.reports)-5):])))
             embed.add_field(name="Recent reports", value=recentreports, inline=False)
 
         await interaction.response.send_message(embed=embed, ephemeral=True) # ephemeral means that the message only shows up for the user using the command
@@ -118,7 +117,7 @@ class HPCog(commands.Cog):
         if not self.toplist:
             await interaction.response.send_message("Please wait, the toplist is being built", ephemeral=True)
             return
-        await interaction.response.send_message(self.toplist, ephemeral=True)
+        await interaction.response.send_message(embed=discord.Embed(title="Top Reporters", description=self.toplist), ephemeral=True)
 
     #### OFFICER COMMANDS ####
     @app_commands.command(
@@ -147,6 +146,29 @@ class HPCog(commands.Cog):
         await thread.remove_tags(statics.TAGS[tag.value])
         await interaction.response.send_message(f"Removed tag {tag.name}", ephemeral=True)
         
+    @app_commands.command(
+        name="lookup",
+        description="Look up a SteamID für previous reports"
+    )
+    @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
+    async def lookup(self, interaction: discord.Interaction, steamid: str):
+        if not validate_steamid(steamid):
+            await interaction.response.send_message("Invalid SteamID", ephemeral=True)
+            return
+        
+        reports = self.reports.find_cheater(int(steamid))
+        
+        if len(reports) == 0:
+            await interaction.response.send_message(f"No reports found for {steamid}", ephemeral=True)
+            return
+
+        embed = discord.Embed(
+            title=f"Reports for {steamid}",
+            description='\n'.join(map(lambda r: r.message, reports))
+        )
+
+        await interaction.response.send_message(embed=embed, ephemeral=True)
+
     @app_commands.command(
         name="approve",
         description="Approve the cheater report"
@@ -198,9 +220,9 @@ class HPCog(commands.Cog):
         
         if not allow_duplicate:
             for steamid in steamids: # check steamids if they were reported before
-                report = self.reports.find_cheater(steamid)
-                if report:
-                    await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{report.message}", ephemeral=True)
+                reports = self.reports.find_cheater(steamid)
+                if len(reports) > 0:
+                    await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{'\n'.join(map(lambda r: r.message, reports))}", ephemeral=True)
                     return
 
         if reporter_steamid: # if a steamid for the reporter was passed, add it to the record and log it in the log channel
