@@ -187,6 +187,7 @@ class HPCog(commands.Cog):
         points: int = 1, 
         reporter_steamid: typing.Optional[str] = None,
         allow_duplicate: bool = False,
+        skip_reporter_steamid_check: bool = False
     ):            
         # Approves the report the command is executed in
         thread: discord.Thread = interaction.channel
@@ -197,7 +198,7 @@ class HPCog(commands.Cog):
             await interaction.response.send_message("Report was already approved", ephemeral=True)
             return
 
-        if not reporter.profile_id and not reporter_steamid: # check if reporter has a steamid on record
+        if not reporter.profile_id and not reporter_steamid and not skip_reporter_steamid_check: # check if reporter has a steamid on record
             await interaction.response.send_message("Reporter does not have a steam profile ID associated", ephemeral=True)
             return
         elif reporter_steamid: # new steamid was passed to the command
