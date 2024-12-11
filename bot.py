@@ -1,4 +1,4 @@
-import discord, logging
+import discord, logging, os
 import discord.ext.commands
 
 intents = discord.Intents.default()
@@ -15,11 +15,12 @@ async def on_ready():
     await bot.tree.sync() # upload command tree to discord, so you can see all available commands in the client
     logger.info(f"{bot.user} is up and running meow")
 
-@bot.tree.command() # REMOVE THIS BEFORE DEPLOYING, letting random people reload the module is bound to break something
-async def reload(interaction: discord.Interaction):
-    await bot.reload_extension("hp_cog")
-    await bot.tree.sync()
-    await interaction.response.send_message("Reloaded!", ephemeral=True)
+if os.environ.get("DEBUG") == "1": # only enable command if debug is set in environment
+    @bot.tree.command()
+    async def reload(interaction: discord.Interaction):
+        await bot.reload_extension("hp_cog")
+        await bot.tree.sync()
+        await interaction.response.send_message("Reloaded!", ephemeral=True)
 
 if __name__ == "__main__":
     token = open("token.txt").read().strip()

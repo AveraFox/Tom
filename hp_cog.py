@@ -148,7 +148,7 @@ class HPCog(commands.Cog):
         
     @app_commands.command(
         name="lookup",
-        description="Look up a SteamID für previous reports"
+        description="Look up previous reports of a SteamID"
     )
     @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
     async def lookup(self, interaction: discord.Interaction, steamid: str):
@@ -250,14 +250,11 @@ class HPCog(commands.Cog):
         name="unapprove",
         description="Unapprove a report"
     )
+    @app_commands.check(check_in_thread)
     @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
-    async def unapprove(self, interaction: discord.Interaction, thread: typing.Optional[discord.Thread] = None):
-        # removes a report based on the thread passed, or the current thread
-        if not thread:
-            if not isinstance(interaction.channel, discord.Thread):
-                await interaction.response.send_message("Either use this command in the thread to unapprove, or provide the thread link", ephemeral=True)
-                return
-            thread = interaction.channel
+    async def unapprove(self, interaction: discord.Interaction):
+        # removes a report for the current thread
+        thread = interaction.channel
             
         reporter = self.reports.get(thread.owner_id)
         if not reporter:
@@ -272,15 +269,12 @@ class HPCog(commands.Cog):
         await self.reports.save()
         # mark toplist for rebuild
         self.toplist_needs_rebuild = True
-        # if the thread has not been locked yet, send a message that it was unapproved
-        if not thread.locked:
-            await thread.send("Report unapproved")
         # remove the "Confirmed" tag
         await thread.remove_tags(statics.CONFIRMED_TAG)
         # log unapproval in log channel
         await self.log_channel.send(f"{thread.jump_url} <@{thread.owner_id}> unapproved ({reporter.points()} points)", silent=True)
-        # tell command user that everything worked (:
-        await interaction.response.send_message(f"Report by <@{thread.owner_id}> unapproved", ephemeral=True, silent=True)
+        # send a message that it was unapproved
+        await interaction.response.send_message("Report unapproved")
 
 async def setup(bot: commands.Bot):
     # create new HPCog (just a self-contained module that provides commands) and add it to the bot
