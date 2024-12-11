@@ -223,7 +223,7 @@ class HPCog(commands.Cog):
             for steamid in steamids: # check steamids if they were reported before
                 reports = self.reports.find_cheater(steamid)
                 if len(reports) > 0:
-                    await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{'\n'.join(map(lambda r: r.message, reports))}", ephemeral=True)
+                    await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{chr(10).join(map(lambda r: r.message, reports))}", ephemeral=True)
                     return
 
         if reporter_steamid: # if a steamid for the reporter was passed, add it to the record and log it in the log channel
