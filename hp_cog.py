@@ -42,8 +42,8 @@ class HPCog(commands.Cog):
         options = []
         if "options" in interaction.data:
             for option in interaction.data["options"]:
-                options.append(f"{option["name"]}:'{option["value"]}'")
-        logger.info(f"{interaction.user.name} executed command: {interaction.command.name} {" ".join(options)}")
+                options.append(f"{option['name']}:'{option['value']}'")
+        logger.info(f"{interaction.user.name} executed command: {interaction.command.name} {' '.join(options)}")
         return True
 
     async def cog_app_command_error(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
