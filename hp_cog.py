@@ -176,7 +176,9 @@ class HPCog(commands.Cog):
     @app_commands.describe(
         points="Amount of points this report gives (default 1)", 
         steamids="Comma seperated list of reported steamids, ex. \"76561199796492647,76561199532619504\"",
-        allow_duplicate="Skip checking if the user was already reported"
+        allow_duplicate="Skip checking if the user was already reported",
+        reporter_steamid="SteamID of the person reporting, required if none has been logged yet",
+        skip_reporter_steamid_check="Allow confirming even though the reporter has not provided a profile SteamID"
     )
     @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
     @app_commands.check(check_in_thread)
