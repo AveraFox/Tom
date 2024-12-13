@@ -14,12 +14,12 @@ CONFIRM_ROLE_WHITELIST = [
     425686371974512640   # Admin
 ]
 TAGS = [
-    Object(1309945406385426432), # needs more info
+    Object(1309945406385426432), # not enough info
     Object(1311759650261172334), # already reported
     Object(1309945373971709952) # not a cheater
 ]
 TAG_CHOICES = [ # Options for mark/unmark command autocomplete (value is index of tag in TAGS)
-    Choice(name="Needs more info", value=0),
+    Choice(name="Not enough info", value=0),
     Choice(name="Duplicate", value=1),
     Choice(name="Not cheating", value=2)
 ]
