@@ -84,7 +84,7 @@ class Reports:
     def get_or_create(self, reporter_id: int) -> Reporter:
         reporter_id = str(reporter_id)
         if reporter_id not in self._reporters:
-            self.__reporters[reporter_id] = Reporter(reporter_id, [], None)
+            self._reporters[reporter_id] = Reporter(reporter_id, [], None)
         return self._reporters[reporter_id]
 
     # gets the Reporter object for the given discord id, or None if it doesn't exist
