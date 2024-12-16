@@ -1,4 +1,4 @@
-import aiofiles, json, statics
+import aiofiles, json, statics, asyncio
 from typing import List, Optional, Dict, Any, Self
 
 # data classes to interact with the json data (I don't like working with dicts directly)
@@ -112,6 +112,13 @@ class Reports:
     async def save(self):
         async with aiofiles.open(statics.REPORTS_DATA_FILE, "w") as f:
             await f.write(json.dumps(self.to_json(), indent=4, sort_keys=True))
+        steamids = []
+        for reporter in self._reporters.values():
+            for report in reporter.reports:
+                steamids += report.steamids
+        steamids = set(map(lambda i: str(i), steamids))
+        async with aiofiles.open(statics.ID_LIST_FILE, "w") as f:
+            await f.write("\n".join(sorted(steamids)))
 
     # makes a list sorted by report count descending and returns the first n items
     def get_top_n(self, n) -> List[Reporter]:
@@ -133,11 +140,11 @@ class Reports:
         return reporters
 
 
+async def test():
+    reports = await Reports.load()
+    await reports.save()
+
 if __name__ == "__main__":
     # test code to mess about with the file format
     # only run when you execute this file directly
-    with open("reports.json") as f:
-        j = json.load(f)
-        json_out = json.dumps(Reports.from_json(j).to_json(), indent=4, sort_keys=True)
-        with open("reports.json", "w") as f:
-            f.write(json_out)
+    asyncio.run(test())
