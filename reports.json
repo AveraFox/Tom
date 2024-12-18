@@ -906,7 +906,7 @@
         ]
     },
     "1193778708566257765": {
-        "count": 60,
+        "count": 61,
         "profile_id": 76561199221072969,
         "reports": [
             {
@@ -1325,6 +1325,13 @@
                 "points": 1,
                 "steamids": [
                     76561199261180957
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1318937555680628788 <@1193778708566257765> (Kal/LkhagwasvrenN) cheater exposed (+1 points, 61 total)",
+                "points": 1,
+                "steamids": [
+                    76561198845921093
                 ]
             }
         ]
