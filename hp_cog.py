@@ -123,6 +123,28 @@ class HPCog(commands.Cog):
             return
         await interaction.response.send_message(embed=discord.Embed(title="Top Reporters", description=self.toplist), ephemeral=True)
 
+    @app_commands.command(
+        name="lookup",
+        description="Look up previous reports of a SteamID"
+    )
+    async def lookup(self, interaction: discord.Interaction, steamid: str):
+        if not validate_steamid(steamid):
+            await interaction.response.send_message("Invalid SteamID", ephemeral=True)
+            return
+        
+        reports = self.reports.find_cheater(int(steamid))
+        
+        if len(reports) == 0:
+            await interaction.response.send_message(f"No reports found for {steamid}", ephemeral=True)
+            return
+
+        embed = discord.Embed(
+            title=f"Reports for {steamid}",
+            description='\n'.join(map(lambda r: r.message, reports))
+        )
+
+        await interaction.response.send_message(embed=embed, ephemeral=True)
+
     #### OFFICER COMMANDS ####
     @app_commands.command(
         name="mark",
@@ -150,29 +172,6 @@ class HPCog(commands.Cog):
         await thread.remove_tags(statics.TAGS[tag.value])
         await interaction.response.send_message(f"Removed tag {tag.name}", ephemeral=True)
         
-    @app_commands.command(
-        name="lookup",
-        description="Look up previous reports of a SteamID"
-    )
-    @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
-    async def lookup(self, interaction: discord.Interaction, steamid: str):
-        if not validate_steamid(steamid):
-            await interaction.response.send_message("Invalid SteamID", ephemeral=True)
-            return
-        
-        reports = self.reports.find_cheater(int(steamid))
-        
-        if len(reports) == 0:
-            await interaction.response.send_message(f"No reports found for {steamid}", ephemeral=True)
-            return
-
-        embed = discord.Embed(
-            title=f"Reports for {steamid}",
-            description='\n'.join(map(lambda r: r.message, reports))
-        )
-
-        await interaction.response.send_message(embed=embed, ephemeral=True)
-
     @app_commands.command(
         name="approve",
         description="Approve the cheater report"
