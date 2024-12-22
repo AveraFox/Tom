@@ -4968,13 +4968,20 @@
         ]
     },
     "950480132903161888": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199121709495,
         "reports": [
             {
                 "msg": "https://discord.com/channels/354645865773924352/1121780046928023613/1298090127603666954 jerrywashere (950480132903161888) 1 cheater exposed",
                 "points": 1,
                 "steamids": []
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1320288160168542229 <@950480132903161888> (jerrywashere) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198035509401
+                ]
             }
         ]
     },
