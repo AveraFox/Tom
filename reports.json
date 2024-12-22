@@ -2944,9 +2944,17 @@
         ]
     },
     "370865485912473602": {
-        "count": 0,
-        "profile_id": null,
-        "reports": []
+        "count": 1,
+        "profile_id": 76561198210509251,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1320364753440477266 <@370865485912473602> (Svar3n) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199177417720
+                ]
+            }
+        ]
     },
     "393283296575881226": {
         "count": 1,
