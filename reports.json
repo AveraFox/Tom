@@ -947,7 +947,7 @@
         ]
     },
     "1193778708566257765": {
-        "count": 68,
+        "count": 69,
         "profile_id": 76561199221072969,
         "reports": [
             {
@@ -1423,6 +1423,13 @@
                 "steamids": [
                     76561199356871091
                 ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1320876163391819879 <@1193778708566257765> (Kal) cheater exposed (+1 points, 69 total)",
+                "points": 1,
+                "steamids": [
+                    76561199807615095
+                ]
             }
         ]
     },
@@ -1454,7 +1461,7 @@
         ]
     },
     "139401022991761408": {
-        "count": 35,
+        "count": 36,
         "profile_id": 76561198202816899,
         "reports": [
             {
@@ -1586,6 +1593,13 @@
                 "points": 1,
                 "steamids": [
                     76561197999230702
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1320883081896530021 <@139401022991761408> (Repurify) cheater exposed (+1 points, 36 total)",
+                "points": 1,
+                "steamids": [
+                    76561199199912091
                 ]
             }
         ]
@@ -3815,7 +3829,7 @@
         ]
     },
     "625515014798966794": {
-        "count": 10,
+        "count": 11,
         "profile_id": 76561199062020698,
         "reports": [
             {
@@ -3879,6 +3893,13 @@
                 "points": 1,
                 "steamids": [
                     76561199054302291
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1320881736082526308 <@625515014798966794> (Expy!) cheater exposed (+1 points, 11 total)",
+                "points": 1,
+                "steamids": [
+                    76561199445840793
                 ]
             }
         ]
