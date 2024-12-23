@@ -3454,7 +3454,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 21,
+        "count": 22,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -3605,6 +3605,13 @@
                 "points": 1,
                 "steamids": [
                     76561199197995993
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1320700001873297409 <@571009999925542922> (Itachi) cheater exposed (+1 points, 22 total)",
+                "points": 1,
+                "steamids": [
+                    76561198856478906
                 ]
             }
         ]
