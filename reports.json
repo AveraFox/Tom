@@ -3882,7 +3882,7 @@
         ]
     },
     "682167661634781191": {
-        "count": 22,
+        "count": 23,
         "profile_id": 76561198090852347,
         "reports": [
             {
@@ -4030,6 +4030,13 @@
                 "points": 1,
                 "steamids": [
                     76561199800561425
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1320525047261298779 <@682167661634781191> (doogeqt) cheater exposed (+1 points, 23 total)",
+                "points": 1,
+                "steamids": [
+                    76561199345577947
                 ]
             }
         ]
