@@ -199,10 +199,6 @@ class HPCog(commands.Cog):
         thread: discord.Thread = interaction.channel
         owner = await self.bot.fetch_user(thread.owner_id)
         reporter = self.reports.get_or_create(thread.owner_id)
-
-        if thread.owner_id == interaction.user.id:
-            await interaction.response.send_message("You cannot approve your own report", ephemeral=True)
-            return
         
         if reporter.find_report(thread.jump_url): # look up if report was already approved
             await interaction.response.send_message("Report was already approved", ephemeral=True)
