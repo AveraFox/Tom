@@ -34,6 +34,7 @@ async def tfbd_export(reports):
         "players": list(map(lambda s: {
             "attributes": ["cheater"],
             "steamid": s[0],
+            "proof": s[1]
         }, steamids.items()))
     }
 
