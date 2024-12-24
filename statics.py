@@ -28,4 +28,5 @@ CONFIRMED_TAG = Object(1313271682059993239)
 STEAMID_REGEX = "7656\\d{13}"
 REPORTS_DATA_FILE = "reports.json"
 ID_LIST_FILE="reported_ids.txt"
-    
+TFBD_LIST_NAME="playerlist.vorobey-hackerpolice.json"
+STEAMID64_OFFSET = 76561197960265728
