@@ -1,4 +1,5 @@
-import discord, aiofiles, json, typing, logging, re
+import discord, aiofiles, json, typing, logging, re, traceback
+from io import StringIO
 from discord.ext import commands, tasks
 from discord import app_commands
 
@@ -35,6 +36,7 @@ class HPCog(commands.Cog):
         self.reports = await Reports.load()
         logger.info("reports loaded")
         self.log_channel = await self.bot.fetch_channel(statics.REPORT_CHANNEL_ID)
+        self.error_channel = await self.bot.fetch_channel(statics.ERROR_CHANNEL_ID)
         self.update_toplist.start() # start loop task to update the toplist regularly
 
     async def interaction_check(self, interaction: discord.Interaction): 
@@ -55,7 +57,10 @@ class HPCog(commands.Cog):
         elif isinstance(error, app_commands.errors.CommandOnCooldown):
             await interaction.response.send_message("Issuing commands too quickly!", ephemeral=True)
         else:
-            raise error
+            msg = "".join(traceback.format_exception(error))
+            sio = StringIO(msg)
+            await self.error_channel.send(file=discord.File(sio, filename="error.txt"))
+            logger.error(msg)
 
     @tasks.loop(minutes=1.0) # runs this function every minute
     async def update_toplist(self):
