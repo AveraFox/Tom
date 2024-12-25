@@ -8,6 +8,7 @@ class Images:
     TOM_MAYBE_NEXT_TIME = "https://cdn.discordapp.com/attachments/1121780046928023613/1312484775889735680/tomnexttime.gif"
 
 REPORT_CHANNEL_ID = 1221426805689417808 # report log channel id
+ERROR_CHANNEL_ID = 1321260915424890920 # channel to log errors in
 CONFIRM_ROLE_WHITELIST = [
     1272988674455375872, # HP Officer
     518203583825575964,  # Moderator
