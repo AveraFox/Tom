@@ -1,15 +1,16 @@
 # Tom
-A discord bot made for Vorobeys discord server to help with keeping track of reported cheaters.
+A discord bot made for Vorobeys discord server to help with reviewing, approving and keeping track of cheaters reported by the server members.
 
 Project started by me and fully fleshed out by Nocrex.
 
 Files that may be of interest:
-- `playerlist.vorobey-hackerpolice.json`
-
+- `playerlist.vorobey-hackerpolice.json`  
   A TF2BD list of all the reported players
-- `reported_ids.txt`
-
+- `reported_ids.txt`  
   A simple file containing all the SteamID64s of the reported players
+
+Both files contain the same IDs, just in different formats.  
+All of the players in the lists were reported by a member on the discord server and confirmed to be cheating by a reviewer.
 
 New reports are usually uploaded hourly.
 
