@@ -17,12 +17,14 @@ CONFIRM_ROLE_WHITELIST = [
 TAGS = [
     Object(1309945406385426432), # not enough info
     Object(1311759650261172334), # already reported
-    Object(1309945373971709952) # not a cheater
+    Object(1309945373971709952), # not a cheater
+    Object(1322881469537976353) # invalid report
 ]
 TAG_CHOICES = [ # Options for mark/unmark command autocomplete (value is index of tag in TAGS)
     Choice(name="Not enough info", value=0),
     Choice(name="Duplicate", value=1),
-    Choice(name="Not cheating", value=2)
+    Choice(name="Not cheating", value=2),
+    Choice(name="Invalid", value=3)
 ]
 CONFIRMED_TAG = Object(1309945340073349130)
 STEAMID_REGEX = "7656\\d{13}"
