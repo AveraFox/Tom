@@ -4462,7 +4462,7 @@
         ]
     },
     "708711115055431751": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199545379912,
         "reports": [
             {
@@ -4470,6 +4470,13 @@
                 "points": 1,
                 "steamids": [
                     76561199768702746
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1323036076708855899 <@708711115055431751> (Chgh75) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198138477004
                 ]
             }
         ]
