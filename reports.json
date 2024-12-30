@@ -3469,6 +3469,19 @@
             }
         ]
     },
+    "522632700138356737": {
+        "count": 1,
+        "profile_id": 76561198078386761,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1323176003518070826 <@522632700138356737> (S) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198267331108
+                ]
+            }
+        ]
+    },
     "536927446755311616": {
         "count": 1,
         "profile_id": null,
