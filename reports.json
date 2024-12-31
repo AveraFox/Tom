@@ -3257,7 +3257,7 @@
         ]
     },
     "427127489022918656": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199788487882,
         "reports": [
             {
@@ -3265,6 +3265,13 @@
                 "points": 1,
                 "steamids": [
                     76561199788487882
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1323731324917387304 <@427127489022918656> (Crailify) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199700982145
                 ]
             }
         ]
