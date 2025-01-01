@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-01 10:48:32",
-        "title": "vorobey-hackerpolice - 2025-01-01 10:48:32",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-01 13:07:54",
+        "title": "vorobey-hackerpolice - 2025-01-01 13:07:54",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -2043,15 +2043,6 @@
                 "cheater"
             ],
             "steamid": "[U:1:1278812142]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1312794264689971240 re (139401022991761408) 20 cheaters exposed"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
-            "steamid": "[U:1:1276208966]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1312794264689971240 re (139401022991761408) 20 cheaters exposed"
             ]
@@ -4282,6 +4273,15 @@
             "steamid": "[U:1:1425553368]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1228411364708450508 Brendan (486636244714127370) 3 cheaters exposed"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:307065380]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323176003518070826 <@522632700138356737> (S) cheater exposed (+1 points, 1 total)"
             ]
         },
         {
@@ -6728,15 +6728,6 @@
             "steamid": "[U:1:130122867]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1259358668613484584 ratpig6249 (995419566186430614) 1 cheater exposed"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
-            "steamid": "[U:1:307065380]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1323176003518070826 <@522632700138356737> (S) cheater exposed (+1 points, 1 total)"
             ]
         }
     ]
