@@ -3145,7 +3145,7 @@
         ]
     },
     "405841964102189067": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199000802174,
         "reports": [
             {
@@ -3153,6 +3153,13 @@
                 "points": 1,
                 "steamids": [
                     76561198160988956
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1324233707263098922 <@405841964102189067> (Lucasberry) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199122124293
                 ]
             }
         ]
