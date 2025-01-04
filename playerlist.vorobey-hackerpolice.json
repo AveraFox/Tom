@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-03 23:37:17",
-        "title": "vorobey-hackerpolice - 2025-01-03 23:37:17",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-04 00:28:06",
+        "title": "vorobey-hackerpolice - 2025-01-04 00:28:06",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -4024,6 +4024,15 @@
             "steamid": "[U:1:886799919]",
             "proof": [
                 "https://cdn.discordapp.com/attachments/1121780046928023613/1308900551614005258/pingfag.mp4?ex=673fa021&is=673e4ea1&hm=a51805bf5787d5ed362fb7c57f51b49544eb66eea8f5cd8c876d99c90b9c4781& Plazma (409087313675812866 cheater exposed"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1851375688]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324892590184730664 <@409087313675812866> (plazma) cheater exposed (+1 points, 13 total)"
             ]
         },
         {
