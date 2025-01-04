@@ -1901,7 +1901,7 @@
         ]
     },
     "231404059678998530": {
-        "count": 29,
+        "count": 31,
         "profile_id": 76561198193363878,
         "reports": [
             {
@@ -2110,6 +2110,20 @@
                 "points": 1,
                 "steamids": [
                     76561199561088635
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1325228646826508471 <@231404059678998530> (Nocrex) cheater exposed (+1 points, 30 total)",
+                "points": 1,
+                "steamids": [
+                    76561199373279773
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1325230126346010674 <@231404059678998530> (Nocrex) cheater exposed (+1 points, 31 total)",
+                "points": 1,
+                "steamids": [
+                    76561199589464597
                 ]
             }
         ]
