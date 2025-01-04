@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2024-12-24 21:38:37",
-        "title": "vorobey-hackerpolice - 2024-12-24 21:38:37",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-04 22:42:56",
+        "title": "vorobey-hackerpolice - 2025-01-04 22:42:56",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -166,6 +166,15 @@
             "steamid": "[U:1:1222977324]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1310494044878671873 no_name (1054507794029609001) 3 and 4 cheaters exposed"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1843901814]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321729780734758973 <@1061665311553757215> (Ink) cheater exposed (+1 points, 1 total)"
             ]
         },
         {
@@ -1209,6 +1218,33 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:861166455]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321573567455957072 <@1143627504964345967> (Ashwind) cheater exposed (+1 points, 93 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1852170720]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1325131669765886056 <@1143627504964345967> (Ashwind) cheater exposed (+1 points, 94 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1852847048]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1325133332761018511 <@1143627504964345967> (Ashwind) cheater exposed (+1 points, 95 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1584864748]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1255197662576246905 ond (1178230573144215555) 1 cheater exposed"
@@ -1843,6 +1879,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:967836313]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322841929062420532 <@1202536777680953357> (k.k.) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1202855526]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1315511792599830590 konikly^ (1227448669876518922) cheater exposed"
@@ -2024,15 +2069,6 @@
             "attributes": [
                 "cheater"
             ],
-            "steamid": "[U:1:1276208966]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1312794264689971240 re (139401022991761408) 20 cheaters exposed"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
             "steamid": "[U:1:1418987480]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1312794264689971240 re (139401022991761408) 20 cheaters exposed"
@@ -2189,6 +2225,60 @@
             "steamid": "[U:1:1239646363]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1320883081896530021 <@139401022991761408> (Repurify) cheater exposed (+1 points, 36 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1619821530]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322676549677482134 <@139401022991761408> (Repurify) cheater exposed (+1 points, 37 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1051859217]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322676463719415869 <@139401022991761408> (Repurify) cheater exposed (+1 points, 38 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1847757839]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322694393924292609 <@139401022991761408> (Repurify) cheater exposed (+1 points, 39 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1853367326]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323071526479724615 <@139401022991761408> (Repurify) cheater exposed (+1 points, 40 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:917443836]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324500574208786432 <@139401022991761408> (Repurify) cheater exposed (+1 points, 40 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1650574280]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324880046212648980 <@139401022991761408> (Repurify) cheater exposed (+1 points, 41 total)"
             ]
         },
         {
@@ -2688,9 +2778,45 @@
             "attributes": [
                 "cheater"
             ],
-            "steamid": "[U:1:160954534]",
+            "steamid": "[U:1:231421841]",
             "proof": [
-                "https://discord.com/channels/354645865773924352/1317676126939910144 <@231404059678998530> (Nocrex) cheater exposed (+1 points, 27 total)"
+                "https://discord.com/channels/354645865773924352/1323065095021924392 <@231404059678998530> (Nocrex) cheater exposed (+1 points, 27 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1829771615]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323369216027656313 <@231404059678998530> (Nocrex) cheater exposed (+1 points, 28 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1600822907]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1325206701359628440 <@231404059678998530> (Nocrex) cheater exposed (+1 points, 29 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1413014045]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1325228646826508471 <@231404059678998530> (Nocrex) cheater exposed (+1 points, 30 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1629198869]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1325230126346010674 <@231404059678998530> (Nocrex) cheater exposed (+1 points, 31 total)"
             ]
         },
         {
@@ -3156,6 +3282,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1848852424]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323405329731686510 <@286548457152577536> (antondi) cheater exposed (+1 points, 3 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:406363658]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1245941055258365972 HORNYJACK (292025507518611458) 1 cheater exposed"
@@ -3331,6 +3466,15 @@
             "steamid": "[U:1:1850856479]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1321190726180012072 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 23 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1848654695]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323836984782880838 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 24 total)"
             ]
         },
         {
@@ -3688,6 +3832,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:407575278]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322296221875965973 <@349192941367066624> (Konuman) cheater exposed (+1 points, 29 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1083782629]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1315755349415956540  Bkk (355020633987612672) 1 cheater exposed"
@@ -3805,6 +3958,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1161858565]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324233707263098922 <@405841964102189067> (Lucasberry) cheater exposed (+1 points, 2 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1665595485]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1223754838723006475 Plazma (409087313675812866) 1 cheater exposed"
@@ -3913,6 +4075,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1851375688]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324892590184730664 <@409087313675812866> (plazma) cheater exposed (+1 points, 13 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:193838470]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1244050118169333801 Damia (416354701416726539) 1 cheater exposed"
@@ -3925,6 +4096,24 @@
             "steamid": "[U:1:1222753323]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1244050118169333801 Damia (416354701416726539) 1 cheater exposed"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1828222154]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321245016940744726 <@427127489022918656> (Crailify) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1740716417]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323731324917387304 <@427127489022918656> (Crailify) cheater exposed (+1 points, 2 total)"
             ]
         },
         {
@@ -4165,6 +4354,15 @@
             "steamid": "[U:1:1425553368]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1228411364708450508 Brendan (486636244714127370) 3 cheaters exposed"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:307065380]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323176003518070826 <@522632700138356737> (S) cheater exposed (+1 points, 1 total)"
             ]
         },
         {
@@ -4478,15 +4676,6 @@
             "attributes": [
                 "cheater"
             ],
-            "steamid": "[U:1:1443378566]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1318329816612601946 <@571009999925542922> (Itachi) cheater exposed (+1 points, 16 total)"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
             "steamid": "[U:1:1567066384]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1318331876062269561 <@571009999925542922> (Itachi) cheater exposed (+1 points, 17 total)"
@@ -4595,6 +4784,204 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1572268883]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321255925457092618 <@571009999925542922> (Midnight) cheater exposed (+1 points, 26 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:876871588]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321269212051669073 <@571009999925542922> (Midnight) cheater exposed (+1 points, 27 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1845931542]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321827617472774255 <@571009999925542922> (Midnight) cheater exposed (+1 points, 27 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:459589212]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321902827345412269 <@571009999925542922> (Midnight) cheater exposed (+1 points, 28 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:474025302]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321922914781626398 <@571009999925542922> (Midnight) cheater exposed (+1 points, 29 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1556238175]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321935656133328916 <@571009999925542922> (Midnight) cheater exposed (+1 points, 30 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:271631652]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321955798846279872 <@571009999925542922> (Midnight) cheater exposed (+1 points, 31 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1304813773]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322241144947474443 <@571009999925542922> (Midnight) cheater exposed (+1 points, 32 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1376423513]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322343393841647636 <@571009999925542922> (Midnight) cheater exposed (+1 points, 33 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:250246325]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322920141779894292 <@571009999925542922> (Midnight) cheater exposed (+1 points, 34 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1506414412]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322961756351365180 <@571009999925542922> (Midnight) cheater exposed (+1 points, 35 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1231468900]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322972168035762329 <@571009999925542922> (Midnight) cheater exposed (+1 points, 36 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1603334349]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322972168035762329 <@571009999925542922> (Midnight) cheater exposed (+1 points, 36 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1752944011]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323067491957608561 <@571009999925542922> (Midnight) cheater exposed (+1 points, 37 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1852954794]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324136910930575531 <@571009999925542922> (Midnight) cheater exposed (+1 points, 38 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1854740056]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324153926596956180 <@571009999925542922> (Midnight) cheater exposed (+1 points, 39 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:36855461]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324184582001659965 <@571009999925542922> (Midnight) cheater exposed (+1 points, 40 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1853255298]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324550661697704018 <@571009999925542922> (Midnight) cheater exposed (+1 points, 41 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1853727213]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324578529870090310 <@571009999925542922> (Midnight) cheater exposed (+1 points, 42 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1854694429]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324723310386483333 <@571009999925542922> (Midnight) cheater exposed (+1 points, 43 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1852769344]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324745943836393492 <@571009999925542922> (Midnight) cheater exposed (+1 points, 44 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1787020430]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1325191929100767333 <@571009999925542922> (Midnight) cheater exposed (+1 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1556426242]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1319377653773504543 <@579548943663235101> (Ron) cheater exposed (+1 points, 1 total)"
@@ -4661,6 +5048,42 @@
             "steamid": "[U:1:1849662534]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1320488486549327972 <@579548943663235101> (Ron) cheater exposed (+1 points, 5 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1825720721]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1321811980067143690 <@579548943663235101> (Ron) cheater exposed (+1 points, 6 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:438192821]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323338059781116045 <@579548943663235101> (Ron) cheater exposed (+1 points, 7 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1677625124]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324764908763742258 <@579548943663235101> (Ron) cheater exposed (+1 points, 8 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1547666807]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1325087424912822292 <@579548943663235101> (Ron) cheater exposed (+1 points, 9 total)"
             ]
         },
         {
@@ -5039,6 +5462,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1405453650]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322234843123159050 <@682167661634781191> (doogeqt) cheater exposed (+1 points, 24 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1686406504]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1221504821803094056 owly 1 cheater exposed"
@@ -5213,6 +5645,15 @@
             "steamid": "[U:1:1808437018]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1321119400153321624 <@708711115055431751> (Chgh75) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:178211276]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323036076708855899 <@708711115055431751> (Chgh75) cheater exposed (+1 points, 2 total)"
             ]
         },
         {
@@ -5561,6 +6002,87 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1848553768]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322514260886163506 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 7 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1847587258]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322517863105429537 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 8 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1719416830]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322468584714276896 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 9 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:194948794]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1322800702401024060 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 10 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1839498820]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323928738198589451 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 11 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1580643190]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324659001459478588 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 12 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1825545089]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324659001459478588 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 12 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1540068710]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1325008198247125052 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 13 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1514928967]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1325122637273370684 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 14 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:108164146]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1269764321085362237 W1nter (828260458938630206) 1 cheater exposed"
@@ -5751,15 +6273,6 @@
             "attributes": [
                 "cheater"
             ],
-            "steamid": "[U:1:859935004]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1316854420297875466 <@889238563206598666> (Ciam) cheater exposed (+1 points, 9 total)"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
             "steamid": "[U:1:1597990007]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1316899710124036198 <@889238563206598666> (Ciam) cheater exposed (+1 points, 9 total)"
@@ -5880,6 +6393,87 @@
             "steamid": "[U:1:1094637398]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1320136993790890076 <@889238563206598666> (Ciam) cheater exposed (+1 points, 22 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:31429928]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323016469021327462 <@889238563206598666> (Ciam) cheater exposed (+1 points, 23 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:461319334]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323406133909520507 <@889238563206598666> (Ciam) cheater exposed (+1 points, 24 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:850641140]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323431374677479515 <@889238563206598666> (Ciam) cheater exposed (+1 points, 25 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1713863274]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323601110123937834 <@889238563206598666> (Ciam) cheater exposed (+1 points, 26 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1826056569]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323661057012535327 <@889238563206598666> (Ciam) cheater exposed (+1 points, 27 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:98059092]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323721973666156567 <@889238563206598666> (Ciam) cheater exposed (+1 points, 28 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1059413462]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1323706192396292137 <@889238563206598666> (Ciam) cheater exposed (+1 points, 29 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1848827934]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324415210731208866 <@889238563206598666> (Ciam) cheater exposed (+1 points, 30 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:241907670]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1324517420752437259 <@889238563206598666> (Ciam) cheater exposed (+1 points, 31 total)"
             ]
         },
         {
