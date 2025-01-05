@@ -3991,13 +3991,6 @@
                 ]
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1324723310386483333 <@571009999925542922> (Midnight) cheater exposed (+1 points, 43 total)",
-                "points": 1,
-                "steamids": [
-                    76561199814960157
-                ]
-            },
-            {
                 "msg": "https://discord.com/channels/354645865773924352/1324745943836393492 <@571009999925542922> (Midnight) cheater exposed (+1 points, 44 total)",
                 "points": 1,
                 "steamids": [
@@ -4030,6 +4023,14 @@
                 "points": 1,
                 "steamids": [
                     76561199385686430
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1324723310386483333 <@571009999925542922> (Uncircled) cheater exposed (+1 points, 48 total)",
+                "points": 1,
+                "steamids": [
+                    76561199729088973,
+                    76561199814960157
                 ]
             }
         ]
