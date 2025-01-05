@@ -33,3 +33,7 @@ REPORTS_DATA_FILE = "reports.json"
 ID_LIST_FILE="reported_ids.txt"
 TFBD_LIST_NAME="playerlist.vorobey-hackerpolice.json"
 STEAMID64_OFFSET = 76561197960265728
+VANITY_RESOLVER_CHANNELS = [
+    1313269900483235944, # hp-discussions
+    1313271534852374538 # hp-reports
+]
