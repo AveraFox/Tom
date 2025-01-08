@@ -1,7 +1,7 @@
 import discord, aiohttp, re, statics, logging
 from discord.ext import commands
 
-VANITY_LINK_PATTERN = re.compile("(https://steamcommunity.com/id/(\\w+))")
+VANITY_LINK_PATTERN = re.compile("(https://steamcommunity.com/id/([\\w-]+))")
 STEAMID_XML_PATTERN = re.compile("<steamID64>(\\d+)</steamID64>")
 PERM_LINK_PREFIX = "https://steamcommunity.com/profiles/"
 
