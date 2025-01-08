@@ -17,7 +17,7 @@ def check_in_thread(interaction: discord.Interaction): # function to check if a 
     return True
 
 def validate_steamid(id: str) -> bool: # check steamid for validity with a basic regex
-    return bool(re.match(statics.STEAMID_REGEX, id))
+    return bool(re.fullmatch(statics.STEAMID_REGEX, id))
 
 def has_any_role(member: discord.Member, roles: typing.List[int]) -> bool: # check if a user has any of the roles passed
     if(any(role.id in roles for role in member.roles)):
@@ -133,6 +133,7 @@ class HPCog(commands.Cog):
         description="Look up previous reports of a SteamID"
     )
     async def lookup(self, interaction: discord.Interaction, steamid: str):
+        steamid = steamid.strip()
         if not validate_steamid(steamid):
             await interaction.response.send_message("Invalid SteamID", ephemeral=True)
             return
