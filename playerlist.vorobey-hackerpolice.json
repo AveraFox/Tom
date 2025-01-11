@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-10 19:37:09",
-        "title": "vorobey-hackerpolice - 2025-01-10 19:37:09",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-10 23:47:22",
+        "title": "vorobey-hackerpolice - 2025-01-10 23:47:22",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -2288,6 +2288,24 @@
             "steamid": "[U:1:1650574280]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1324880046212648980 <@139401022991761408> (Repurify) cheater exposed (+1 points, 41 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1138292810]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1327421170336661534 <@139401022991761408> (Repurify) cheater exposed (+1 points, 42 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:51713710]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1327421272451190885 <@139401022991761408> (Repurify) cheater exposed (+1 points, 43 total)"
             ]
         },
         {
@@ -6338,6 +6356,16 @@
             "steamid": "[U:1:1128585086]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1325615604799111198 <@862447359718850580> (Randomdelfia) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1834513780]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1327408789288386620 <@862447359718850580> (Randomdelfia) cheater exposed (+1 points, 2 total)",
+                "https://discord.com/channels/354645865773924352/1327408789288386620 <@862447359718850580> (Randomdelfia) cheater exposed (+1 points, 2 total)"
             ]
         },
         {
