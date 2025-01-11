@@ -2739,6 +2739,19 @@
             }
         ]
     },
+    "303155849667411968": {
+        "count": 1,
+        "profile_id": 76561198220450928,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1327423814941937664 <@303155849667411968> (Kvin Tass) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199730294849
+                ]
+            }
+        ]
+    },
     "310505171954434049": {
         "count": 4,
         "profile_id": 76561198217926783,
@@ -5406,7 +5419,7 @@
         ]
     },
     "889238563206598666": {
-        "count": 30,
+        "count": 31,
         "profile_id": 76561198245429438,
         "reports": [
             {
@@ -5619,6 +5632,13 @@
                 "points": 1,
                 "steamids": [
                     76561198202173398
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1327429513352708209 <@889238563206598666> (Ciam) cheater exposed (+1 points, 31 total)",
+                "points": 1,
+                "steamids": [
+                    76561199396863816
                 ]
             }
         ]
