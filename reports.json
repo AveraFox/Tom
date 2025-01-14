@@ -5144,7 +5144,7 @@
         ]
     },
     "825341186142109698": {
-        "count": 17,
+        "count": 18,
         "profile_id": 76561199190321580,
         "reports": [
             {
@@ -5260,6 +5260,13 @@
                 "points": 1,
                 "steamids": [
                     76561199226478788
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1328644771874345040 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 18 total)",
+                "points": 1,
+                "steamids": [
+                    76561199046476434
                 ]
             }
         ]
