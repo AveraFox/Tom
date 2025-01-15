@@ -2177,8 +2177,8 @@
         ]
     },
     "242574697357639681": {
-        "count": 13,
-        "profile_id": null,
+        "count": 14,
+        "profile_id": 76561198250904422,
         "reports": [
             {
                 "msg": "https://discord.com/channels/354645865773924352/1121780046928023613/1222154695531958382 G4laxyZ 1 cheater exposed",
@@ -2269,6 +2269,13 @@
                 "points": 1,
                 "steamids": [
                     76561199368305461
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1328976407178776616 <@242574697357639681> (G3ATZ) cheater exposed (+1 points, 14 total)",
+                "points": 1,
+                "steamids": [
+                    76561198000700890
                 ]
             }
         ]
