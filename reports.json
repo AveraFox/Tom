@@ -5524,8 +5524,8 @@
         ]
     },
     "862447359718850580": {
-        "count": 2,
-        "profile_id": 76561199088850814,
+        "count": 3,
+        "profile_id": 76561199816054792,
         "reports": [
             {
                 "msg": "https://discord.com/channels/354645865773924352/1325615604799111198 <@862447359718850580> (Randomdelfia) cheater exposed (+1 points, 1 total)",
@@ -5542,6 +5542,14 @@
                 "steamids": [
                     76561199794779508,
                     76561199794779508
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1330302958595739699 <@862447359718850580> (Randomdelfia) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561198397037383,
+                    76561199816054792
                 ]
             }
         ]
