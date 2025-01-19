@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-18 22:46:56",
-        "title": "vorobey-hackerpolice - 2025-01-18 22:46:56",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-19 07:41:45",
+        "title": "vorobey-hackerpolice - 2025-01-19 07:41:45",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -4165,6 +4165,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1197833286]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1330333945577082972 <@409087313675812866> (plazma) cheater exposed (+1 points, 14 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:193838470]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1244050118169333801 Damia (416354701416726539) 1 cheater exposed"
@@ -6853,6 +6862,15 @@
             "steamid": "[U:1:1436598088]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1327429513352708209 <@889238563206598666> (Ciam) cheater exposed (+1 points, 31 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1545868714]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1330338045718954045 <@889238563206598666> (Ciam) cheater exposed (+1 points, 32 total)"
             ]
         },
         {
