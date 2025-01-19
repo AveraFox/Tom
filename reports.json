@@ -263,7 +263,7 @@
         ]
     },
     "1143627504964345967": {
-        "count": 96,
+        "count": 97,
         "profile_id": 76561199039146930,
         "reports": [
             {
@@ -943,6 +943,13 @@
                 "points": 1,
                 "steamids": [
                     76561199815133515
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1330526399756505099 <@1143627504964345967> (Ashwind) cheater exposed (+1 points, 97 total)",
+                "points": 1,
+                "steamids": [
+                    76561199816397415
                 ]
             }
         ]
