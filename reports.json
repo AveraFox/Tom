@@ -1035,7 +1035,7 @@
         ]
     },
     "1193778708566257765": {
-        "count": 70,
+        "count": 73,
         "profile_id": 76561199221072969,
         "reports": [
             {
@@ -1524,6 +1524,27 @@
                 "points": 1,
                 "steamids": [
                     76561199593018449
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1333407333124014182 <@1193778708566257765> (Kal) cheater exposed (+1 points, 71 total)",
+                "points": 1,
+                "steamids": [
+                    76561199819943400
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1333402228349866085 <@1193778708566257765> (Kal) cheater exposed (+1 points, 72 total)",
+                "points": 1,
+                "steamids": [
+                    76561199806681825
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1333401455154954261 <@1193778708566257765> (Kal) cheater exposed (+1 points, 73 total)",
+                "points": 1,
+                "steamids": [
+                    76561199806116843
                 ]
             }
         ]
@@ -3445,7 +3466,7 @@
         ]
     },
     "405841964102189067": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561199000802174,
         "reports": [
             {
@@ -3460,6 +3481,13 @@
                 "points": 1,
                 "steamids": [
                     76561199122124293
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1333435286323200010 <@405841964102189067> (Lucasberry) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561198817624697
                 ]
             }
         ]
@@ -3976,7 +4004,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 74,
+        "count": 75,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -4514,6 +4542,13 @@
                 "points": 1,
                 "steamids": [
                     76561199821081618
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1333459366300487813 <@571009999925542922> (Kurt) cheater exposed (+1 points, 75 total)",
+                "points": 1,
+                "steamids": [
+                    76561199472182973
                 ]
             }
         ]

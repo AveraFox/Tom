@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-27 09:15:23",
-        "title": "vorobey-hackerpolice - 2025-01-27 09:15:23",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-27 15:59:57",
+        "title": "vorobey-hackerpolice - 2025-01-27 15:59:57",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -1918,6 +1918,33 @@
             "steamid": "[U:1:1632752721]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1333050381076402196 <@1193778708566257765> (Kal) cheater exposed (+1 points, 70 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1859677672]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1333407333124014182 <@1193778708566257765> (Kal) cheater exposed (+1 points, 71 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1846416097]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1333402228349866085 <@1193778708566257765> (Kal) cheater exposed (+1 points, 72 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1845851115]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1333401455154954261 <@1193778708566257765> (Kal) cheater exposed (+1 points, 73 total)"
             ]
         },
         {
@@ -4165,6 +4192,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:857358969]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1333435286323200010 <@405841964102189067> (Lucasberry) cheater exposed (+1 points, 3 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1665595485]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1223754838723006475 Plazma (409087313675812866) 1 cheater exposed"
@@ -5561,6 +5597,15 @@
             "steamid": "[U:1:1860815890]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1333017537310363759 <@571009999925542922> (Kurt) cheater exposed (+1 points, 74 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1511917245]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1333459366300487813 <@571009999925542922> (Kurt) cheater exposed (+1 points, 75 total)"
             ]
         },
         {
