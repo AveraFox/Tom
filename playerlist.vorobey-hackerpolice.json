@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-28 17:01:24",
-        "title": "vorobey-hackerpolice - 2025-01-28 17:01:24",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-28 19:19:26",
+        "title": "vorobey-hackerpolice - 2025-01-28 19:19:26",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -5333,24 +5333,6 @@
             "attributes": [
                 "cheater"
             ],
-            "steamid": "[U:1:280958250]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1330262770100211814 <@571009999925542922> (Kurt) cheater exposed (+1 points, 56 total)"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
-            "steamid": "[U:1:439098376]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1330262770100211814 <@571009999925542922> (Kurt) cheater exposed (+1 points, 56 total)"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
             "steamid": "[U:1:1255325296]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1330280190965973146 <@571009999925542922> (Kurt) cheater exposed (+1 points, 57 total)"
@@ -5624,6 +5606,15 @@
             "steamid": "[U:1:1842077841]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1333536394731065344 <@571009999925542922> (Kurt) cheater exposed (+1 points, 76 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:280958250]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1330262770100211814 <@571009999925542922> (Kurt) cheater exposed (+1 points, 76 total)"
             ]
         },
         {

@@ -4419,14 +4419,6 @@
                 ]
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1330262770100211814 <@571009999925542922> (Kurt) cheater exposed (+1 points, 56 total)",
-                "points": 1,
-                "steamids": [
-                    76561198241223978,
-                    76561198399364104
-                ]
-            },
-            {
                 "msg": "https://discord.com/channels/354645865773924352/1330280190965973146 <@571009999925542922> (Kurt) cheater exposed (+1 points, 57 total)",
                 "points": 1,
                 "steamids": [
@@ -4575,6 +4567,13 @@
                 "points": 1,
                 "steamids": [
                     76561199802343569
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1330262770100211814 <@571009999925542922> (Kurt) cheater exposed (+1 points, 76 total)",
+                "points": 1,
+                "steamids": [
+                    76561198241223978
                 ]
             }
         ]
