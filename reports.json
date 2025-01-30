@@ -2072,7 +2072,7 @@
         ]
     },
     "231404059678998530": {
-        "count": 32,
+        "count": 33,
         "profile_id": 76561198193363878,
         "reports": [
             {
@@ -2302,6 +2302,13 @@
                 "points": 1,
                 "steamids": [
                     76561199144074923
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1334513070218678323 <@231404059678998530> (Nocrex) cheater exposed (+1 points, 33 total)",
+                "points": 1,
+                "steamids": [
+                    76561199794502933
                 ]
             }
         ]
