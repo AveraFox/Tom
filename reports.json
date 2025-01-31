@@ -2321,7 +2321,7 @@
         ]
     },
     "242574697357639681": {
-        "count": 19,
+        "count": 20,
         "profile_id": 76561198250904422,
         "reports": [
             {
@@ -2456,11 +2456,18 @@
                 "steamids": [
                     76561199797029121
                 ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1334896603584008322 <@242574697357639681> (G3ATZ) cheater exposed (+1 points, 20 total)",
+                "points": 1,
+                "steamids": [
+                    76561199822122988
+                ]
             }
         ]
     },
     "248008453191237632": {
-        "count": 2,
+        "count": 4,
         "profile_id": 76561198065427891,
         "reports": [
             {
@@ -2475,6 +2482,20 @@
                 "points": 1,
                 "steamids": [
                     76561199496307329
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1334875846313509006 <@248008453191237632> (TechnoST) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561199821510151
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1334876341023150091 <@248008453191237632> (TechnoST) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561199630514656
                 ]
             }
         ]

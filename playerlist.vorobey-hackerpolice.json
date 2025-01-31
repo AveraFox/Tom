@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-30 22:01:00",
-        "title": "vorobey-hackerpolice - 2025-01-30 22:01:00",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-01-31 15:15:40",
+        "title": "vorobey-hackerpolice - 2025-01-31 15:15:40",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -3187,6 +3187,15 @@
             "steamid": "[U:1:1836763393]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1334534735417835561 <@242574697357639681> (G3ATZ) cheater exposed (+1 points, 19 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1861857260]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1334896603584008322 <@242574697357639681> (G3ATZ) cheater exposed (+1 points, 20 total)"
             ]
         },
         {
@@ -7998,6 +8007,24 @@
             "steamid": "[U:1:1536041601]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1333470664811610132 <@248008453191237632> (TechnoST) cheater exposed (+1 points, 2 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1861244423]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1334875846313509006 <@248008453191237632> (TechnoST) cheater exposed (+1 points, 3 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1670248928]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1334876341023150091 <@248008453191237632> (TechnoST) cheater exposed (+1 points, 4 total)"
             ]
         },
         {
