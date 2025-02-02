@@ -4128,7 +4128,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 81,
+        "count": 82,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -4716,6 +4716,13 @@
                 "points": 1,
                 "steamids": [
                     76561199077481000
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1335702963871809557 <@571009999925542922> (Kurt) cheater exposed (+1 points, 82 total)",
+                "points": 1,
+                "steamids": [
+                    76561199441768979
                 ]
             }
         ]
