@@ -34,5 +34,6 @@ TFBD_LIST_NAME="playerlist.vorobey-hackerpolice.json"
 STEAMID64_OFFSET = 76561197960265728
 VANITY_RESOLVER_CHANNELS = [
     1121780046928023613, # hp-discussions
-    1309942164331036733 # hp-reports
+    1309942164331036733, # hp-reports
+    1221426805689417808  # hp-modding
 ]
