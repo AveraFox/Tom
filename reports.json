@@ -1077,7 +1077,7 @@
         ]
     },
     "1193778708566257765": {
-        "count": 78,
+        "count": 80,
         "profile_id": 76561199221072969,
         "reports": [
             {
@@ -1622,6 +1622,20 @@
                 "points": 1,
                 "steamids": [
                     76561199820460792
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1337133131861332050 <@1193778708566257765> (Kal) cheater exposed (+1 points, 79 total)",
+                "points": 1,
+                "steamids": [
+                    76561197998892123
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1337130775962849392 <@1193778708566257765> (Kal) cheater exposed (+1 points, 80 total)",
+                "points": 1,
+                "steamids": [
+                    76561199817575110
                 ]
             }
         ]
@@ -5173,6 +5187,19 @@
                 "msg": "https://discord.com/channels/354645865773924352/1121780046928023613/1262225234233397279 ShinSpin (650777978040483881)  1 cheater exposed",
                 "points": 1,
                 "steamids": []
+            }
+        ]
+    },
+    "661901923586146314": {
+        "count": 1,
+        "profile_id": 76561199319477293,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1337134288948428800 <@661901923586146314> (D\u0337a\u0337n\u0337i\u0337s\u0337) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198990664913
+                ]
             }
         ]
     },

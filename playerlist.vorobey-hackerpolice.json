@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-02-06 17:22:48",
-        "title": "vorobey-hackerpolice - 2025-02-06 17:22:48",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-02-06 19:38:01",
+        "title": "vorobey-hackerpolice - 2025-02-06 19:38:01",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -2053,6 +2053,24 @@
             "steamid": "[U:1:1860195064]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1336391179104682185 <@1193778708566257765> (Kal) cheater exposed (+1 points, 78 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:38626395]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1337133131861332050 <@1193778708566257765> (Kal) cheater exposed (+1 points, 79 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1857309382]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1337130775962849392 <@1193778708566257765> (Kal) cheater exposed (+1 points, 80 total)"
             ]
         },
         {
@@ -8304,6 +8322,15 @@
             "steamid": "[U:1:130122867]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1259358668613484584 ratpig6249 (995419566186430614) 1 cheater exposed"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1030399185]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1337134288948428800 <@661901923586146314> (D\u0337a\u0337n\u0337i\u0337s\u0337) cheater exposed (+1 points, 1 total)"
             ]
         }
     ]
