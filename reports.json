@@ -4875,7 +4875,7 @@
         ]
     },
     "579548943663235101": {
-        "count": 25,
+        "count": 26,
         "profile_id": 76561199024884868,
         "reports": [
             {
@@ -5054,6 +5054,13 @@
                 "points": 1,
                 "steamids": [
                     76561199820183621
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1337727932629520464 <@579548943663235101> (Ron) cheater exposed (+1 points, 26 total)",
+                "points": 1,
+                "steamids": [
+                    76561199140519786
                 ]
             }
         ]
