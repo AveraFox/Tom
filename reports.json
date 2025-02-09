@@ -2622,7 +2622,7 @@
         ]
     },
     "248008453191237632": {
-        "count": 7,
+        "count": 8,
         "profile_id": 76561198065427891,
         "reports": [
             {
@@ -2672,6 +2672,13 @@
                 "points": 1,
                 "steamids": [
                     76561199184897332
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1338152685395906612 <@248008453191237632> (TechnoST) cheater exposed (+1 points, 8 total)",
+                "points": 1,
+                "steamids": [
+                    76561199802934023
                 ]
             }
         ]
@@ -3660,7 +3667,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 8,
+        "count": 9,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -3717,6 +3724,13 @@
                 "points": 1,
                 "steamids": [
                     76561198063855425
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1338175220741046383 <@388199716644454401> (j) cheater exposed (+1 points, 9 total)",
+                "points": 1,
+                "steamids": [
+                    76561199755334311
                 ]
             }
         ]
