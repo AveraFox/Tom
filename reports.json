@@ -3681,7 +3681,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 9,
+        "count": 10,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -3745,6 +3745,13 @@
                 "points": 1,
                 "steamids": [
                     76561199755334311
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1339211122053742592 <@388199716644454401> (j) cheater exposed (+1 points, 10 total)",
+                "points": 1,
+                "steamids": [
+                    76561199819837961
                 ]
             }
         ]
@@ -5282,7 +5289,7 @@
         ]
     },
     "596293134217117715": {
-        "count": 3,
+        "count": 4,
         "profile_id": 76561198450744978,
         "reports": [
             {
@@ -5304,6 +5311,13 @@
                 "points": 1,
                 "steamids": [
                     76561198245315262
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1339215752720420915 <@596293134217117715> (Yune) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561199824615170
                 ]
             }
         ]
