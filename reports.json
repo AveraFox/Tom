@@ -1098,7 +1098,7 @@
         ]
     },
     "1193778708566257765": {
-        "count": 82,
+        "count": 83,
         "profile_id": 76561199221072969,
         "reports": [
             {
@@ -1671,6 +1671,13 @@
                 "points": 1,
                 "steamids": [
                     76561199819693772
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1339338456551395408 <@1193778708566257765> (Kal) cheater exposed (+1 points, 83 total)",
+                "points": 1,
+                "steamids": [
+                    76561198340726407
                 ]
             }
         ]
@@ -4234,6 +4241,20 @@
                 "points": 1,
                 "steamids": [
                     76561198215224705
+                ]
+            }
+        ]
+    },
+    "499250770269700096": {
+        "count": 1,
+        "profile_id": 76561199823520221,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1339296236372627477 <@499250770269700096> (Mr.Toast) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198279945329,
+                    76561199232130890
                 ]
             }
         ]
