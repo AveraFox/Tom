@@ -4414,7 +4414,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 89,
+        "count": 90,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -5057,6 +5057,13 @@
                 "points": 1,
                 "steamids": [
                     76561199546991735
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1339567566137589800 <@571009999925542922> (Connor) cheater exposed (+1 points, 90 total)",
+                "points": 1,
+                "steamids": [
+                    76561198052941195
                 ]
             }
         ]
