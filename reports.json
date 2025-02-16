@@ -4443,7 +4443,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 91,
+        "count": 93,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -5100,6 +5100,20 @@
                 "points": 1,
                 "steamids": [
                     76561199826475464
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1340623779092496407 <@571009999925542922> (Connor) cheater exposed (+1 points, 92 total)",
+                "points": 1,
+                "steamids": [
+                    76561199827117683
+                ]
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1340635331036319777 <@571009999925542922> (Connor) cheater exposed (+1 points, 93 total)",
+                "points": 1,
+                "steamids": [
+                    76561199478843429
                 ]
             }
         ]
