@@ -4,6 +4,8 @@ async def simple_export(reports):
     steamids = []
     for reporter in reports._reporters.values():
         for report in reporter.reports:
+            if not report.verified:
+                continue
             steamids += report.steamids
     steamids = set(map(lambda i: str(i), steamids))
     async with aiofiles.open(statics.ID_LIST_FILE, "w") as f:
@@ -16,6 +18,8 @@ async def tfbd_export(reports):
     steamids = {}
     for reporter in reports._reporters.values():
         for report in reporter.reports:
+            if not report.verified:
+                continue
             for sid in report.steamids:
                 sid = steamid64_to_32(sid)
                 if sid not in steamids:

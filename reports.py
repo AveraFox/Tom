@@ -6,17 +6,19 @@ from typing import List, Optional, Dict, Any, Self
 # class that stores a single report, 
 # stores confirmation message, list of cheater steamids and points awarded for the report
 class Report:
-    def __init__(self, message: str, steamids: List[int], points: int):
+    def __init__(self, message: str, steamids: List[int], points: int, verified: bool):
         self.message: str = message
         self.steamids: List[int] = steamids
         self.points: int = points
+        self.verified: bool = verified
     
     # creates a Report object from a json dict
     def from_json(json_report) -> Self:
         return Report(
             json_report["msg"], 
             json_report["steamids"],
-            json_report["points"]
+            json_report["points"],
+            json_report["verified"]
         )
 
     # creates a dict ready to be converted to json
@@ -24,7 +26,8 @@ class Report:
         return {
             "msg": self.message,
             "steamids": self.steamids,
-            "points": self.points
+            "points": self.points,
+            "verified": self.verified
         }
 
 # class that represents a person reporting cheaters
@@ -36,8 +39,8 @@ class Reporter:
         self.profile_id: int = profile_id
 
     # creates a new report for this reporter
-    def add_report(self, msg: str, points: int, steamids: List[int]): 
-        self.reports.append(Report(msg, steamids, points))
+    def add_report(self, msg: str, points: int, steamids: List[int], verified: bool): 
+        self.reports.append(Report(msg, steamids, points, verified))
     
     # looks for a report with the passed thread link and removes it
     # returns True or False depending on if it succeeded or not

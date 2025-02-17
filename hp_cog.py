@@ -146,7 +146,7 @@ class HPCog(commands.Cog):
 
         embed = discord.Embed(
             title=f"Reports for {steamid}",
-            description='\n'.join(map(lambda r: r.message, reports))
+            description='\n'.join(map(lambda r: r.message + (" -- (unverified)" if not r.verified else ""), reports))
         )
 
         await interaction.response.send_message(embed=embed, ephemeral=True)
@@ -185,6 +185,7 @@ class HPCog(commands.Cog):
     @app_commands.describe(
         points="Amount of points this report gives (default 1)", 
         steamids="Comma seperated list of reported steamids, ex. \"76561199796492647,76561199532619504\"",
+        verified="If the steamids can be verified to be in the report",
         allow_duplicate="Skip checking if the user was already reported",
         reporter_steamid="SteamID of the person reporting, required if none has been logged yet",
         skip_reporter_steamid_check="Allow confirming even though the reporter has not provided a profile SteamID"
@@ -195,6 +196,7 @@ class HPCog(commands.Cog):
     async def approve(self, 
         interaction: discord.Interaction, 
         steamids: str, 
+        verified: bool,
         points: int = 1, 
         reporter_steamid: typing.Optional[str] = None,
         allow_duplicate: bool = False,
@@ -218,23 +220,23 @@ class HPCog(commands.Cog):
                 return
 
         steamids_str = steamids.split(",") # get steamids from the command argument
-        steamids = []
+        steamids_list = []
         for steamid in steamids_str: # verify each steamid and convert to number
             steamid = steamid.strip()
             if not validate_steamid(steamid):
                 await interaction.response.send_message(f"Cheater SteamID \"{steamid}\" is not valid", ephemeral=True)
                 return
-            steamids.append(int(steamid))
+            steamids_list.append(int(steamid))
         
-        if len(steamids) == 0:
-            await interaction.response.send_message("At least one cheater SteamID is required")
+        if len(steamids_list) == 0:
+            await interaction.response.send_message("At least one cheater SteamID is required, or \"none\"")
             return
         
         if not allow_duplicate:
-            for steamid in steamids: # check steamids if they were reported before
+            for steamid in steamids_list: # check steamids if they were reported before
                 reports = self.reports.find_cheater(steamid)
-                if len(reports) > 0:
-                    await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{chr(10).join(map(lambda r: r.message, reports))}", ephemeral=True)
+                if len(reports) > 0 and (not verified or any(map(lambda r: r.verified, reports))):
+                    await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{chr(10).join(map(lambda r: r.message + (" -- (unverified)" if not r.verified else ""), reports))}", ephemeral=True)
                     return
 
         if reporter_steamid: # if a steamid for the reporter was passed, add it to the record and log it in the log channel
@@ -244,7 +246,7 @@ class HPCog(commands.Cog):
         # log channel message
         msg = f"{thread.jump_url} {owner.mention} ({owner.global_name}) cheater exposed (+{points} points, {reporter.points()+points} total)"
         # add report to internal record
-        reporter.add_report(msg, points, steamids)
+        reporter.add_report(msg, points, steamids_list, verified)
         # save data to json
         await self.reports.save()
         # mark toplist for rebuild
