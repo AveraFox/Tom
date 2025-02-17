@@ -3085,6 +3085,20 @@
             }
         ]
     },
+    "270366574248984576": {
+        "count": 1,
+        "profile_id": 76561198420004601,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1341126885463166988 <@270366574248984576> (Third Strongest Mole) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199678005346
+                ],
+                "verified": true
+            }
+        ]
+    },
     "277818199901470723": {
         "count": 1,
         "profile_id": null,
@@ -7041,6 +7055,20 @@
                 "points": 1,
                 "steamids": [
                     76561198855768446
+                ],
+                "verified": true
+            }
+        ]
+    },
+    "796123922600558623": {
+        "count": 1,
+        "profile_id": 76561199126506687,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1341058518375071796 <@796123922600558623> (Sono) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198186701038
                 ],
                 "verified": true
             }
