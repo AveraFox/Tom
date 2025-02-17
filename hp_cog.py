@@ -257,7 +257,10 @@ class HPCog(commands.Cog):
         await thread.remove_tags(*statics.TAGS) # remove "Needs info", "Not a cheater" and "Already reported" tags
         await thread.add_tags(statics.CONFIRMED_TAG) # add "Confirmed" tag
 
-        await interaction.response.send_message(statics.Images.TOM_APPROVE) # send tom approved gif :D
+        if verified:
+            await interaction.response.send_message(statics.Images.TOM_APPROVE) # send tom approved gif :D
+        else:
+            await interaction.response.send_message(f"-# unverified report[.]({statics.Images.TOM_APPROVE})")
 
     @app_commands.command(
         name="unapprove",
