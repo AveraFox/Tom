@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-02-17 22:35:50",
-        "title": "vorobey-hackerpolice - 2025-02-17 22:35:50",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-02-18 17:46:12",
+        "title": "vorobey-hackerpolice - 2025-02-18 17:46:12",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -3571,6 +3571,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1717739618]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1341126885463166988 <@270366574248984576> (Third Strongest Mole) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1212935426]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1289223893352972308 Blad Dragula (277818199901470723) 1 cheater exposed"
@@ -4732,6 +4741,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:860410653]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1341437817900892242 <@388199716644454401> (j) cheater exposed (+1 points, 11 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1841458381]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1327319037914513440 <@391884814552399872> (d1rect_) cheater exposed (+1 points, 1 total)"
@@ -4789,6 +4807,15 @@
             "steamid": "[U:1:857358969]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1333435286323200010 <@405841964102189067> (Lucasberry) cheater exposed (+1 points, 3 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1250295877]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1341459511478587422 <@405841964102189067> (Lucasberry) cheater exposed (+1 points, 4 total)"
             ]
         },
         {
@@ -7649,6 +7676,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:226435310]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1341058518375071796 <@796123922600558623> (Sono) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1481738468]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1300062478675214407 Elder God Dr4g0 (she/her) (801064932053221447) 1 cheater exposed"
@@ -8889,24 +8925,6 @@
             "steamid": "[U:1:130122867]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1259358668613484584 ratpig6249 (995419566186430614) 1 cheater exposed"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
-            "steamid": "[U:1:226435310]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1341058518375071796 <@796123922600558623> (Sono) cheater exposed (+1 points, 1 total)"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
-            "steamid": "[U:1:1717739618]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1341126885463166988 <@270366574248984576> (Third Strongest Mole) cheater exposed (+1 points, 1 total)"
             ]
         }
     ]

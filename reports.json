@@ -4231,7 +4231,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 10,
+        "count": 11,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -4313,6 +4313,14 @@
                     76561199819837961
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1341437817900892242 <@388199716644454401> (j) cheater exposed (+1 points, 11 total)",
+                "points": 1,
+                "steamids": [
+                    76561198820676381
+                ],
+                "verified": true
             }
         ]
     },
@@ -4379,7 +4387,7 @@
         ]
     },
     "405841964102189067": {
-        "count": 3,
+        "count": 4,
         "profile_id": 76561199000802174,
         "reports": [
             {
@@ -4403,6 +4411,14 @@
                 "points": 1,
                 "steamids": [
                     76561198817624697
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1341459511478587422 <@405841964102189067> (Lucasberry) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561199210561605
                 ],
                 "verified": true
             }
