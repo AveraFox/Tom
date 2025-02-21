@@ -6220,6 +6220,20 @@
             }
         ]
     },
+    "604377532313239582": {
+        "count": 1,
+        "profile_id": 76561199018125136,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1342597611869442048 <@604377532313239582> (nicolai) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561197963724383
+                ],
+                "verified": true
+            }
+        ]
+    },
     "604739548798386236": {
         "count": 1,
         "profile_id": 76561199014465909,
