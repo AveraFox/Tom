@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-02-22 17:10:16",
-        "title": "vorobey-hackerpolice - 2025-02-22 17:10:16",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-02-22 18:46:31",
+        "title": "vorobey-hackerpolice - 2025-02-22 18:46:31",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -2233,6 +2233,24 @@
             "steamid": "[U:1:1867233622]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1342903115447533712 <@1193778708566257765> (Kal) cheater exposed (+1 points, 94 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1260935949]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1342924534860484669 <@1193778708566257765> (Kal) cheater exposed (+1 points, 95 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1867249805]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1342925220159422524 <@1193778708566257765> (Kal) cheater exposed (+1 points, 96 total)"
             ]
         },
         {
@@ -8048,6 +8066,15 @@
             "steamid": "[U:1:1610161930]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1342410228230262837 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 23 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1868962105]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1342815850318528573 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 24 total)"
             ]
         },
         {
