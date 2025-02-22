@@ -1246,7 +1246,7 @@
         ]
     },
     "1193778708566257765": {
-        "count": 96,
+        "count": 97,
         "profile_id": 76561199221072969,
         "reports": [
             {
@@ -2012,6 +2012,14 @@
                 "points": 1,
                 "steamids": [
                     76561199827515533
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1342938569378889739 <@1193778708566257765> (Kal) cheater exposed (+1 points, 97 total)",
+                "points": 1,
+                "steamids": [
+                    76561199828975659
                 ],
                 "verified": true
             }
