@@ -7669,7 +7669,7 @@
         ]
     },
     "862447359718850580": {
-        "count": 4,
+        "count": 5,
         "profile_id": 76561199816054792,
         "reports": [
             {
@@ -7705,6 +7705,14 @@
                 "points": 1,
                 "steamids": [
                     76561199034356116
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1342969224150126604 <@862447359718850580> (Randomdelfia) cheater exposed (+1 points, 5 total)",
+                "points": 1,
+                "steamids": [
+                    76561198352968667
                 ],
                 "verified": true
             }
