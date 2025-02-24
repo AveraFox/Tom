@@ -6581,8 +6581,8 @@
         ]
     },
     "668867286039396372": {
-        "count": 2,
-        "profile_id": null,
+        "count": 3,
+        "profile_id": 76561199475624013,
         "reports": [
             {
                 "msg": "https://discord.com/channels/354645865773924352/1121780046928023613/1302855487892754474 Slothmaster737 (668867286039396372) 1 cheater exposed",
@@ -6597,6 +6597,14 @@
                     76561199552210238
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1343366699252187176 <@668867286039396372> (Slothmaster737) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561199822652918
+                ],
+                "verified": false
             }
         ]
     },
