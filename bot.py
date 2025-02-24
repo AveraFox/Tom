@@ -14,7 +14,6 @@ async def on_ready():
     await bot.load_extension("hp_cog") # load hp_cog.py into the bot
     await bot.load_extension("vanity_resolver_cog")
     await bot.tree.sync() # upload command tree to discord, so you can see all available commands in the client
-    await bot.change_presence(activity=discord.CustomActivity("o7"))
     logger.info(f"{bot.user} is up and running meow")
 
 if os.environ.get("DEBUG") == "1": # only enable command if debug is set in environment
