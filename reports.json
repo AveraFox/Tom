@@ -6820,7 +6820,7 @@
         ]
     },
     "696404114262720524": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199179969795,
         "reports": [
             {
@@ -6828,6 +6828,14 @@
                 "points": 1,
                 "steamids": [
                     76561199809120488
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1344404047284670475 <@696404114262720524> (Shiro) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199524094212
                 ],
                 "verified": true
             }
@@ -7853,7 +7861,7 @@
         ]
     },
     "889238563206598666": {
-        "count": 46,
+        "count": 47,
         "profile_id": 76561198245429438,
         "reports": [
             {
@@ -8224,6 +8232,14 @@
                 "points": 1,
                 "steamids": [
                     76561199123998854
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1343712939030352034 <@889238563206598666> (Ciam) cheater exposed (+1 points, 47 total)",
+                "points": 1,
+                "steamids": [
+                    76561199282124426
                 ],
                 "verified": true
             }
