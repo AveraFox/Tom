@@ -1,6 +1,6 @@
 {
     "1002220641459634226": {
-        "count": 8,
+        "count": 9,
         "profile_id": 76561199381712866,
         "reports": [
             {
@@ -64,6 +64,14 @@
                 "points": 1,
                 "steamids": [
                     76561199827431375
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1344751366324883518 <@1002220641459634226> (ae) cheater exposed (+1 points, 9 total)",
+                "points": 1,
+                "steamids": [
+                    76561199128800705
                 ],
                 "verified": true
             }
