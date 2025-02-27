@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-02-27 03:55:29",
-        "title": "vorobey-hackerpolice - 2025-02-27 03:55:29",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-02-27 11:27:08",
+        "title": "vorobey-hackerpolice - 2025-02-27 11:27:08",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -7061,6 +7061,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:971121156]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1343013970906447882 <@579548943663235101> (Ron) cheater exposed (+1 points, 30 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:77154452]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1258634395011645580 sthalet (595651789114704009) 1 cheater exposed"
@@ -8201,6 +8210,24 @@
             "steamid": "[U:1:1283292143]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1343183083624468520 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 25 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:178996923]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1344222278077907015 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 26 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1862397302]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1344578004273074186 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 27 total)"
             ]
         },
         {
