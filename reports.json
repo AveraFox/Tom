@@ -4038,7 +4038,7 @@
         "reports": []
     },
     "349192941367066624": {
-        "count": 32,
+        "count": 33,
         "profile_id": 76561198262914979,
         "reports": [
             {
@@ -4297,6 +4297,14 @@
                     76561199510562277
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1344745174894510102 <@349192941367066624> (Konuman) cheater exposed (+1 points, 33 total)",
+                "points": 1,
+                "steamids": [
+                    76561199788516847
+                ],
+                "verified": true
             }
         ]
     },
@@ -4423,7 +4431,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 13,
+        "count": 14,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -4527,6 +4535,14 @@
                 "points": 1,
                 "steamids": [
                     76561198006321552
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1344717417569587211 <@388199716644454401> (j) cheater exposed (+1 points, 14 total)",
+                "points": 1,
+                "steamids": [
+                    76561199470615667
                 ],
                 "verified": true
             }
