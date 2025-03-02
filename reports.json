@@ -2134,6 +2134,20 @@
             }
         ]
     },
+    "1244007698563993651": {
+        "count": 1,
+        "profile_id": 76561199751230607,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1345783650675068979 <@1244007698563993651> (Microsoft Excel) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198937517432
+                ],
+                "verified": true
+            }
+        ]
+    },
     "1299100527900102676": {
         "count": 1,
         "profile_id": null,
