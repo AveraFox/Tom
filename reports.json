@@ -3658,7 +3658,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 31,
+        "count": 32,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -3904,6 +3904,14 @@
                 "points": 1,
                 "steamids": [
                     76561199114649246
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1346382517569191989 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 32 total)",
+                "points": 1,
+                "steamids": [
+                    76561199259170165
                 ],
                 "verified": true
             }
