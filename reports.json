@@ -7754,6 +7754,20 @@
             }
         ]
     },
+    "811170603398332456": {
+        "count": 1,
+        "profile_id": 76561198399957938,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1347293375707086919 <@811170603398332456> (Jeynes) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198216603729
+                ],
+                "verified": true
+            }
+        ]
+    },
     "820137261852917771": {
         "count": 1,
         "profile_id": null,
