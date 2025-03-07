@@ -4182,6 +4182,20 @@
             }
         ]
     },
+    "339267234394537995": {
+        "count": 1,
+        "profile_id": 76561198015234422,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1347286157096128512 <@339267234394537995> (Fulcrum) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199521622543
+                ],
+                "verified": true
+            }
+        ]
+    },
     "348097757199990784": {
         "count": 0,
         "profile_id": 76561199185085221,
