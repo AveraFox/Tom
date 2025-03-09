@@ -8,6 +8,7 @@ from typing import List, Optional, Dict, Any, Self
 class Report:
     def __init__(self, message: str, steamids: List[int], points: int, verified: bool):
         self.message: str = message
+        self.thread_url: str = message[:message.find(" ")]
         self.steamids: List[int] = steamids
         self.points: int = points
         self.verified: bool = verified
@@ -25,6 +26,7 @@ class Report:
     def to_json(self) -> Dict[str, Any]:
         return {
             "msg": self.message,
+            "thread_url": self.thread_url,
             "steamids": self.steamids,
             "points": self.points,
             "verified": self.verified
