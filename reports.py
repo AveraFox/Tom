@@ -26,7 +26,6 @@ class Report:
     def to_json(self) -> Dict[str, Any]:
         return {
             "msg": self.message,
-            "thread_url": self.thread_url,
             "steamids": self.steamids,
             "points": self.points,
             "verified": self.verified
