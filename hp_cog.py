@@ -146,7 +146,7 @@ class HPCog(commands.Cog):
 
         embed = discord.Embed(
             title=f"Reports for {steamid}",
-            description='\n'.join(map(lambda r: r.message + (" -- (unverified)" if not r.verified else ""), reports))
+            description='\n'.join(map(lambda r: r.message + (' -- (unverified)' if not r.verified else ''), reports))
         )
 
         await interaction.response.send_message(embed=embed, ephemeral=True)
@@ -236,7 +236,7 @@ class HPCog(commands.Cog):
             for steamid in steamids_list: # check steamids if they were reported before
                 reports = self.reports.find_cheater(steamid)
                 if len(reports) > 0 and (not verified or any(map(lambda r: r.verified, reports))):
-                    await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{chr(10).join(map(lambda r: r.message + (" -- (unverified)" if not r.verified else ""), reports))}", ephemeral=True)
+                    await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{chr(10).join(map(lambda r: r.message + (' -- (unverified)' if not r.verified else ''), reports))}", ephemeral=True)
                     return
 
         if reporter_steamid: # if a steamid for the reporter was passed, add it to the record and log it in the log channel
@@ -257,7 +257,10 @@ class HPCog(commands.Cog):
         await thread.remove_tags(*statics.TAGS) # remove "Needs info", "Not a cheater" and "Already reported" tags
         await thread.add_tags(statics.CONFIRMED_TAG) # add "Confirmed" tag
 
-        await interaction.response.send_message(statics.Images.TOM_APPROVE) # send tom approved gif :D
+        if verified:
+            await interaction.response.send_message(statics.Images.TOM_APPROVE) # send tom approved gif :D
+        else:
+            await interaction.response.send_message(f"-# unverified report[.]({statics.Images.TOM_APPROVE})")
 
     @app_commands.command(
         name="unapprove",
