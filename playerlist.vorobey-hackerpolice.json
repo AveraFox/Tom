@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-03-09 11:35:06",
-        "title": "vorobey-hackerpolice - 2025-03-09 11:35:06",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-03-09 11:51:12",
+        "title": "vorobey-hackerpolice - 2025-03-09 11:51:12",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -7133,33 +7133,6 @@
             "attributes": [
                 "cheater"
             ],
-            "steamid": "[U:1:1756110071]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1341954295607726163 <@573655444602486784> (.Salvia) cheater exposed (+1 points, 1 total)"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
-            "steamid": "[U:1:1812303782]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1343058037312585751 <@573655444602486784> (.Salvia) cheater exposed (+1 points, 2 total)"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
-            "steamid": "[U:1:1867707292]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1345746934501212233 <@573655444602486784> (.Salvia) cheater exposed (+1 points, 3 total)"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
             "steamid": "[U:1:1556426242]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1319377653773504543 <@579548943663235101> (Ron) cheater exposed (+1 points, 1 total)"
@@ -7566,15 +7539,6 @@
             "attributes": [
                 "cheater"
             ],
-            "steamid": "[U:1:3458655]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1342597611869442048 <@604377532313239582> (nicolai) cheater exposed (+1 points, 1 total)"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
             "steamid": "[U:1:1440974868]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1238133198089879592 Wokfish (604739548798386236) 1 cheater exposed"
@@ -7931,6 +7895,24 @@
             "steamid": "[U:1:1563828484]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1344404047284670475 <@696404114262720524> (Shiro) cheater exposed (+1 points, 2 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1870892935]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1348256119566368768 <@696404114262720524> (Shiro) cheater exposed (+1 points, 3 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:896347808]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1348258451075366932 <@696404114262720524> (Shiro) cheater exposed (+1 points, 4 total)"
             ]
         },
         {
@@ -9852,6 +9834,69 @@
             "steamid": "[U:1:130122867]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1259358668613484584 ratpig6249 (995419566186430614) 1 cheater exposed"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1756110071]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1341954295607726163 <@573655444602486784> (.Salvia) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1812303782]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1343058037312585751 <@573655444602486784> (.Salvia) cheater exposed (+1 points, 2 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1867707292]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1345746934501212233 <@573655444602486784> (.Salvia) cheater exposed (+1 points, 3 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:3458655]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1342597611869442048 <@604377532313239582> (nicolai) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:977251704]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1345783650675068979 <@1244007698563993651> (Microsoft Excel) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1561356815]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1347286157096128512 <@339267234394537995> (Fulcrum) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:256338001]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1347293375707086919 <@811170603398332456> (Jeynes) cheater exposed (+1 points, 1 total)"
             ]
         }
     ]
