@@ -5700,6 +5700,20 @@
             }
         ]
     },
+    "518446423742873620": {
+        "count": 1,
+        "profile_id": 76561198977936140,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1352040591831203840 <@518446423742873620> (Aapo) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199817809867
+                ],
+                "verified": true
+            }
+        ]
+    },
     "522632700138356737": {
         "count": 1,
         "profile_id": 76561198078386761,
