@@ -8083,6 +8083,21 @@
             }
         ]
     },
+    "807763681541750814": {
+        "count": 1,
+        "profile_id": null,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1352463742306353202 <@807763681541750814> (Untriangled) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199401399076,
+                    76561197998728826
+                ],
+                "verified": true
+            }
+        ]
+    },
     "811170603398332456": {
         "count": 1,
         "profile_id": 76561198399957938,
