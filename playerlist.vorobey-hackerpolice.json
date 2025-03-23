@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-03-21 17:25:02",
-        "title": "vorobey-hackerpolice - 2025-03-21 17:25:02",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-03-23 06:14:00",
+        "title": "vorobey-hackerpolice - 2025-03-23 06:14:00",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -5122,6 +5122,24 @@
             "steamid": "[U:1:1845103657]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1346850017700221031 <@349192941367066624> (Konuman) cheater exposed (+1 points, 34 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1257167921]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1352997573983600762 <@349192941367066624> (Konuman) cheater exposed (+1 points, 35 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1877695007]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1353014426873233520 <@349192941367066624> (Konuman) cheater exposed (+1 points, 36 total)"
             ]
         },
         {
@@ -10302,6 +10320,15 @@
             "steamid": "[U:1:38463098]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1352463742306353202 <@807763681541750814> (Untriangled) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:157740375]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1353136063010443314 <@807763681541750814> (Untriangled) cheater exposed (+1 points, 2 total)"
             ]
         }
     ]
