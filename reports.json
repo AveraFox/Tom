@@ -3118,7 +3118,7 @@
         ]
     },
     "242574697357639681": {
-        "count": 39,
+        "count": 40,
         "profile_id": 76561198250904422,
         "reports": [
             {
@@ -3431,6 +3431,14 @@
                 "points": 1,
                 "steamids": [
                     76561199828591584
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1354311134731305153 <@242574697357639681> (G3ATZ) cheater exposed (+1 points, 40 total)",
+                "points": 1,
+                "steamids": [
+                    76561199557415256
                 ],
                 "verified": true
             }
