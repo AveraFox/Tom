@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-03-28 11:54:44",
-        "title": "vorobey-hackerpolice - 2025-03-28 11:54:44",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-03-28 15:52:28",
+        "title": "vorobey-hackerpolice - 2025-03-28 15:52:28",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -5950,6 +5950,42 @@
             "steamid": "[U:1:399239913]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1350378989784399892 <@435293512620179457> (\ud835\ude79\ud835\ude7e\ud835\ude7a\ud835\ude74\ud835\ude81) cheater exposed (+1 points, 3 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1864269585]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1353602075128369215 <@435293512620179457> (\u2671 \ud835\ude83\ud835\ude91\ud835\ude8a\ud835\ude97\ud835\ude98\ud835\ude9c \u2671) cheater exposed (+1 points, 4 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:341337711]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1353602075128369215 <@435293512620179457> (\u2671 \ud835\ude83\ud835\ude91\ud835\ude8a\ud835\ude97\ud835\ude98\ud835\ude9c \u2671) cheater exposed (+1 points, 4 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1657985574]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1353602075128369215 <@435293512620179457> (\u2671 \ud835\ude83\ud835\ude91\ud835\ude8a\ud835\ude97\ud835\ude98\ud835\ude9c \u2671) cheater exposed (+1 points, 4 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:2453404]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1353602075128369215 <@435293512620179457> (\u2671 \ud835\ude83\ud835\ude91\ud835\ude8a\ud835\ude97\ud835\ude98\ud835\ude9c \u2671) cheater exposed (+1 points, 4 total)"
             ]
         },
         {
