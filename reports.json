@@ -4942,7 +4942,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 34,
+        "count": 35,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -5214,6 +5214,14 @@
                 "points": 1,
                 "steamids": [
                     76561199337154945
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1355220099853848676 <@388199716644454401> (j) cheater exposed (+1 points, 35 total)",
+                "points": 1,
+                "steamids": [
+                    76561199053020653
                 ],
                 "verified": true
             }
