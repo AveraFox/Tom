@@ -4974,7 +4974,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 39,
+        "count": 40,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -5286,6 +5286,14 @@
                 "points": 1,
                 "steamids": [
                     76561198981718740
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1355501814081912833 <@388199716644454401> (j) cheater exposed (+1 points, 40 total)",
+                "points": 1,
+                "steamids": [
+                    76561199839455568
                 ],
                 "verified": true
             }
@@ -5969,6 +5977,8 @@
                 "msg": "https://discord.com/channels/354645865773924352/1355332977692774664 <@510873040817487914> (qareday) cheater exposed (+1 points, 5 total)",
                 "points": 1,
                 "steamids": [
+                    76561199182128674,
+                    76561198997424677,
                     76561198870745606
                 ],
                 "verified": true
