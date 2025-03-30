@@ -46,7 +46,7 @@ class VanityCog(commands.Cog):
                 if verified:
                     reported_perms[sid] = {"report": next(filter(lambda r: r.verified, reports)).thread_url, "verified": True}
                 else:
-                    reported_perms[sid] = {"report": next(reports).thread_url, "verified": False}
+                    reported_perms[sid] = {"report": reports[0].thread_url, "verified": False}
 
         # only reply if there were steamids found
         if len(steamids) > 0 or len(unresolved_steamids) > 0 or len(reported_perms) > 0:
