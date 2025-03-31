@@ -8464,7 +8464,7 @@
         ]
     },
     "796123922600558623": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199126506687,
         "reports": [
             {
@@ -8474,6 +8474,14 @@
                     76561198186701038
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1354975084959240303 <@796123922600558623> (Sono) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199063131138
+                ],
+                "verified": false
             }
         ]
     },
