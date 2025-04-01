@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-04-01 14:49:04",
-        "title": "vorobey-hackerpolice - 2025-04-01 14:49:04",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-04-01 16:39:32",
+        "title": "vorobey-hackerpolice - 2025-04-01 16:39:32",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -4168,6 +4168,24 @@
             "steamid": "[U:1:1221627375]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1355836311075819540 <@242574697357639681> (G3ATZ) cheater exposed (+1 points, 47 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1423810002]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1356654537531854878 <@242574697357639681> (G3ATZ) cheater exposed (+2 points, 49 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:394520549]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1356654537531854878 <@242574697357639681> (G3ATZ) cheater exposed (+2 points, 49 total)"
             ]
         },
         {
