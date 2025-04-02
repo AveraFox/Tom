@@ -6152,7 +6152,7 @@
         ]
     },
     "510873040817487914": {
-        "count": 9,
+        "count": 10,
         "profile_id": 76561199071473686,
         "reports": [
             {
@@ -6227,6 +6227,14 @@
                 "points": 1,
                 "steamids": [
                     76561199827264318
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1357078488292528218 <@510873040817487914> (qareday) cheater exposed (+1 points, 10 total)",
+                "points": 1,
+                "steamids": [
+                    76561199803227961
                 ],
                 "verified": true
             }
