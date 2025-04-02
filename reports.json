@@ -8266,8 +8266,8 @@
         ]
     },
     "754044825979977869": {
-        "count": 18,
-        "profile_id": null,
+        "count": 19,
+        "profile_id": 76561198323756120,
         "reports": [
             {
                 "msg": "https://discord.com/channels/354645865773924352/1121780046928023613/1227548306926862377 BreadButSliced (754044825979977869) 1 cheater exposed",
@@ -8412,6 +8412,14 @@
                     76561199227207762
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1356807291420278815 <@754044825979977869> (BreadButSliced) cheater exposed (+1 points, 19 total)",
+                "points": 1,
+                "steamids": [
+                    76561198255751123
+                ],
+                "verified": false
             }
         ]
     },
@@ -8596,7 +8604,7 @@
         ]
     },
     "807763681541750814": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561199816542248,
         "reports": [
             {
@@ -8613,6 +8621,14 @@
                 "points": 1,
                 "steamids": [
                     76561198118006103
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1356801898740715530 <@807763681541750814> (Untriangled) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561199837567499
                 ],
                 "verified": true
             }
