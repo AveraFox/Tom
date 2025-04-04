@@ -7228,7 +7228,7 @@
         ]
     },
     "573655444602486784": {
-        "count": 3,
+        "count": 4,
         "profile_id": 76561198346155127,
         "reports": [
             {
@@ -7252,6 +7252,14 @@
                 "points": 1,
                 "steamids": [
                     76561199827973020
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1357486085562699806 <@573655444602486784> (.Salvia) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561199842500753
                 ],
                 "verified": true
             }
