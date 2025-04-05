@@ -566,6 +566,11 @@
             }
         ]
     },
+    "1127149848223821916": {
+        "count": 0,
+        "profile_id": 76561199630104539,
+        "reports": []
+    },
     "1138819493020323932": {
         "count": 6,
         "profile_id": 76561198035711179,
@@ -6257,7 +6262,7 @@
         ]
     },
     "518446423742873620": {
-        "count": 3,
+        "count": 4,
         "profile_id": 76561198977936140,
         "reports": [
             {
@@ -6281,6 +6286,14 @@
                 "points": 1,
                 "steamids": [
                     76561199808046100
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1357773150628348066 <@518446423742873620> (Aapo) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561199803862225
                 ],
                 "verified": true
             }
