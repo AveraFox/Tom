@@ -5188,6 +5188,20 @@
             }
         ]
     },
+    "369475534058553344": {
+        "count": 1,
+        "profile_id": 76561198065802648,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1358104226068431098 <@369475534058553344> (havchlk) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198065802648
+                ],
+                "verified": true
+            }
+        ]
+    },
     "370865485912473602": {
         "count": 2,
         "profile_id": 76561198210509251,
