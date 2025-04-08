@@ -8539,7 +8539,7 @@
         ]
     },
     "754044825979977869": {
-        "count": 19,
+        "count": 20,
         "profile_id": 76561198323756120,
         "reports": [
             {
@@ -8691,6 +8691,14 @@
                 "points": 1,
                 "steamids": [
                     76561198255751123
+                ],
+                "verified": false
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1358940678490689546 <@754044825979977869> (BreadButSliced) cheater exposed (+1 points, 20 total)",
+                "points": 1,
+                "steamids": [
+                    76561199839369893
                 ],
                 "verified": false
             }
