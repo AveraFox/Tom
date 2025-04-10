@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-04-10 12:49:11",
-        "title": "vorobey-hackerpolice - 2025-04-10 12:49:11",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-04-10 16:58:10",
+        "title": "vorobey-hackerpolice - 2025-04-10 16:58:10",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -7123,6 +7123,24 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1713203566]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1359928821452640539 <@510873040817487914> (qareday) cheater exposed (+1 points, 16 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1667942293]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1359928821452640539 <@510873040817487914> (qareday) cheater exposed (+1 points, 16 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1857544139]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1352040591831203840 <@518446423742873620> (Aapo) cheater exposed (+1 points, 1 total)"
@@ -11400,6 +11418,15 @@
             "steamid": "[U:1:1815459297]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1358500899743600650 <@369475534058553344> (havchlk) cheater exposed (+1 points, 4 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:874750713]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1359328358428577933 <@1093182781691019385> (rec) cheater exposed (+1 points, 1 total)"
             ]
         }
     ]
