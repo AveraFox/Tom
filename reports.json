@@ -3362,7 +3362,7 @@
         ]
     },
     "242574697357639681": {
-        "count": 54,
+        "count": 55,
         "profile_id": 76561198250904422,
         "reports": [
             {
@@ -3788,6 +3788,14 @@
                 "points": 1,
                 "steamids": [
                     76561199219265624
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1360530523918962688 <@242574697357639681> (G3ATZ) cheater exposed (+1 points, 55 total)",
+                "points": 1,
+                "steamids": [
+                    76561199643641091
                 ],
                 "verified": true
             }
@@ -9104,7 +9112,7 @@
         ]
     },
     "825341186142109698": {
-        "count": 38,
+        "count": 39,
         "profile_id": 76561199190321580,
         "reports": [
             {
@@ -9403,6 +9411,14 @@
                 "points": 1,
                 "steamids": [
                     76561199828456981
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1360523268217634890 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 39 total)",
+                "points": 1,
+                "steamids": [
+                    76561198802304895
                 ],
                 "verified": true
             }
