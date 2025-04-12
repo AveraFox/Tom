@@ -3966,7 +3966,7 @@
         ]
     },
     "270366574248984576": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561198420004601,
         "reports": [
             {
@@ -3974,6 +3974,14 @@
                 "points": 1,
                 "steamids": [
                     76561199678005346
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1360705690016026796 <@270366574248984576> (Third Strongest Mole) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199661189770
                 ],
                 "verified": true
             }
