@@ -1,4 +1,4 @@
-import discord, aiofiles, json, typing, logging, re, traceback
+import discord, aiofiles, json, typing, logging, re, traceback, random
 from io import StringIO
 from discord.ext import commands, tasks
 from discord import app_commands
@@ -85,6 +85,12 @@ class HPCog(commands.Cog):
 
         self.toplist = msg # Store toplist for later use
         logger.info("Toplist rebuilt")
+        
+    @commands.Cog.listener()
+    async def on_message(self, message: discord.Message):
+        if not self.bot.user.mention in message.content:
+            return
+        await message.channel.send(random.choice(statics.Images.TOM_REACTS))
         
     #### REGULAR USER COMMANDS ####
     @app_commands.command(
