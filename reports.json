@@ -2551,6 +2551,20 @@
             }
         ]
     },
+    "1240814781770891325": {
+        "count": 1,
+        "profile_id": 76561198353843185,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1363182051347534017 <@1240814781770891325> (Domega) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198884692819
+                ],
+                "verified": false
+            }
+        ]
+    },
     "1244007698563993651": {
         "count": 1,
         "profile_id": 76561199751230607,
