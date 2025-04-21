@@ -5553,7 +5553,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 45,
+        "count": 47,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -5913,6 +5913,22 @@
                 "points": 1,
                 "steamids": [
                     76561199818591066
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1363910533425791149 <@388199716644454401> ([VOLVO] j) cheater exposed (+1 points, 46 total)",
+                "points": 1,
+                "steamids": [
+                    76561199187192842
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1363911401256521952 <@388199716644454401> ([VOLVO] j) cheater exposed (+1 points, 47 total)",
+                "points": 1,
+                "steamids": [
+                    76561199436228939
                 ],
                 "verified": true
             }
@@ -7833,7 +7849,7 @@
         ]
     },
     "579548943663235101": {
-        "count": 36,
+        "count": 37,
         "profile_id": 76561199024884868,
         "reports": [
             {
@@ -8111,6 +8127,15 @@
                     76561198910284435,
                     76561198910291027,
                     76561198910473482
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1363898693098672548 <@579548943663235101> (Lv~) cheater exposed (+1 points, 37 total)",
+                "points": 1,
+                "steamids": [
+                    76561199184745093,
+                    76561199343631701
                 ],
                 "verified": true
             }
@@ -9410,7 +9435,7 @@
         ]
     },
     "825341186142109698": {
-        "count": 43,
+        "count": 44,
         "profile_id": 76561199190321580,
         "reports": [
             {
@@ -9749,6 +9774,14 @@
                 "points": 1,
                 "steamids": [
                     76561199591337804
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1363916027939000540 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 44 total)",
+                "points": 1,
+                "steamids": [
+                    76561199705134154
                 ],
                 "verified": true
             }
