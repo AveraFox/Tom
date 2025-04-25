@@ -8452,7 +8452,7 @@
         ]
     },
     "644544172795232259": {
-        "count": 5,
+        "count": 7,
         "profile_id": 76561198150357531,
         "reports": [
             {
@@ -8492,6 +8492,22 @@
                 "points": 1,
                 "steamids": [
                     76561199656536710
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1365150980290777190 <@644544172795232259> (sammy) cheater exposed (+1 points, 6 total)",
+                "points": 1,
+                "steamids": [
+                    76561198295508776
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1365164985419956264 <@644544172795232259> (sammy) cheater exposed (+1 points, 7 total)",
+                "points": 1,
+                "steamids": [
+                    76561199819129034
                 ],
                 "verified": true
             }
