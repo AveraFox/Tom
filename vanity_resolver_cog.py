@@ -61,7 +61,7 @@ class VanityCog(commands.Cog):
                     msg += "\n"
                 msg += "\n".join(map(lambda s: f"{s[0]} has already been reported: {s[1]['report']}{' (unverified)' if not s[1]['verified'] else ''}", reported_perms.items()))
             elif len(steamids) > 0:
-                msg += "SteamIDs were not reported yet"
+                msg += "SteamIDs have not been reported"
             await message.reply(msg, mention_author=False)
 
     
