@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-05-01 19:59:31",
-        "title": "vorobey-hackerpolice - 2025-05-01 19:59:31",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-05-02 16:51:29",
+        "title": "vorobey-hackerpolice - 2025-05-02 16:51:29",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -1048,6 +1048,33 @@
             "steamid": "[U:1:873310510]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1367479685684138066 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 72 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1890403056]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1367889258253385790 <@1083466350376276069> (Luggworm) cheater exposed (+3 points, 75 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:27958222]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1367889258253385790 <@1083466350376276069> (Luggworm) cheater exposed (+3 points, 75 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1875468704]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1367889258253385790 <@1083466350376276069> (Luggworm) cheater exposed (+3 points, 75 total)"
             ]
         },
         {
@@ -5481,6 +5508,33 @@
             "steamid": "[U:1:440985421]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1365813920396476518 <@286548457152577536> (antondi) cheater exposed (+1 points, 7 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1188370150]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1367883598396526664 <@286548457152577536> (antondi) cheater exposed (+3 points, 10 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:86981611]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1367883598396526664 <@286548457152577536> (antondi) cheater exposed (+3 points, 10 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1843571141]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1367883598396526664 <@286548457152577536> (antondi) cheater exposed (+3 points, 10 total)"
             ]
         },
         {
