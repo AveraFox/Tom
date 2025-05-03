@@ -813,14 +813,6 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1367191143623819385 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 71 total)",
-                "points": 1,
-                "steamids": [
-                    76561199846743964
-                ],
-                "verified": true
-            },
-            {
                 "msg": "https://discord.com/channels/354645865773924352/1367479685684138066 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 72 total)",
                 "points": 1,
                 "steamids": [
@@ -851,6 +843,14 @@
                 "points": 1,
                 "steamids": [
                     76561199181700167
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1367191143623819385 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 77 total)",
+                "points": 1,
+                "steamids": [
+                    76561199846743964
                 ],
                 "verified": true
             }
