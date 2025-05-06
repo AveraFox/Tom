@@ -374,7 +374,7 @@
         ]
     },
     "1083466350376276069": {
-        "count": 87,
+        "count": 88,
         "profile_id": 76561199071473686,
         "reports": [
             {
@@ -924,6 +924,14 @@
                 "points": 1,
                 "steamids": [
                     76561199850097703
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1369259929570906203 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 88 total)",
+                "points": 1,
+                "steamids": [
+                    76561199849797570
                 ],
                 "verified": true
             }
