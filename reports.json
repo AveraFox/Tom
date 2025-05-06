@@ -2891,6 +2891,20 @@
             }
         ]
     },
+    "1312517848735809667": {
+        "count": 1,
+        "profile_id": 76561199707927482,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1369271547667152906 <@1312517848735809667> (Lily) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199707927482
+                ],
+                "verified": true
+            }
+        ]
+    },
     "1331023490442203158": {
         "count": 1,
         "profile_id": 76561199259789819,
