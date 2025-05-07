@@ -374,7 +374,7 @@
         ]
     },
     "1083466350376276069": {
-        "count": 88,
+        "count": 90,
         "profile_id": 76561199071473686,
         "reports": [
             {
@@ -939,6 +939,22 @@
                 "points": 1,
                 "steamids": [
                     76561199043059288
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1369659788069441619 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 89 total)",
+                "points": 1,
+                "steamids": [
+                    76561199851804213
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1369666222119059516 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 90 total)",
+                "points": 1,
+                "steamids": [
+                    76561199854336265
                 ],
                 "verified": true
             }
@@ -10165,7 +10181,7 @@
         ]
     },
     "825341186142109698": {
-        "count": 47,
+        "count": 49,
         "profile_id": 76561199190321580,
         "reports": [
             {
@@ -10536,6 +10552,22 @@
                 "points": 1,
                 "steamids": [
                     76561199467477695
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1369673875222167665 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 48 total)",
+                "points": 1,
+                "steamids": [
+                    76561199852076834
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1369671265463435285 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 49 total)",
+                "points": 1,
+                "steamids": [
+                    76561199333889687
                 ],
                 "verified": true
             }
