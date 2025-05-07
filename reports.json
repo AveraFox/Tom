@@ -8453,7 +8453,7 @@
         ]
     },
     "573655444602486784": {
-        "count": 6,
+        "count": 5,
         "profile_id": 76561198346155127,
         "reports": [
             {
@@ -8497,8 +8497,8 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1369355809187692594 <@573655444602486784> (.Salvia) cheater exposed (+1 points, 6 total)",
-                "points": 1,
+                "msg": "https://discord.com/channels/354645865773924352/1369355809187692594 <@573655444602486784> (.Salvia) cheater exposed (+0 points, 5 total)",
+                "points": 0,
                 "steamids": [
                     76561199852636000
                 ],
