@@ -11886,19 +11886,9 @@
         ]
     },
     "981835124452786186": {
-        "count": 1,
+        "count": 0,
         "profile_id": null,
-        "reports": [
-            {
-                "msg": "https://discord.com/channels/354645865773924352/1369595512474435625 <@981835124452786186> (Sadness) cheater exposed (+1 points, 1 total)",
-                "points": 1,
-                "steamids": [
-                    76561197993646946,
-                    76561197971201415
-                ],
-                "verified": false
-            }
-        ]
+        "reports": []
     },
     "984599020523630632": {
         "count": 1,
