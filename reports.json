@@ -4326,7 +4326,7 @@
         ]
     },
     "248008453191237632": {
-        "count": 20,
+        "count": 22,
         "profile_id": 76561198065427891,
         "reports": [
             {
@@ -4486,6 +4486,22 @@
                 "points": 1,
                 "steamids": [
                     76561199236474694
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1370753195042930768 <@248008453191237632> (TechnoST) cheater exposed (+1 points, 21 total)",
+                "points": 1,
+                "steamids": [
+                    76561199156588375
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1370761811875594260 <@248008453191237632> (TechnoST) cheater exposed (+1 points, 22 total)",
+                "points": 1,
+                "steamids": [
+                    76561199854004485
                 ],
                 "verified": true
             }
