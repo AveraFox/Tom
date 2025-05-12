@@ -7614,18 +7614,18 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1354895793261379677 <@518446423742873620> (Aapo) cheater exposed (+1 points, 3 total)",
-                "points": 1,
-                "steamids": [
-                    76561199808046100
-                ],
-                "verified": true
-            },
-            {
                 "msg": "https://discord.com/channels/354645865773924352/1357773150628348066 <@518446423742873620> (Aapo) cheater exposed (+1 points, 4 total)",
                 "points": 1,
                 "steamids": [
                     76561199803862225
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1354895793261379677 <@518446423742873620> (Aapo) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561199808046100
                 ],
                 "verified": true
             }
