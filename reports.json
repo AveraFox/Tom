@@ -8685,7 +8685,7 @@
         ]
     },
     "579548943663235101": {
-        "count": 41,
+        "count": 42,
         "profile_id": 76561199024884868,
         "reports": [
             {
@@ -9006,6 +9006,14 @@
                     76561199251082026
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1371433607880769588 <@579548943663235101> (Lv~) cheater exposed (+1 points, 42 total)",
+                "points": 1,
+                "steamids": [
+                    76561199803883009
+                ],
+                "verified": true
             }
         ]
     },
@@ -9112,6 +9120,28 @@
                 "points": 1,
                 "steamids": [
                     76561199824615170
+                ],
+                "verified": true
+            }
+        ]
+    },
+    "601561245950410763": {
+        "count": 2,
+        "profile_id": 76561198828369357,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1371188701660577793 <@601561245950410763> (Air Pawo) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198360177740
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1371184381472800788 <@601561245950410763> (Air Pawo) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199212554736
                 ],
                 "verified": true
             }

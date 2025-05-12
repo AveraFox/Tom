@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-05-12 14:39:33",
-        "title": "vorobey-hackerpolice - 2025-05-12 14:39:33",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-05-12 15:48:12",
+        "title": "vorobey-hackerpolice - 2025-05-12 15:48:12",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -10319,6 +10319,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1843617281]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1371433607880769588 <@579548943663235101> (Lv~) cheater exposed (+1 points, 42 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:77154452]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1258634395011645580 sthalet (595651789114704009) 1 cheater exposed"
@@ -13191,6 +13200,24 @@
             "steamid": "[U:1:1892668558]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1369817982158508072 <@760528648167751780> (Tiguex) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:399912012]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1371188701660577793 <@601561245950410763> (Air Pawo) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1252289008]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1371184381472800788 <@601561245950410763> (Air Pawo) cheater exposed (+1 points, 2 total)"
             ]
         }
     ]
