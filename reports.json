@@ -374,7 +374,7 @@
         ]
     },
     "1083466350376276069": {
-        "count": 99,
+        "count": 100,
         "profile_id": 76561199071473686,
         "reports": [
             {
@@ -1013,6 +1013,14 @@
                 "points": 1,
                 "steamids": [
                     76561197995675648
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1371527854629851220 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 100 total)",
+                "points": 1,
+                "steamids": [
+                    76561199154744811
                 ],
                 "verified": true
             }
@@ -5391,7 +5399,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 22,
+        "count": 23,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -5538,6 +5546,14 @@
                 "points": 1,
                 "steamids": [
                     76561198860711162
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1371496213425291415 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 23 total)",
+                "points": 1,
+                "steamids": [
+                    76561199121941843
                 ],
                 "verified": true
             }
