@@ -3028,6 +3028,20 @@
             }
         ]
     },
+    "1298394592923750453": {
+        "count": 1,
+        "profile_id": 76561199553640861,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1371966686839701514 <@1298394592923750453> (Kiwi) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199853797298
+                ],
+                "verified": false
+            }
+        ]
+    },
     "1299100527900102676": {
         "count": 1,
         "profile_id": null,
