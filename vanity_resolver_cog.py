@@ -2,10 +2,7 @@ import discord, aiohttp, re, statics, logging
 from discord.ext import commands
 from hp_cog import HPCog
 
-VANITY_LINK_PATTERN = re.compile("(https://steamcommunity.com/id/([\\w-]+))")
-PERM_LINK_PATTERN = re.compile("https://steamcommunity.com/profiles/(\\d+)")
-STEAMID_XML_PATTERN = re.compile("<steamID64>(\\d+)</steamID64>")
-PERM_LINK_PREFIX = "https://steamcommunity.com/profiles/"
+from steam import *
 
 logger = logging.getLogger(__name__)
 
@@ -28,14 +25,13 @@ class VanityCog(commands.Cog):
         matches = VANITY_LINK_PATTERN.findall(message.content)
         steamids = dict()
         unresolved_steamids = []
-        async with aiohttp.ClientSession() as session:
-            for match in set(matches):
-                async with session.get(match[0] + "?xml=1") as resp:
-                    steamid = STEAMID_XML_PATTERN.search(await resp.text())
-                    if not steamid:
-                        unresolved_steamids.append(match[1])
-                        continue
-                    steamids[match[1]] = steamid.group(1)
+
+        for match in set(matches):
+            res = await resolve_vanity_url(match[0])
+            if res:
+                steamids[match[1]] = str(res)
+            else:
+                unresolved_steamids.append(match[1])
                     
         matches = PERM_LINK_PATTERN.findall(message.content)
         reported_perms = dict()

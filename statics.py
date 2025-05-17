@@ -29,7 +29,6 @@ TAG_CHOICES = [ # Options for mark/unmark command autocomplete (value is index o
     Choice(name="Invalid", value=3)
 ]
 CONFIRMED_TAG = Object(1309945340073349130)
-STEAMID_REGEX = "7656\\d{13}"
 REPORTS_DATA_FILE = "reports.json"
 ID_LIST_FILE="reported_ids.txt"
 TFBD_LIST_NAME="playerlist.vorobey-hackerpolice.json"
