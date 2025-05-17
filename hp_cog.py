@@ -1,10 +1,11 @@
-import discord, aiofiles, json, typing, logging, re, traceback, random
+import discord, typing, logging, re, traceback
 from io import StringIO
 from discord.ext import commands, tasks
 from discord import app_commands
 
 import statics
 from reports import Reports
+import steam
 
 logger = logging.getLogger(__name__)
 
@@ -16,8 +17,19 @@ def check_in_thread(interaction: discord.Interaction): # function to check if a 
         raise NotInThreadError()
     return True
 
-def validate_steamid(id: str) -> bool: # check steamid for validity with a basic regex
-    return bool(re.fullmatch(statics.STEAMID_REGEX, id))
+async def get_steamid(id: str) -> int: # resolve steam profile links and vanity urls
+    if re.fullmatch(steam.STEAMID_REGEX, id) is not None:
+        return int(id)
+    
+    m = re.match(steam.PERM_LINK_PATTERN, id)
+    if m:
+        return int(m.group(1))
+    
+    m = re.match(steam.VANITY_LINK_PATTERN, id)
+    if m:
+        return await steam.resolve_vanity_url(m.group(0))
+    
+    return None
 
 def has_any_role(member: discord.Member, roles: typing.List[int]) -> bool: # check if a user has any of the roles passed
     if(any(role.id in roles for role in member.roles)):
@@ -133,15 +145,16 @@ class HPCog(commands.Cog):
         description="Look up previous reports of a SteamID"
     )
     async def lookup(self, interaction: discord.Interaction, steamid: str):
-        steamid = steamid.strip()
-        if not validate_steamid(steamid):
-            await interaction.response.send_message("Invalid SteamID", ephemeral=True)
+        await interaction.response.defer(ephemeral=True)
+        steamid = await get_steamid(steamid.strip())
+        if not steamid:
+            await interaction.followup.send("Invalid SteamID", ephemeral=True)
             return
         
         reports = self.reports.find_cheater(int(steamid))
         
         if len(reports) == 0:
-            await interaction.response.send_message(f"No reports found for {steamid}", ephemeral=True)
+            await interaction.followup.send(f"No reports found for {steamid}", ephemeral=True)
             return
 
         embed = discord.Embed(
@@ -149,7 +162,7 @@ class HPCog(commands.Cog):
             description='\n'.join(map(lambda r: r.message + (' -- (unverified)' if not r.verified else ''), reports))
         )
 
-        await interaction.response.send_message(embed=embed, ephemeral=True)
+        await interaction.followup.send(embed=embed, ephemeral=True)
 
     #### OFFICER COMMANDS ####
     @app_commands.command(

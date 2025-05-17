@@ -34,11 +34,12 @@ async def on_error(event, *args, **kwargs):
 if os.environ.get("DEBUG") == "1": # only enable command if debug is set in environment
     @bot.tree.command()
     async def reload(interaction: discord.Interaction):
+        await interaction.response.defer(ephemeral=True)
         await bot.reload_extension("hp_cog")
         await bot.reload_extension("vanity_resolver_cog")
         await bot.reload_extension("tom_react")
         await bot.tree.sync()
-        await interaction.response.send_message("Reloaded!", ephemeral=True)
+        await interaction.followup.send("Reloaded!", ephemeral=True)
 
 if __name__ == "__main__":
     token = open("token.txt").read().strip()
