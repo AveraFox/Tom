@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-05-17 11:24:09",
-        "title": "vorobey-hackerpolice - 2025-05-17 11:24:09",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-05-17 20:55:03",
+        "title": "vorobey-hackerpolice - 2025-05-17 20:55:03",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -327,6 +327,15 @@
             "steamid": "[U:1:1165374237]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1299489164361863301 \u0493\u0280\u029f_Avera (1025348520603037726) cheater exposed"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:845521318]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1372633854694789172 <@1042068050104561824> (aomine (true form)) cheater exposed (+1 points, 1 total)"
             ]
         },
         {
@@ -8734,6 +8743,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1860398316]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1373399097981272104 <@510873040817487914> (qareday) cheater exposed (+1 points, 25 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1857544139]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1352040591831203840 <@518446423742873620> (Aapo) cheater exposed (+1 points, 1 total)"
@@ -13461,15 +13479,6 @@
             "steamid": "[U:1:130122867]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1259358668613484584 ratpig6249 (995419566186430614) 1 cheater exposed"
-            ]
-        },
-        {
-            "attributes": [
-                "cheater"
-            ],
-            "steamid": "[U:1:845521318]",
-            "proof": [
-                "https://discord.com/channels/354645865773924352/1372633854694789172 <@1042068050104561824> (aomine (true form)) cheater exposed (+1 points, 1 total)"
             ]
         }
     ]
