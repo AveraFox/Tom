@@ -20,7 +20,8 @@ class ReactCog(commands.Cog):
             return
 
         self.cooldowns[message.author.id] = time.time() + statics.TOM_REACT_INTERVAL_SECONDS
-        await message.channel.send(random.choice(statics.Images.TOM_REACTS))
+        m = await message.channel.send(random.choice(statics.Images.TOM_REACTS))
+        await m.add_reaction("\u2764")
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(ReactCog(bot))
