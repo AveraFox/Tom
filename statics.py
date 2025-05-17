@@ -54,19 +54,18 @@ class Images:
         "https://cdn.discordapp.com/attachments/1121780046928023613/1371601975392731146/20250420_150653.jpg?ex=6823bb62&is=682269e2&hm=7938516f13c8667d1bc62fae07ad3fb80aef0c371a64c75a1bf24064e5e836a3&"
     ]
 
-REPORT_CHANNEL_ID = 1313271773395161169 # report log channel id
+REPORT_CHANNEL_ID = 1221426805689417808 # report log channel id
 ERROR_CHANNEL_ID = 1321260915424890920 # channel to log errors in
 CONFIRM_ROLE_WHITELIST = [
-    1313270134852554852,  # testing role
     1272988674455375872, # HP Officer
     518203583825575964,  # Moderator
     425686371974512640   # Admin
 ]
 TAGS = [
-    Object(1313271607011311658), # not enough info
-    Object(1313271630293631096), # already reported
-    Object(1313271585502662709), # not a cheater
-    Object(1325249422770176042) # invalid
+    Object(1309945406385426432), # not enough info
+    Object(1311759650261172334), # already reported
+    Object(1309945373971709952), # not a cheater
+    Object(1322881469537976353) # invalid report
 ]
 TAG_CHOICES = [ # Options for mark/unmark command autocomplete (value is index of tag in TAGS)
     Choice(name="Not enough info", value=0),
@@ -74,14 +73,15 @@ TAG_CHOICES = [ # Options for mark/unmark command autocomplete (value is index o
     Choice(name="Not cheating", value=2),
     Choice(name="Invalid", value=3)
 ]
-CONFIRMED_TAG = Object(1313271682059993239)
+CONFIRMED_TAG = Object(1309945340073349130)
 STEAMID_REGEX = "7656\\d{13}"
 REPORTS_DATA_FILE = "reports.json"
 ID_LIST_FILE="reported_ids.txt"
 TFBD_LIST_NAME="playerlist.vorobey-hackerpolice.json"
 STEAMID64_OFFSET = 76561197960265728
 VANITY_RESOLVER_CHANNELS = [
-    1313269900483235944, # hp-discussions
-    1313271534852374538 # hp-reports
+    1121780046928023613, # hp-discussions
+    1309942164331036733, # hp-reports
+    1221426805689417808  # hp-modding
 ]
 TOM_REACT_INTERVAL_SECONDS = 2 * 60
