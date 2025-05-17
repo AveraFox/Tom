@@ -228,15 +228,16 @@ class HPCog(commands.Cog):
             await interaction.response.send_message("Reporter does not have a steam profile ID associated", ephemeral=True)
             return
         elif reporter_steamid: # new steamid was passed to the command
-            if not validate_steamid(reporter_steamid):
+            reporter_steamid = await get_steamid(reporter_steamid.strip())
+            if not reporter_steamid:
                 await interaction.response.send_message(f"Reporter SteamID \"{reporter_steamid}\" is not valid", ephemeral=True)
                 return
 
         steamids_str = steamids.split(",") # get steamids from the command argument
         steamids_list = []
         for steamid in steamids_str: # verify each steamid and convert to number
-            steamid = steamid.strip()
-            if not validate_steamid(steamid):
+            steamid = await get_steamid(steamid.strip())
+            if not steamid:
                 await interaction.response.send_message(f"Cheater SteamID \"{steamid}\" is not valid", ephemeral=True)
                 return
             steamids_list.append(int(steamid))
