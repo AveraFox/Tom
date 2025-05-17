@@ -2,7 +2,7 @@ import aiohttp, re
 
 STEAMID_XML_PATTERN = re.compile("<steamID64>(\\d+)</steamID64>")
 VANITY_LINK_PATTERN = re.compile("(https://steamcommunity.com/id/([\\w-]+))")
-PERM_LINK_PATTERN = re.compile("https://steamcommunity.com/profiles/(\\d+)")
+PERM_LINK_PATTERN = re.compile("https://(?:steamcommunity.com/profiles|steamhistory.net/id)/(\\d+)")
 PERM_LINK_PREFIX = "https://steamcommunity.com/profiles/"
 STEAMID_REGEX = "7656\\d{13}"
 
