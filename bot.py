@@ -19,6 +19,7 @@ async def on_ready():
     error_channel = await bot.fetch_channel(statics.ERROR_CHANNEL_ID)
     await bot.load_extension("hp_cog") # load hp_cog.py into the bot
     await bot.load_extension("vanity_resolver_cog")
+    await bot.load_extension("tom_react")
     await bot.tree.sync() # upload command tree to discord, so you can see all available commands in the client
     logger.info(f"{bot.user} is up and running meow")
 
@@ -35,6 +36,7 @@ if os.environ.get("DEBUG") == "1": # only enable command if debug is set in envi
     async def reload(interaction: discord.Interaction):
         await bot.reload_extension("hp_cog")
         await bot.reload_extension("vanity_resolver_cog")
+        await bot.reload_extension("tom_react")
         await bot.tree.sync()
         await interaction.response.send_message("Reloaded!", ephemeral=True)
 
