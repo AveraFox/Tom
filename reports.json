@@ -5112,7 +5112,7 @@
         ]
     },
     "286548457152577536": {
-        "count": 17,
+        "count": 18,
         "profile_id": 76561198123140065,
         "reports": [
             {
@@ -5220,8 +5220,8 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1373710930160124015 <@286548457152577536> (antondi) cheater exposed (+1 points, 17 total)",
-                "points": 1,
+                "msg": "https://discord.com/channels/354645865773924352/1373710930160124015 <@286548457152577536> (antondi) cheater exposed (+2 points, 18 total)",
+                "points": 2,
                 "steamids": [
                     76561199230454791,
                     76561199857541202
@@ -9465,7 +9465,7 @@
         ]
     },
     "601561245950410763": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561198828369357,
         "reports": [
             {
@@ -9481,6 +9481,14 @@
                 "points": 1,
                 "steamids": [
                     76561199212554736
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1373783962329284660 <@601561245950410763> (Air Pawo) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561199230771970
                 ],
                 "verified": true
             }
@@ -10751,7 +10759,7 @@
         ]
     },
     "825341186142109698": {
-        "count": 52,
+        "count": 53,
         "profile_id": 76561199190321580,
         "reports": [
             {
@@ -11162,6 +11170,14 @@
                 "points": 1,
                 "steamids": [
                     76561199855764063
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1373978429480898571 <@825341186142109698> (DarkMatter01) cheater exposed (+1 points, 53 total)",
+                "points": 1,
+                "steamids": [
+                    76561199517368336
                 ],
                 "verified": true
             }
