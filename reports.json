@@ -3125,7 +3125,7 @@
         ]
     },
     "1312517848735809667": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199707927482,
         "reports": [
             {
@@ -3133,6 +3133,14 @@
                 "points": 1,
                 "steamids": [
                     76561199707927482
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1373968222860214444 <@1312517848735809667> (Lily) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199222878660
                 ],
                 "verified": true
             }
