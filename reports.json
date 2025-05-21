@@ -5120,7 +5120,7 @@
         ]
     },
     "286548457152577536": {
-        "count": 18,
+        "count": 19,
         "profile_id": 76561198123140065,
         "reports": [
             {
@@ -5233,6 +5233,14 @@
                 "steamids": [
                     76561199230454791,
                     76561199857541202
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1374440069141627034 <@286548457152577536> (antondi) cheater exposed (+1 points, 19 total)",
+                "points": 1,
+                "steamids": [
+                    76561199527517542
                 ],
                 "verified": true
             }
