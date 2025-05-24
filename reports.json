@@ -5994,7 +5994,7 @@
         "reports": []
     },
     "349192941367066624": {
-        "count": 43,
+        "count": 44,
         "profile_id": 76561198262914979,
         "reports": [
             {
@@ -6339,6 +6339,14 @@
                 "points": 1,
                 "steamids": [
                     76561199855351737
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1375840241075617822 <@349192941367066624> (Konuman) cheater exposed (+1 points, 44 total)",
+                "points": 1,
+                "steamids": [
+                    76561199784375157
                 ],
                 "verified": true
             }
