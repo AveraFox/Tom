@@ -9738,6 +9738,20 @@
             }
         ]
     },
+    "609164696209326091": {
+        "count": 1,
+        "profile_id": 76561199112464937,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1376102635261923398 <@609164696209326091> (Cazmvp) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199480409273
+                ],
+                "verified": false
+            }
+        ]
+    },
     "619651001007472655": {
         "count": 2,
         "profile_id": 76561199001114266,
