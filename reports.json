@@ -3238,6 +3238,20 @@
             }
         ]
     },
+    "1358605249975161083": {
+        "count": 1,
+        "profile_id": null,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1377101016834637844 <@1358605249975161083> (Infedum619YT) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199571195045
+                ],
+                "verified": true
+            }
+        ]
+    },
     "139401022991761408": {
         "count": 55,
         "profile_id": 76561198202816899,
