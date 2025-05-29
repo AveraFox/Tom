@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-05-29 17:40:10",
-        "title": "vorobey-hackerpolice - 2025-05-29 17:40:10",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-05-29 18:36:37",
+        "title": "vorobey-hackerpolice - 2025-05-29 18:36:37",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -9087,7 +9087,16 @@
             ],
             "steamid": "[U:1:1886920964]",
             "proof": [
-                "https://discord.com/channels/354645865773924352/1377700396272848897 <@510873040817487914> (qareday) cheater exposed (+1 points, 30 total)"
+                "https://discord.com/channels/354645865773924352/1377700396272848897 <@510873040817487914> (qareday) cheater exposed (+2 points, 31 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1891642730]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1377700396272848897 <@510873040817487914> (qareday) cheater exposed (+2 points, 31 total)"
             ]
         },
         {
@@ -11057,6 +11066,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:38860918]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1377241566128640072 <@579548943663235101> (Daylight) cheater exposed (+1 points, 44 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:77154452]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1258634395011645580 sthalet (595651789114704009) 1 cheater exposed"
@@ -11359,6 +11377,15 @@
             "steamid": "[U:1:1898791601]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1376800638842835014 <@644544172795232259> (Sam) cheater exposed (+1 points, 12 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1868547790]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1377280981819723846 <@644544172795232259> (Sam) cheater exposed (+1 points, 13 total)"
             ]
         },
         {

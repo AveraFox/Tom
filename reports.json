@@ -7872,7 +7872,7 @@
         ]
     },
     "510873040817487914": {
-        "count": 30,
+        "count": 31,
         "profile_id": 76561198063202851,
         "reports": [
             {
@@ -8112,10 +8112,11 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1377700396272848897 <@510873040817487914> (qareday) cheater exposed (+1 points, 30 total)",
-                "points": 1,
+                "msg": "https://discord.com/channels/354645865773924352/1377700396272848897 <@510873040817487914> (qareday) cheater exposed (+2 points, 31 total)",
+                "points": 2,
                 "steamids": [
-                    76561199847186692
+                    76561199847186692,
+                    76561199851908458
                 ],
                 "verified": true
             }
@@ -9334,7 +9335,7 @@
         ]
     },
     "579548943663235101": {
-        "count": 43,
+        "count": 44,
         "profile_id": 76561199024884868,
         "reports": [
             {
@@ -9671,6 +9672,14 @@
                     76561199860266287
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1377241566128640072 <@579548943663235101> (Daylight) cheater exposed (+1 points, 44 total)",
+                "points": 1,
+                "steamids": [
+                    76561197999126646
+                ],
+                "verified": true
             }
         ]
     },
@@ -9963,7 +9972,7 @@
         ]
     },
     "644544172795232259": {
-        "count": 12,
+        "count": 13,
         "profile_id": 76561198150357531,
         "reports": [
             {
@@ -10059,6 +10068,14 @@
                 "points": 1,
                 "steamids": [
                     76561199859057329
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1377280981819723846 <@644544172795232259> (Sam) cheater exposed (+1 points, 13 total)",
+                "points": 1,
+                "steamids": [
+                    76561199828813518
                 ],
                 "verified": true
             }
