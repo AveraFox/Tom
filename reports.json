@@ -9359,7 +9359,7 @@
         ]
     },
     "579548943663235101": {
-        "count": 45,
+        "count": 46,
         "profile_id": 76561199024884868,
         "reports": [
             {
@@ -9710,6 +9710,14 @@
                 "points": 1,
                 "steamids": [
                     76561199765175586
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1378441634668216461 <@579548943663235101> (Daylight) cheater exposed (+1 points, 46 total)",
+                "points": 1,
+                "steamids": [
+                    76561199598745801
                 ],
                 "verified": true
             }
