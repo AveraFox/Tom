@@ -3262,6 +3262,20 @@
             }
         ]
     },
+    "134768476572221440": {
+        "count": 1,
+        "profile_id": null,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1378503774221373491 <@134768476572221440> (ARV000) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199247404963
+                ],
+                "verified": false
+            }
+        ]
+    },
     "1358605249975161083": {
         "count": 1,
         "profile_id": null,
@@ -11077,7 +11091,7 @@
         ]
     },
     "796123922600558623": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561199126506687,
         "reports": [
             {
@@ -11095,6 +11109,14 @@
                     76561199063131138
                 ],
                 "verified": false
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1378551419098894407 <@796123922600558623> (Sono) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561199862741782
+                ],
+                "verified": true
             }
         ]
     },
