@@ -6779,7 +6779,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 49,
+        "count": 50,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -7171,6 +7171,14 @@
                 "points": 1,
                 "steamids": [
                     76561199664620419
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1380247727316926484 <@388199716644454401> ([VOLVO] j) cheater exposed (+1 points, 50 total)",
+                "points": 1,
+                "steamids": [
+                    76561198253485765
                 ],
                 "verified": true
             }
