@@ -8297,7 +8297,7 @@
         ]
     },
     "545578372088987658": {
-        "count": 4,
+        "count": 5,
         "profile_id": 76561199084784012,
         "reports": [
             {
@@ -8332,6 +8332,14 @@
                     76561199094428068
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1380023142961123449 <@545578372088987658> (Venom) cheater exposed (+1 points, 5 total)",
+                "points": 1,
+                "steamids": [
+                    76561199861291367
+                ],
+                "verified": false
             }
         ]
     },
