@@ -10529,7 +10529,7 @@
         ]
     },
     "696404114262720524": {
-        "count": 6,
+        "count": 8,
         "profile_id": 76561199179969795,
         "reports": [
             {
@@ -10602,6 +10602,15 @@
                 "steamids": [
                     76561197999666666,
                     76561199844322141
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1380538276238065786 <@696404114262720524> (Shiro) cheater exposed (+2 points, 8 total)",
+                "points": 2,
+                "steamids": [
+                    76561198908598519,
+                    76561198910799733
                 ],
                 "verified": true
             }
