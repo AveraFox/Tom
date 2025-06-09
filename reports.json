@@ -4631,7 +4631,7 @@
         ]
     },
     "248008453191237632": {
-        "count": 25,
+        "count": 26,
         "profile_id": 76561198065427891,
         "reports": [
             {
@@ -4831,6 +4831,14 @@
                 "points": 1,
                 "steamids": [
                     76561198849789524
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1381761951860002948 <@248008453191237632> (TechnoST) cheater exposed (+1 points, 26 total)",
+                "points": 1,
+                "steamids": [
+                    76561199861373851
                 ],
                 "verified": true
             }
