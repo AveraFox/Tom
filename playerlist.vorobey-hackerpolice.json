@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-06-10 14:48:19",
-        "title": "vorobey-hackerpolice - 2025-06-10 14:48:19",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-06-10 17:42:07",
+        "title": "vorobey-hackerpolice - 2025-06-10 17:42:07",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -7360,6 +7360,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1596876589]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1382039303118524426 <@349192941367066624> (Konuman) cheater exposed (+1 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1083782629]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1315755349415956540  Bkk (355020633987612672) 1 cheater exposed"
@@ -12098,6 +12107,24 @@
             "steamid": "[U:1:950534005]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1380538276238065786 <@696404114262720524> (Shiro) cheater exposed (+2 points, 8 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1904942423]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1382041111438033008 <@696404114262720524> (Shiro) cheater exposed (+1 points, 9 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1562914352]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1382041111438033008 <@696404114262720524> (Shiro) cheater exposed (+1 points, 9 total)"
             ]
         },
         {
