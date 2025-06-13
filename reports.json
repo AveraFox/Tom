@@ -2220,6 +2220,20 @@
             }
         ]
     },
+    "1186704627194937384": {
+        "count": 1,
+        "profile_id": 76561199469830268,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1383141660820508702 <@1186704627194937384> (ellis1725) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198136976089
+                ],
+                "verified": true
+            }
+        ]
+    },
     "1189756861315031130": {
         "count": 2,
         "profile_id": 76561199402697160,
@@ -11606,6 +11620,11 @@
                 "verified": true
             }
         ]
+    },
+    "818516801633255424": {
+        "count": 0,
+        "profile_id": null,
+        "reports": []
     },
     "820137261852917771": {
         "count": 1,
