@@ -3090,6 +3090,20 @@
             }
         ]
     },
+    "1196249161742434347": {
+        "count": 1,
+        "profile_id": 76561199809043524,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1383495322571112560 <@1196249161742434347> (DemoMan) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198382536773
+                ],
+                "verified": false
+            }
+        ]
+    },
     "1202536777680953357": {
         "count": 1,
         "profile_id": 76561198868508551,
@@ -7025,7 +7039,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 50,
+        "count": 51,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -7425,6 +7439,14 @@
                 "points": 1,
                 "steamids": [
                     76561198253485765
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1383514702625247263 <@388199716644454401> ([VOLVO] j) cheater exposed (+1 points, 51 total)",
+                "points": 1,
+                "steamids": [
+                    76561199861298033
                 ],
                 "verified": true
             }
