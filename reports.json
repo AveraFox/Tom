@@ -5445,7 +5445,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 42,
+        "count": 43,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -5779,6 +5779,14 @@
                 "points": 1,
                 "steamids": [
                     76561199861725195
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1383427376498741299 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 43 total)",
+                "points": 1,
+                "steamids": [
+                    76561199497172641
                 ],
                 "verified": true
             }
@@ -11638,9 +11646,18 @@
         ]
     },
     "818516801633255424": {
-        "count": 0,
-        "profile_id": null,
-        "reports": []
+        "count": 1,
+        "profile_id": 76561199485868585,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1383142765294260266 <@818516801633255424> (Val4SV) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199063633863
+                ],
+                "verified": true
+            }
+        ]
     },
     "820137261852917771": {
         "count": 1,
