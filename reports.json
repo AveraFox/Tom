@@ -8740,13 +8740,14 @@
         ]
     },
     "567803704380489738": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561198962439228,
         "reports": [
             {
-                "msg": "https://discord.com/channels/354645865773924352/1383976553104539811 <@567803704380489738> (zAlex) cheater exposed (+1 points, 1 total)",
-                "points": 1,
+                "msg": "https://discord.com/channels/354645865773924352/1383976553104539811 <@567803704380489738> (zAlex) cheater exposed (+2 points, 2 total)",
+                "points": 2,
                 "steamids": [
+                    76561199112491696,
                     76561199433504227
                 ],
                 "verified": true
