@@ -16,6 +16,8 @@ error_channel = None
 @bot.event
 async def on_ready():
     global error_channel
+    if error_channel:
+        return
     error_channel = await bot.fetch_channel(statics.ERROR_CHANNEL_ID)
     await bot.load_extension("hp_cog") # load hp_cog.py into the bot
     await bot.load_extension("vanity_resolver_cog")
