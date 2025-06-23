@@ -388,7 +388,7 @@
         ]
     },
     "1083466350376276069": {
-        "count": 125,
+        "count": 126,
         "profile_id": 76561199071473686,
         "reports": [
             {
@@ -1209,18 +1209,19 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1385290741865254912 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 124 total)",
-                "points": 1,
-                "steamids": [
-                    76561199121796975
-                ],
-                "verified": true
-            },
-            {
                 "msg": "https://discord.com/channels/354645865773924352/1385307846924832868 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 125 total)",
                 "points": 1,
                 "steamids": [
                     76561198044346165
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1385290741865254912 <@1083466350376276069> (Luggworm) cheater exposed (+2 points, 126 total)",
+                "points": 2,
+                "steamids": [
+                    76561199555801877,
+                    76561199121796975
                 ],
                 "verified": true
             }
@@ -6935,7 +6936,7 @@
         ]
     },
     "369475534058553344": {
-        "count": 35,
+        "count": 36,
         "profile_id": 76561198065802648,
         "reports": [
             {
@@ -7208,6 +7209,14 @@
                 "points": 1,
                 "steamids": [
                     76561198229777208
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1386704742343901314 <@369475534058553344> (havchlk) cheater exposed (+1 points, 36 total)",
+                "points": 1,
+                "steamids": [
+                    76561199867445407
                 ],
                 "verified": true
             }
