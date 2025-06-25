@@ -3463,9 +3463,18 @@
         ]
     },
     "1370789564628865138": {
-        "count": 0,
-        "profile_id": null,
-        "reports": []
+        "count": 1,
+        "profile_id": 76561199590696576,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1387144335035990066 <@1370789564628865138> (lobotomy) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199810800538
+                ],
+                "verified": false
+            }
+        ]
     },
     "139401022991761408": {
         "count": 55,
