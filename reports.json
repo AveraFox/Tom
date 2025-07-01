@@ -3194,7 +3194,7 @@
         ]
     },
     "1219155216960716800": {
-        "count": 9,
+        "count": 10,
         "profile_id": 76561199191069546,
         "reports": [
             {
@@ -3252,6 +3252,14 @@
                 "points": 1,
                 "steamids": [
                     76561199550851417
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1389484179749867592 <@1219155216960716800> (piss monster) cheater exposed (+1 points, 10 total)",
+                "points": 1,
+                "steamids": [
+                    76561199862129202
                 ],
                 "verified": true
             }
