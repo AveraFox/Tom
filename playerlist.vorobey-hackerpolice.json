@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-07-04 21:33:49",
-        "title": "vorobey-hackerpolice - 2025-07-04 21:33:49",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-07-04 23:42:29",
+        "title": "vorobey-hackerpolice - 2025-07-04 23:42:29",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -5578,18 +5578,27 @@
             "attributes": [
                 "cheater"
             ],
-            "steamid": "[U:1:1067892869]",
+            "steamid": "[U:1:161716099]",
             "proof": [
-                "https://discord.com/channels/354645865773924352/1390635291639021710 <@242574697357639681> (Gavv~Master) cheater exposed (+1 points, 61 total)"
+                "https://discord.com/channels/354645865773924352/1390652086240280777 <@242574697357639681> (Gavv~Master) cheater exposed (+1 points, 62 total)"
             ]
         },
         {
             "attributes": [
                 "cheater"
             ],
-            "steamid": "[U:1:161716099]",
+            "steamid": "[U:1:1241197639]",
             "proof": [
-                "https://discord.com/channels/354645865773924352/1390652086240280777 <@242574697357639681> (Gavv~Master) cheater exposed (+1 points, 62 total)"
+                "https://discord.com/channels/354645865773924352/1390635291639021710 <@242574697357639681> (Gavv~Master) cheater exposed (+2 points, 63 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1067892869]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1390635291639021710 <@242574697357639681> (Gavv~Master) cheater exposed (+2 points, 63 total)"
             ]
         },
         {
@@ -12276,6 +12285,24 @@
             "steamid": "[U:1:1270506242]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1373783962329284660 <@601561245950410763> (Air Pawo) cheater exposed (+1 points, 3 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1903177030]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1390696164860493915 <@601561245950410763> (Air Pawo) cheater exposed (+1 points, 4 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1253213894]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1390695934257532958 <@601561245950410763> (Air Pawo) cheater exposed (+1 points, 5 total)"
             ]
         },
         {
