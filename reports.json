@@ -310,7 +310,7 @@
         ]
     },
     "1030727169481130014": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561199237201358,
         "reports": [
             {
@@ -319,6 +319,14 @@
                 "steamids": [
                     76561199845478031,
                     76561199541941754
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1390683532913021008 <@1030727169481130014> (cat) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561199870379132
                 ],
                 "verified": true
             }
@@ -6123,7 +6131,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 55,
+        "count": 56,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -6479,14 +6487,6 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1389684879372980375 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 53 total)",
-                "points": 1,
-                "steamids": [
-                    76561198084936343
-                ],
-                "verified": true
-            },
-            {
                 "msg": "https://discord.com/channels/354645865773924352/1389690580694601932 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 54 total)",
                 "points": 1,
                 "steamids": [
@@ -6499,6 +6499,15 @@
                 "points": 1,
                 "steamids": [
                     76561198059443474
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1389684879372980375 <@310505171954434049> (Master Of Noob) cheater exposed (+2 points, 56 total)",
+                "points": 2,
+                "steamids": [
+                    76561199546136061,
+                    76561198084936343
                 ],
                 "verified": true
             }
