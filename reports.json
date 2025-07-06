@@ -7153,7 +7153,7 @@
         ]
     },
     "369475534058553344": {
-        "count": 44,
+        "count": 46,
         "profile_id": 76561198065802648,
         "reports": [
             {
@@ -7484,6 +7484,15 @@
                 "points": 1,
                 "steamids": [
                     76561199213539784
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1391316747042295920 <@369475534058553344> (havchlk) cheater exposed (+2 points, 46 total)",
+                "points": 2,
+                "steamids": [
+                    76561199872836610,
+                    76561199012398037
                 ],
                 "verified": true
             }
@@ -9202,7 +9211,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 129,
+        "count": 131,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -10205,6 +10214,22 @@
                 "steamids": [
                     76561199828131054,
                     76561199868867819
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1391139223893184652 <@571009999925542922> (Midnight) cheater exposed (+1 points, 130 total)",
+                "points": 1,
+                "steamids": [
+                    76561199872343845
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1391347136909672469 <@571009999925542922> (Midnight) cheater exposed (+1 points, 131 total)",
+                "points": 1,
+                "steamids": [
+                    76561199860883047
                 ],
                 "verified": true
             }

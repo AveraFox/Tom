@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-07-05 17:23:52",
-        "title": "vorobey-hackerpolice - 2025-07-05 17:23:52",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-07-06 09:16:58",
+        "title": "vorobey-hackerpolice - 2025-07-06 09:16:58",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -8467,6 +8467,24 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1912570882]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1391316747042295920 <@369475534058553344> (havchlk) cheater exposed (+2 points, 46 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1052132309]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1391316747042295920 <@369475534058553344> (havchlk) cheater exposed (+2 points, 46 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1217151992]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1320364753440477266 <@370865485912473602> (Svar3n) cheater exposed (+1 points, 1 total)"
@@ -11699,6 +11717,24 @@
             "steamid": "[U:1:1908602091]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1386123249825616002 <@571009999925542922> (Midnight) cheater exposed (+2 points, 129 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1912078117]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1391139223893184652 <@571009999925542922> (Midnight) cheater exposed (+1 points, 130 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1900617319]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1391347136909672469 <@571009999925542922> (Midnight) cheater exposed (+1 points, 131 total)"
             ]
         },
         {
