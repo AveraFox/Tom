@@ -1,8 +1,9 @@
-import discord, aiohttp, re, statics, logging
+import discord, aiohttp, re, logging
 from discord.ext import commands
-from hp_cog import HPCog
+from .hp_cog import HPCog
+from .. import statics
 
-from steam import *
+from ..steam import *
 
 logger = logging.getLogger(__name__)
 

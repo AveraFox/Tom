@@ -3,9 +3,8 @@ from io import StringIO
 from discord.ext import commands, tasks
 from discord import app_commands
 
-import statics
-from reports import Reports
-import steam
+from .. import statics, steam
+from ..reports import Reports
 
 logger = logging.getLogger(__name__)
 

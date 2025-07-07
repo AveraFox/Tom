@@ -1,5 +1,6 @@
-import aiofiles, json, statics, asyncio, exports
+import aiofiles, json, asyncio
 from typing import List, Optional, Dict, Any, Self
+from . import statics, exports
 
 # data classes to interact with the json data (I don't like working with dicts directly)
 
