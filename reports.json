@@ -4382,7 +4382,7 @@
         ]
     },
     "242574697357639681": {
-        "count": 63,
+        "count": 64,
         "profile_id": 76561198250904422,
         "reports": [
             {
@@ -4873,6 +4873,14 @@
                 "steamids": [
                     76561199201463367,
                     76561199028158597
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1391811657910714438 <@242574697357639681> (Gavv~Master) cheater exposed (+1 points, 64 total)",
+                "points": 1,
+                "steamids": [
+                    76561199257256885
                 ],
                 "verified": true
             }
