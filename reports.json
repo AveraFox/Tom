@@ -11715,6 +11715,20 @@
             }
         ]
     },
+    "697244115028672522": {
+        "count": 1,
+        "profile_id": 76561199065554626,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1394566467646918770 <@697244115028672522> (\u2605 \ud835\udd44\ud835\udd63. \ud835\udd44\ud835\udd56\ud835\udd5d\ud835\udd60\ud835\udd5f\ud835\udd68\ud835\udd60\ud835\udd63\ud835\udd65\ud835\udd59 \u2605) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199628809018
+                ],
+                "verified": true
+            }
+        ]
+    },
     "700338462943084564": {
         "count": 1,
         "profile_id": 76561199196192092,
