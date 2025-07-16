@@ -7265,7 +7265,7 @@
         ]
     },
     "369475534058553344": {
-        "count": 52,
+        "count": 53,
         "profile_id": 76561198065802648,
         "reports": [
             {
@@ -7646,6 +7646,14 @@
                 "steamids": [
                     76561197985612908,
                     76561199878349265
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1395090560573898796 <@369475534058553344> (havchlk) cheater exposed (+1 points, 53 total)",
+                "points": 1,
+                "steamids": [
+                    76561199829902236
                 ],
                 "verified": true
             }
