@@ -12595,7 +12595,7 @@
         ]
     },
     "818516801633255424": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561199485868585,
         "reports": [
             {
@@ -12611,6 +12611,14 @@
                 "points": 1,
                 "steamids": [
                     76561198878023478
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1394788762365726791 <@818516801633255424> (Val4SV) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561199878263683
                 ],
                 "verified": true
             }
