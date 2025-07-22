@@ -7322,17 +7322,9 @@
         ]
     },
     "369475534058553344": {
-        "count": 57,
-        "profile_id": 76561198065802648,
+        "count": 56,
+        "profile_id": 76561198400544043,
         "reports": [
-            {
-                "msg": "https://discord.com/channels/354645865773924352/1358104226068431098 <@369475534058553344> (havchlk) cheater exposed (+1 points, 1 total)",
-                "points": 1,
-                "steamids": [
-                    76561198065802648
-                ],
-                "verified": true
-            },
             {
                 "msg": "https://discord.com/channels/354645865773924352/1358344243407622144 <@369475534058553344> (havchlk) cheater exposed (+1 points, 2 total)",
                 "points": 1,
@@ -7607,14 +7599,6 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1386987845381525534 <@369475534058553344> (havchlk) cheater exposed (+1 points, 37 total)",
-                "points": 1,
-                "steamids": [
-                    76561199560913581
-                ],
-                "verified": true
-            },
-            {
                 "msg": "https://discord.com/channels/354645865773924352/1387044198150307880 <@369475534058553344> (havchlk) cheater exposed (+1 points, 38 total)",
                 "points": 1,
                 "steamids": [
@@ -7736,6 +7720,22 @@
                 "points": 1,
                 "steamids": [
                     76561199564516403
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1358104226068431098 <@369475534058553344> (havchlk) cheater exposed (+1 points, 57 total)",
+                "points": 1,
+                "steamids": [
+                    76561198065802648
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1386987845381525534 <@369475534058553344> (havchlk) cheater exposed (+0 points, 56 total)",
+                "points": 0,
+                "steamids": [
+                    76561199560913581
                 ],
                 "verified": true
             }
@@ -8974,7 +8974,7 @@
         ]
     },
     "510873040817487914": {
-        "count": 43,
+        "count": 42,
         "profile_id": 76561198063202851,
         "reports": [
             {
@@ -9290,8 +9290,8 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1397224930516668476 <@510873040817487914> (qareday) cheater exposed (+1 points, 43 total)",
-                "points": 1,
+                "msg": "https://discord.com/channels/354645865773924352/1397224930516668476 <@510873040817487914> (qareday) cheater exposed (+0 points, 42 total)",
+                "points": 0,
                 "steamids": [
                     76561198418564433
                 ],
