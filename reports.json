@@ -3218,6 +3218,20 @@
             }
         ]
     },
+    "1199748212240678934": {
+        "count": 1,
+        "profile_id": 76561199880140565,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1397824240958574622 <@1199748212240678934> (Cray) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198182072231
+                ],
+                "verified": true
+            }
+        ]
+    },
     "1202536777680953357": {
         "count": 1,
         "profile_id": 76561198868508551,
@@ -11496,7 +11510,7 @@
         ]
     },
     "644544172795232259": {
-        "count": 26,
+        "count": 27,
         "profile_id": 76561198150357531,
         "reports": [
             {
@@ -11683,6 +11697,14 @@
                 "steamids": [
                     76561199838028465,
                     76561199224345000
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1397858798554710056 <@644544172795232259> (Sam) cheater exposed (+1 points, 27 total)",
+                "points": 1,
+                "steamids": [
+                    76561199867844186
                 ],
                 "verified": true
             }
@@ -12988,7 +13010,7 @@
         ]
     },
     "825341186142109698": {
-        "count": 61,
+        "count": 63,
         "profile_id": 76561199190321580,
         "reports": [
             {
@@ -13464,6 +13486,15 @@
                 "steamids": [
                     76561199876405979,
                     76561199855440122
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1397857203343462420 <@825341186142109698> (Dxxn) cheater exposed (+2 points, 63 total)",
+                "points": 2,
+                "steamids": [
+                    76561199122525566,
+                    76561199568307514
                 ],
                 "verified": true
             }
