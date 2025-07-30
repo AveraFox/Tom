@@ -3397,6 +3397,11 @@
             }
         ]
     },
+    "1265463372967706667": {
+        "count": 0,
+        "profile_id": null,
+        "reports": []
+    },
     "1272006122911563828": {
         "count": 1,
         "profile_id": 76561199097938677,
@@ -6270,7 +6275,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 68,
+        "count": 69,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -6729,6 +6734,14 @@
                 "points": 1,
                 "steamids": [
                     76561198877514985
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1400132516798660708 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 69 total)",
+                "points": 1,
+                "steamids": [
+                    76561199249729938
                 ],
                 "verified": true
             }
