@@ -5879,7 +5879,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 43,
+        "count": 45,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -6221,6 +6221,15 @@
                 "points": 1,
                 "steamids": [
                     76561199497172641
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1400922001643667517 <@292025507518611458> (AMOGUS) cheater exposed (+2 points, 45 total)",
+                "points": 2,
+                "steamids": [
+                    76561199486767176,
+                    76561199307368315
                 ],
                 "verified": true
             }
@@ -9732,7 +9741,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 157,
+        "count": 158,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -10917,6 +10926,14 @@
                 "steamids": [
                     76561199192112744,
                     76561198997957936
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1400971442195005602 <@571009999925542922> (Midnight) cheater exposed (+1 points, 158 total)",
+                "points": 1,
+                "steamids": [
+                    76561199844209738
                 ],
                 "verified": true
             }
