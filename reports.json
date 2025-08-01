@@ -12641,6 +12641,20 @@
             }
         ]
     },
+    "715142362908590142": {
+        "count": 1,
+        "profile_id": 76561199813873060,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1400888533908193393 <@715142362908590142> (EgorBabushka) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199062305518
+                ],
+                "verified": true
+            }
+        ]
+    },
     "718101808098050109": {
         "count": 2,
         "profile_id": 76561199048487224,
