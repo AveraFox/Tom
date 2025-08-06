@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-08-06 08:00:04",
-        "title": "vorobey-hackerpolice - 2025-08-06 08:00:04",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-08-06 08:24:54",
+        "title": "vorobey-hackerpolice - 2025-08-06 08:24:54",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -9529,6 +9529,42 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:160482069]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402568069020127387 <@388199716644454401> (j) cheater exposed (+1 points, 59 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:219059141]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402568069020127387 <@388199716644454401> (j) cheater exposed (+1 points, 59 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1924280163]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402568069020127387 <@388199716644454401> (j) cheater exposed (+1 points, 59 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:249952545]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402568069020127387 <@388199716644454401> (j) cheater exposed (+1 points, 59 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1841458381]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1327319037914513440 <@391884814552399872> (d1rect_) cheater exposed (+1 points, 1 total)"
@@ -10843,6 +10879,51 @@
             "steamid": "[U:1:1924066167]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1401681734722125996 <@510873040817487914> (qareday) cheater exposed (+1 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1167918978]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1901769159]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:10725547]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1684264540]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:7791838]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
             ]
         },
         {
