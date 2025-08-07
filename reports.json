@@ -11790,6 +11790,20 @@
             }
         ]
     },
+    "639529519786754068": {
+        "count": 1,
+        "profile_id": 76561198116512961,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1403083385928155276 <@639529519786754068> (SmolderMyBeloved) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199885565285
+                ],
+                "verified": true
+            }
+        ]
+    },
     "644544172795232259": {
         "count": 30,
         "profile_id": 76561198150357531,
@@ -12465,7 +12479,7 @@
         ]
     },
     "706454230743121961": {
-        "count": 35,
+        "count": 36,
         "profile_id": 76561198850966052,
         "reports": [
             {
@@ -12732,6 +12746,14 @@
                 "points": 1,
                 "steamids": [
                     76561199495825143
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1403031061998600252 <@706454230743121961> (Cargo) cheater exposed (+1 points, 36 total)",
+                "points": 1,
+                "steamids": [
+                    76561199874328426
                 ],
                 "verified": true
             }
