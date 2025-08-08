@@ -8407,7 +8407,15 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1402568069020127387 <@388199716644454401> (j) cheater exposed (+1 points, 59 total)",
+                "msg": "https://discord.com/channels/354645865773924352/1403026523031601204 <@388199716644454401> (j) cheater exposed (+1 points, 60 total)",
+                "points": 1,
+                "steamids": [
+                    76561199880026562
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1402568069020127387 <@388199716644454401> (j) cheater exposed (+1 points, 60 total)",
                 "points": 1,
                 "steamids": [
                     76561198120747797,
@@ -8415,15 +8423,7 @@
                     76561199884545891,
                     76561198210218273
                 ],
-                "verified": true
-            },
-            {
-                "msg": "https://discord.com/channels/354645865773924352/1403026523031601204 <@388199716644454401> (j) cheater exposed (+1 points, 60 total)",
-                "points": 1,
-                "steamids": [
-                    76561199880026562
-                ],
-                "verified": true
+                "verified": false
             }
         ]
     },
