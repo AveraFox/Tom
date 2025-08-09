@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-08-08 08:14:12",
-        "title": "vorobey-hackerpolice - 2025-08-08 08:14:12",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-08-09 07:44:16",
+        "title": "vorobey-hackerpolice - 2025-08-09 07:44:16",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -3853,6 +3853,24 @@
             "steamid": "[U:1:1584728584]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1400813397267845203 <@1219155216960716800> (piss monster) cheater exposed (+1 points, 11 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1114317318]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1403567342847266817 <@1219155216960716800> (piss monster) cheater exposed (+2 points, 13 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1299366004]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1403567342847266817 <@1219155216960716800> (piss monster) cheater exposed (+2 points, 13 total)"
             ]
         },
         {
@@ -7786,6 +7804,15 @@
             "steamid": "[U:1:245710947]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1400450348476403852 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 70 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1796438859]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1403331568906403861 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 71 total)"
             ]
         },
         {
