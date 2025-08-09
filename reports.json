@@ -6310,7 +6310,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 71,
+        "count": 72,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -6793,6 +6793,14 @@
                 "points": 1,
                 "steamids": [
                     76561199756704587
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1403710348560961588 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 72 total)",
+                "points": 1,
+                "steamids": [
+                    76561198025390279
                 ],
                 "verified": true
             }
@@ -7970,7 +7978,7 @@
         ]
     },
     "388199716644454401": {
-        "count": 62,
+        "count": 63,
         "profile_id": 76561198845535280,
         "reports": [
             {
@@ -8455,6 +8463,14 @@
                 "points": 1,
                 "steamids": [
                     76561199866112473
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1403710640178204784 <@388199716644454401> (j) cheater exposed (+1 points, 63 total)",
+                "points": 1,
+                "steamids": [
+                    76561198398319125
                 ],
                 "verified": true
             }
@@ -11812,7 +11828,7 @@
         ]
     },
     "639529519786754068": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561198116512961,
         "reports": [
             {
@@ -11820,6 +11836,14 @@
                 "points": 1,
                 "steamids": [
                     76561199885565285
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1403718941427372095 <@639529519786754068> (SmolderMyBeloved) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199650728425
                 ],
                 "verified": true
             }
