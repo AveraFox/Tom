@@ -6319,7 +6319,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 75,
+        "count": 76,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -6834,6 +6834,14 @@
                 "points": 1,
                 "steamids": [
                     76561199886992733
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1404486915058696202 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 76 total)",
+                "points": 1,
+                "steamids": [
+                    76561199400622959
                 ],
                 "verified": true
             }
@@ -9669,6 +9677,18 @@
                     76561199884331895
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)",
+                "points": 0,
+                "steamids": [
+                    76561199128184706,
+                    76561199862034887,
+                    76561197970991275,
+                    76561199644530268,
+                    76561197968057566
+                ],
+                "verified": true
             }
         ]
     },
@@ -12411,7 +12431,7 @@
         ]
     },
     "696404114262720524": {
-        "count": 9,
+        "count": 10,
         "profile_id": 76561199179969795,
         "reports": [
             {
@@ -12502,6 +12522,14 @@
                 "steamids": [
                     76561199865208151,
                     76561199523180080
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1404448510581014641 <@696404114262720524> (Shiro) cheater exposed (+1 points, 10 total)",
+                "points": 1,
+                "steamids": [
+                    76561199754416199
                 ],
                 "verified": true
             }

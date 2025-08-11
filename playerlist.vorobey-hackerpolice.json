@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-08-11 12:53:38",
-        "title": "vorobey-hackerpolice - 2025-08-11 12:53:38",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-08-11 19:56:24",
+        "title": "vorobey-hackerpolice - 2025-08-11 19:56:24",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -7855,6 +7855,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1440357231]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1404486915058696202 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 76 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:295497934]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1233457394491854898 koki (321257540442652672) 1 cheater exposed",
@@ -10960,6 +10969,51 @@
             "steamid": "[U:1:1924066167]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1401681734722125996 <@510873040817487914> (qareday) cheater exposed (+1 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1167918978]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1901769159]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:10725547]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1684264540]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:7791838]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1402393756149223617 <@510873040817487914> (qareday) cheater exposed (+0 points, 45 total)"
             ]
         },
         {
@@ -14259,6 +14313,15 @@
             "steamid": "[U:1:1562914352]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1382041111438033008 <@696404114262720524> (Shiro) cheater exposed (+1 points, 9 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1794150471]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1404448510581014641 <@696404114262720524> (Shiro) cheater exposed (+1 points, 10 total)"
             ]
         },
         {
