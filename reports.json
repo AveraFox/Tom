@@ -12240,7 +12240,7 @@
         ]
     },
     "668867286039396372": {
-        "count": 5,
+        "count": 6,
         "profile_id": 76561199475624013,
         "reports": [
             {
@@ -12278,6 +12278,14 @@
                 "points": 1,
                 "steamids": [
                     76561199821871190
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1405705053670474021 <@668867286039396372> (Slothmaster737) cheater exposed (+1 points, 6 total)",
+                "points": 1,
+                "steamids": [
+                    76561199833525538
                 ],
                 "verified": true
             }
