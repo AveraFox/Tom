@@ -2344,7 +2344,7 @@
         ]
     },
     "1186704627194937384": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199469830268,
         "reports": [
             {
@@ -2352,6 +2352,14 @@
                 "points": 1,
                 "steamids": [
                     76561198136976089
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1406255856659730542 <@1186704627194937384> (ellis1725) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198100686583
                 ],
                 "verified": true
             }
