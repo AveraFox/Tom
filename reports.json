@@ -7081,6 +7081,20 @@
             }
         ]
     },
+    "341316635606515712": {
+        "count": 1,
+        "profile_id": 76561198357764641,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1407220404996673607 <@341316635606515712> (2014 troybilt tb2450) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199883711673
+                ],
+                "verified": false
+            }
+        ]
+    },
     "348097757199990784": {
         "count": 0,
         "profile_id": 76561199185085221,
@@ -9250,7 +9264,7 @@
         ]
     },
     "498709454619934730": {
-        "count": 25,
+        "count": 26,
         "profile_id": 76561198304163367,
         "reports": [
             {
@@ -9424,6 +9438,14 @@
                 "points": 1,
                 "steamids": [
                     76561199078047037
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1407253022442262611 <@498709454619934730> (marceline. \u2661) cheater exposed (+1 points, 26 total)",
+                "points": 1,
+                "steamids": [
+                    76561199880497972
                 ],
                 "verified": true
             }
