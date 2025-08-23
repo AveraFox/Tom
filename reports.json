@@ -3288,7 +3288,7 @@
         ]
     },
     "1219155216960716800": {
-        "count": 15,
+        "count": 16,
         "profile_id": 76561199191069546,
         "reports": [
             {
@@ -3387,6 +3387,14 @@
                 "points": 1,
                 "steamids": [
                     76561199886519492
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1408847236401594378 <@1219155216960716800> (piss monster) cheater exposed (+1 points, 16 total)",
+                "points": 1,
+                "steamids": [
+                    76561199867681647
                 ],
                 "verified": true
             }
@@ -6375,7 +6383,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 86,
+        "count": 87,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -6957,6 +6965,14 @@
                     76561199873128548,
                     76561198092406510,
                     76561197987778422
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1408876877334053075 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 87 total)",
+                "points": 1,
+                "steamids": [
+                    76561198793674170
                 ],
                 "verified": true
             }
@@ -12150,7 +12166,7 @@
         ]
     },
     "644544172795232259": {
-        "count": 36,
+        "count": 37,
         "profile_id": 76561198150357531,
         "reports": [
             {
@@ -12413,9 +12429,10 @@
                 "verified": true
             },
             {
-                "msg": "https://discord.com/channels/354645865773924352/1407954466971586703 <@644544172795232259> (Sam) cheater exposed (+1 points, 36 total)",
-                "points": 1,
+                "msg": "https://discord.com/channels/354645865773924352/1407954466971586703 <@644544172795232259> (Sam) cheater exposed (+2 points, 37 total)",
+                "points": 2,
                 "steamids": [
+                    76561199360836392,
                     76561199821244242
                 ],
                 "verified": true
