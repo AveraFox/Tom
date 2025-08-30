@@ -12304,7 +12304,7 @@
         ]
     },
     "639529519786754068": {
-        "count": 4,
+        "count": 5,
         "profile_id": 76561198116512961,
         "reports": [
             {
@@ -12329,6 +12329,14 @@
                 "steamids": [
                     76561199848086892,
                     76561198273006538
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1411252477017329665 <@639529519786754068> (SmolderMyBeloved) cheater exposed (+1 points, 5 total)",
+                "points": 1,
+                "steamids": [
+                    76561199562159761
                 ],
                 "verified": true
             }
