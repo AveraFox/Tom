@@ -1,4 +1,5 @@
-import statics, json, datetime, aiofiles
+import json, datetime, aiofiles
+from . import statics
 
 async def simple_export(reports):
     steamids = []

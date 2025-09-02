@@ -3,9 +3,8 @@ from io import StringIO
 from discord.ext import commands, tasks
 from discord import app_commands
 
-import statics
-from reports import Reports
-import steam
+from .. import statics, steam
+from ..reports import Reports
 
 logger = logging.getLogger(__name__)
 
@@ -97,6 +96,10 @@ class HPCog(commands.Cog):
 
         self.toplist = msg # Store toplist for later use
         logger.info("Toplist rebuilt")
+
+        reported_count = len(self.reports.get_cheater_steamids())
+        await self.bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{reported_count} SteamIDs"))
+        logger.info("Status updated")
         
     #### REGULAR USER COMMANDS ####
     @app_commands.command(

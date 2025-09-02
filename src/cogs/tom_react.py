@@ -1,5 +1,6 @@
 from discord.ext import commands
-import statics, time, discord, random, logging
+import time, discord, random, logging
+from .. import statics
 
 logger = logging.getLogger(__name__)
 
