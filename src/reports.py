@@ -137,6 +137,9 @@ class Reports:
         for reporter in self._reporters:
             reporters[reporter] = self._reporters[reporter].to_json()
         return reporters
+    
+    def get_cheater_steamids(self) -> set[int]:
+        return set(steamid for reporter in self._reporters.values() for report in reporter.reports for steamid in report.steamids if report.verified)
 
 
 async def test():
