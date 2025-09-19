@@ -6481,7 +6481,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 97,
+        "count": 98,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -7130,6 +7130,14 @@
                 "steamids": [
                     76561199438612802,
                     76561199100732017
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1418232752473505943 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 98 total)",
+                "points": 1,
+                "steamids": [
+                    76561198186189854
                 ],
                 "verified": true
             }
@@ -7854,7 +7862,7 @@
         ]
     },
     "369475534058553344": {
-        "count": 77,
+        "count": 78,
         "profile_id": 76561198400544043,
         "reports": [
             {
@@ -8422,6 +8430,14 @@
                 "steamids": [
                     76561199883413572,
                     76561199661612969
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1418168990110580836 <@369475534058553344> (havchlk) cheater exposed (+1 points, 78 total)",
+                "points": 1,
+                "steamids": [
+                    76561198148049502
                 ],
                 "verified": true
             }
