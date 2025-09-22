@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-09-22 08:24:35",
-        "title": "vorobey-hackerpolice - 2025-09-22 08:24:35",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-09-22 17:54:56",
+        "title": "vorobey-hackerpolice - 2025-09-22 17:54:56",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -8368,6 +8368,24 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1910647277]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1419413770693775420 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 103 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1806125551]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1419722718752014386 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 104 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:295497934]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1233457394491854898 koki (321257540442652672) 1 cheater exposed",
@@ -8929,6 +8947,15 @@
             "steamid": "[U:1:1820351137]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1412399672638574732 <@349192941367066624> (Konuman) cheater exposed (+1 points, 56 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1799047927]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1419743166709366904 <@349192941367066624> (Konuman) cheater exposed (+1 points, 57 total)"
             ]
         },
         {
