@@ -217,6 +217,20 @@
             }
         ]
     },
+    "1011809962479067176": {
+        "count": 1,
+        "profile_id": 76561198789270958,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1418453439133782046 <@1011809962479067176> (yhvsm) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198398709316
+                ],
+                "verified": false
+            }
+        ]
+    },
     "1020014289249124444": {
         "count": 1,
         "profile_id": null,
@@ -6498,7 +6512,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 105,
+        "count": 106,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -7206,6 +7220,14 @@
                     76561199543335310
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1420713335501881344 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 106 total)",
+                "points": 1,
+                "steamids": [
+                    76561199876015126
+                ],
+                "verified": true
             }
         ]
     },
@@ -7364,7 +7386,7 @@
         "reports": []
     },
     "349192941367066624": {
-        "count": 57,
+        "count": 58,
         "profile_id": 76561198262914979,
         "reports": [
             {
@@ -7814,6 +7836,14 @@
                 "points": 1,
                 "steamids": [
                     76561199759313655
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1420217144053989517 <@349192941367066624> (Konuman) cheater exposed (+1 points, 58 total)",
+                "points": 1,
+                "steamids": [
+                    76561199832965582
                 ],
                 "verified": true
             }
@@ -11985,7 +12015,7 @@
         ]
     },
     "579548943663235101": {
-        "count": 47,
+        "count": 49,
         "profile_id": 76561199024884868,
         "reports": [
             {
@@ -12352,6 +12382,15 @@
                 "points": 1,
                 "steamids": [
                     76561198789376531
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1420752853521268807 <@579548943663235101> (exc) cheater exposed (+2 points, 49 total)",
+                "points": 2,
+                "steamids": [
+                    76561199885256596,
+                    76561199489261009
                 ],
                 "verified": true
             }
