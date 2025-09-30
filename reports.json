@@ -1502,7 +1502,7 @@
         ]
     },
     "1138819493020323932": {
-        "count": 7,
+        "count": 8,
         "profile_id": 76561198035711179,
         "reports": [
             {
@@ -1559,6 +1559,14 @@
                 "points": 1,
                 "steamids": [
                     76561197998799792
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1422334633957392385 <@1138819493020323932> (Officer Furroski) cheater exposed (+1 points, 8 total)",
+                "points": 1,
+                "steamids": [
+                    76561198040668886
                 ],
                 "verified": true
             }
