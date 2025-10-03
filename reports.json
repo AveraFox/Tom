@@ -15297,7 +15297,7 @@
         ]
     },
     "852785674741874729": {
-        "count": 3,
+        "count": 2,
         "profile_id": 76561199000490449,
         "reports": [
             {
@@ -15313,14 +15313,6 @@
                 "points": 1,
                 "steamids": [
                     76561199128836287
-                ],
-                "verified": true
-            },
-            {
-                "msg": "https://discord.com/channels/354645865773924352/1381208399206940766 <@852785674741874729> (Sasha) cheater exposed (+1 points, 3 total)",
-                "points": 1,
-                "steamids": [
-                    76561198951987014
                 ],
                 "verified": true
             }
