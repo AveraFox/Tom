@@ -5422,6 +5422,20 @@
             }
         ]
     },
+    "259163618317172736": {
+        "count": 1,
+        "profile_id": 76561198280114512,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1425659654071128064 <@259163618317172736> (WOKE) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199844629179
+                ],
+                "verified": true
+            }
+        ]
+    },
     "266293189034508288": {
         "count": 1,
         "profile_id": 76561198168818513,
