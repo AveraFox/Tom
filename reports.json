@@ -10723,7 +10723,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 188,
+        "count": 189,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -12152,6 +12152,14 @@
                 "points": 0,
                 "steamids": [
                     76561199471810052
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1426194133516554250 <@571009999925542922> (Midnight) cheater exposed (+1 points, 189 total)",
+                "points": 1,
+                "steamids": [
+                    76561198998028088
                 ],
                 "verified": true
             }
