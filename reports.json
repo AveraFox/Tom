@@ -3374,7 +3374,7 @@
         ]
     },
     "1219155216960716800": {
-        "count": 21,
+        "count": 23,
         "profile_id": 76561199191069546,
         "reports": [
             {
@@ -3514,6 +3514,15 @@
                 "points": 1,
                 "steamids": [
                     76561198789746908
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1433053418850615382 <@1219155216960716800> (piss monster) cheater exposed (+2 points, 23 total)",
+                "points": 2,
+                "steamids": [
+                    76561198001409921,
+                    76561197999476754
                 ],
                 "verified": true
             }
@@ -6142,7 +6151,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 47,
+        "count": 48,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -6509,6 +6518,14 @@
                 "points": 1,
                 "steamids": [
                     76561199277128070
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1432147006721101864 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 48 total)",
+                "points": 1,
+                "steamids": [
+                    76561198780066637
                 ],
                 "verified": true
             }
@@ -8122,7 +8139,7 @@
         ]
     },
     "369475534058553344": {
-        "count": 87,
+        "count": 88,
         "profile_id": 76561198400544043,
         "reports": [
             {
@@ -8763,6 +8780,14 @@
                 "steamids": [
                     76561199369425132,
                     76561199889758115
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1425119995620229170 <@369475534058553344> (havchlk) cheater exposed (+1 points, 88 total)",
+                "points": 1,
+                "steamids": [
+                    76561199214231339
                 ],
                 "verified": true
             }
