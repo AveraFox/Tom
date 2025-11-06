@@ -16819,7 +16819,7 @@
         "reports": []
     },
     "981960849856036874": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199447261771,
         "reports": [
             {
@@ -16829,6 +16829,14 @@
                     76561199011780584
                 ],
                 "verified": false
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1436076838047977643 <@981960849856036874> (mazus) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199072364251
+                ],
+                "verified": true
             }
         ]
     },
