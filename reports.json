@@ -13657,7 +13657,7 @@
         ]
     },
     "661901923586146314": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199319477293,
         "reports": [
             {
@@ -13665,6 +13665,14 @@
                 "points": 1,
                 "steamids": [
                     76561198990664913
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1437519148484923403 <@661901923586146314> (Danis.Dev) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198769165303
                 ],
                 "verified": true
             }
