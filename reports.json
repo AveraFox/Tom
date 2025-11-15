@@ -205,13 +205,21 @@
     },
     "1009418464731070524": {
         "count": 1,
-        "profile_id": null,
+        "profile_id": 76561198849230568,
         "reports": [
             {
                 "msg": "https://discord.com/channels/354645865773924352/1121780046928023613/1298628793845682279 lemii (1009418464731070524) 1 cheater exposed",
                 "points": 1,
                 "steamids": [
                     76561199723538411
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1439259307592908864 <@1009418464731070524> (lemii) cheater exposed (+0 points, 1 total)",
+                "points": 0,
+                "steamids": [
+                    76561199000490449
                 ],
                 "verified": true
             }
@@ -8252,7 +8260,7 @@
         ]
     },
     "369475534058553344": {
-        "count": 90,
+        "count": 91,
         "profile_id": 76561198400544043,
         "reports": [
             {
@@ -8917,6 +8925,14 @@
                 "points": 1,
                 "steamids": [
                     76561198777019562
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1439238132422803497 <@369475534058553344> (havchlk) cheater exposed (+1 points, 91 total)",
+                "points": 1,
+                "steamids": [
+                    76561199383104934
                 ],
                 "verified": true
             }
@@ -15160,7 +15176,7 @@
         ]
     },
     "825341186142109698": {
-        "count": 70,
+        "count": 71,
         "profile_id": 76561199190321580,
         "reports": [
             {
@@ -15701,6 +15717,14 @@
                 "points": 1,
                 "steamids": [
                     76561199667782081
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1439258854293504040 <@825341186142109698> (Dxxn) cheater exposed (+1 points, 71 total)",
+                "points": 1,
+                "steamids": [
+                    76561199731681952
                 ],
                 "verified": true
             }
