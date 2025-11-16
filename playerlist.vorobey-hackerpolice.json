@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-11-16 13:31:55",
-        "title": "vorobey-hackerpolice - 2025-11-16 13:31:55",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-11-16 14:18:39",
+        "title": "vorobey-hackerpolice - 2025-11-16 14:18:39",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -14694,6 +14694,15 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:1603948545]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1439620638489968831 <@571009999925542922> (Midnight) cheater exposed (+1 points, 209 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1756110071]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1341954295607726163 <@573655444602486784> (.Salvia) cheater exposed (+1 points, 1 total)"
@@ -15264,6 +15273,15 @@
             "steamid": "[U:1:811893228]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1439593232861364417 <@579548943663235101> (Soli) cheater exposed (+1 points, 54 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1474111645]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1439616977051324507 <@579548943663235101> (Soli) cheater exposed (+1 points, 55 total)"
             ]
         },
         {
