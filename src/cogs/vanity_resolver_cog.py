@@ -1,4 +1,4 @@
-import discord, aiohttp, re, logging
+import discord, aiohttp, re, logging, aiofiles, os, string
 from discord.ext import commands
 from .hp_cog import HPCog
 from .. import statics
@@ -14,6 +14,19 @@ class VanityCog(commands.Cog):
         if self.hp_cog == None:
             raise RuntimeError("Couldn't get HPCog")
         self.bot: commands.Bot = bot
+
+        self.lists: dict[str, set[int]] = dict()
+
+    async def cog_load(self):
+        await self.load_lists(statics.EXTERNAL_LIST_DIR)
+
+    # this sucks balls :steamhappy:
+    async def load_lists(self, list_dir):
+        for filename in os.listdir(list_dir):
+            path = os.path.join(list_dir, filename)
+            async with aiofiles.open(path) as f:
+                data = (await f.read()).split("\n")
+            self.lists[filename.split(".")[0]] = {int(sid[:-1]) for sid in data if len(sid) > 0 and sid[0] in string.digits}
 
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message):
@@ -36,30 +49,48 @@ class VanityCog(commands.Cog):
                     
         matches = PERM_LINK_PATTERN.findall(message.content)
         reported_perms = dict()
+        list_matches = dict()
         for sid in set(matches) | set(map(lambda s: s, steamids.values())):
-            reports = self.hp_cog.reports.find_cheater(int(sid))
+            sid = int(sid)
+            reports = self.hp_cog.reports.find_cheater(sid)
             if len(reports) > 0:
                 verified = any(map(lambda r: r.verified, reports))
                 if verified:
                     reported_perms[sid] = {"report": next(filter(lambda r: r.verified, reports)).thread_url, "verified": True}
                 else:
                     reported_perms[sid] = {"report": reports[0].thread_url, "verified": False}
+            
+            lists = {l for l, i in self.lists.items() if sid in i}
+            if len(lists) > 0:
+                list_matches[sid] = lists
 
         # only reply if there were steamids found
-        if len(steamids) > 0 or len(unresolved_steamids) > 0 or len(reported_perms) > 0:
-            msg = ""
+        if len(steamids) > 0 or len(unresolved_steamids) > 0 or len(reported_perms) > 0 or len(list_matches) > 0:
+            embed = discord.Embed()
             if len(steamids) > 0:
-                msg += "Permanent links:\n"
-                msg += "\n".join(map(lambda sid: f'"{sid[0]}": {PERM_LINK_PREFIX+sid[1]}', steamids.items())) + "\n"
+                embed.add_field(inline=False, name="Permanent links", value=
+                    "\n".join(map(lambda sid: f'"{sid[0]}": {PERM_LINK_PREFIX+sid[1]}', steamids.items())) + "\n")
             if len(unresolved_steamids) > 0:
-                msg += "Could not find profile for " + ",".join(map(lambda vid: f'"{vid}"', unresolved_steamids))
+                embed.add_field(inline=False, name="", value=
+                    "Could not find profile for " + ",".join(map(lambda vid: f'"{vid}"', unresolved_steamids)))
             if len(reported_perms) > 0:
-                if msg != "":
-                    msg += "\n"
-                msg += "\n".join(map(lambda s: f"{s[0]} has already been reported: {s[1]['report']}{' (unverified)' if not s[1]['verified'] else ''}", reported_perms.items()))
+                embed.add_field(inline=False, name="Reports", value=
+                    "\n".join(map(lambda s: f"`{s[0]}` -> {s[1]['report']}{' (unverified)' if not s[1]['verified'] else ''}", reported_perms.items())))
             elif len(steamids) > 0:
-                msg += "SteamIDs have not been reported"
-            await message.reply(msg, mention_author=False)
+                embed.add_field(inline=False, name="SteamIDs have not been reported", value="")
+            
+            if len(list_matches) > 0:
+                embed.add_field(inline=False, name="Players present in lists", value=
+                "\n".join(map(lambda s: f"`{s[0]}` -> {','.join(s[1])}", list_matches.items())))
+
+            if len(reported_perms) > 0:
+                color = discord.Color.orange()
+            elif len(list_matches) > 0:
+                color = discord.Color.yellow()
+            else:
+                color = discord.Color.blue()
+            embed.color = color
+            await message.reply(embed=embed, mention_author=False)
 
     
 async def setup(bot: commands.Bot):
