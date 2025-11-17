@@ -1,4 +1,4 @@
-import discord, aiohttp, re, logging, aiofiles, os, string
+import discord, logging
 from discord.ext import commands
 from .hp_cog import HPCog
 from .. import statics
@@ -14,19 +14,6 @@ class VanityCog(commands.Cog):
         if self.hp_cog == None:
             raise RuntimeError("Couldn't get HPCog")
         self.bot: commands.Bot = bot
-
-        self.lists: dict[str, set[int]] = dict()
-
-    async def cog_load(self):
-        await self.load_lists(statics.EXTERNAL_LIST_DIR)
-
-    # this sucks balls :steamhappy:
-    async def load_lists(self, list_dir):
-        for filename in os.listdir(list_dir):
-            path = os.path.join(list_dir, filename)
-            async with aiofiles.open(path) as f:
-                data = (await f.read()).split("\n")
-            self.lists[filename.split(".")[0]] = {int(sid[:-1]) for sid in data if len(sid) > 0 and sid[0] in string.digits}
 
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message):
@@ -60,7 +47,7 @@ class VanityCog(commands.Cog):
                 else:
                     reported_perms[sid] = {"report": reports[0].thread_url, "verified": False}
             
-            lists = {l for l, i in self.lists.items() if sid in i}
+            lists = self.hp_cog.reports.check_external_lists(sid)
             if len(lists) > 0:
                 list_matches[sid] = lists
 

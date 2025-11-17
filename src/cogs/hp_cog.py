@@ -155,15 +155,22 @@ class HPCog(commands.Cog):
             return
         
         reports = self.reports.find_cheater(int(steamid))
-        
-        if len(reports) == 0:
-            await interaction.followup.send(f"No reports found for {steamid}", ephemeral=True)
-            return
+        lists = self.reports.check_external_lists(int(steamid))
 
-        embed = discord.Embed(
-            title=f"Reports for {steamid}",
-            description='\n'.join(map(lambda r: r.message + (' -- (unverified)' if not r.verified else ''), reports))
-        )
+        embed = discord.Embed(title=f"Information for {steamid}")
+
+        if len(lists) > 0:
+            embed.add_field(inline=False, name="External lists", value="\n".join(lists))
+            embed.color = discord.Color.yellow()
+
+        if len(reports) > 0:
+            embed.insert_field_at(0, inline=False, name="Reports", value=
+                '\n'.join(map(lambda r: r.message + (' -- (unverified)' if not r.verified else ''), reports)))
+            embed.color = discord.Color.orange()
+        
+        if len(reports) + len(lists) == 0:
+            embed.add_field(inline=False, name="No reports found", value="")
+            embed.color = discord.Color.blue()
 
         await interaction.followup.send(embed=embed, ephemeral=True)
 
