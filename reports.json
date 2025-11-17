@@ -204,7 +204,7 @@
         ]
     },
     "1009418464731070524": {
-        "count": 3,
+        "count": 4,
         "profile_id": 76561198849230568,
         "reports": [
             {
@@ -236,6 +236,14 @@
                 "points": 1,
                 "steamids": [
                     76561198767848941
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1440068242977587310 <@1009418464731070524> (lemii) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561199872390857
                 ],
                 "verified": true
             }
@@ -10846,6 +10854,20 @@
                 "points": 1,
                 "steamids": [
                     76561198267331108
+                ],
+                "verified": true
+            }
+        ]
+    },
+    "536510114618671124": {
+        "count": 1,
+        "profile_id": 76561198348240722,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1440061010521227284 <@536510114618671124> (kuzya) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198169786470
                 ],
                 "verified": true
             }
