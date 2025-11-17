@@ -1,4 +1,4 @@
-import aiofiles, json, asyncio
+import aiofiles, json, asyncio, os, string
 from typing import List, Optional, Dict, Any, Self
 from . import statics, exports
 
@@ -84,6 +84,7 @@ class Reporter:
 class Reports:
     def __init__(self, reporters: Dict[str, Reporter]): 
         self._reporters: Dict[str, Reporter]  = reporters
+        self._lists: dict[str, set[int]] = dict()
 
     # gets the Reporter object for the given discord id, or creates a new empty one if it doesn't exist
     def get_or_create(self, reporter_id: int) -> Reporter:
@@ -107,11 +108,24 @@ class Reports:
                     matching_reports.append(report)
         return matching_reports
 
+    def check_external_lists(self, steamid: int) -> set[str]:
+        return {l for l, i in self._lists.items() if steamid in i}
+
     # loads Report data from the data file
     async def load() -> Self:
         async with aiofiles.open(statics.REPORTS_DATA_FILE) as f:
             reports = json.loads(await f.read())
-            return Reports.from_json(reports)
+        r = Reports.from_json(reports)
+        await r._load_lists(statics.EXTERNAL_LIST_DIR)
+        return r
+
+    # this sucks balls :steamhappy:
+    async def _load_lists(self, list_dir):
+        for filename in os.listdir(list_dir):
+            path = os.path.join(list_dir, filename)
+            async with aiofiles.open(path) as f:
+                data = (await f.read()).split("\n")
+            self._lists[filename.split(".")[0]] = {int(sid[:-1]) for sid in data if len(sid) > 0 and sid[0] in string.digits}
 
     # saves Report data to the data file
     async def save(self):
