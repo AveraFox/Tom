@@ -1,6 +1,6 @@
-import aiofiles, json, asyncio, os, string
+import aiofiles, json, asyncio, os, re
 from typing import List, Optional, Dict, Any, Self
-from . import statics, exports
+from . import statics, exports, steam
 
 # data classes to interact with the json data (I don't like working with dicts directly)
 
@@ -125,7 +125,7 @@ class Reports:
             path = os.path.join(list_dir, filename)
             async with aiofiles.open(path) as f:
                 data = (await f.read()).split("\n")
-            self._lists[filename.split(".")[0]] = {int(sid[:-1]) for sid in data if len(sid) > 0 and sid[0] in string.digits}
+            self._lists[filename.split(".")[0]] = {int(match.group(0)) for match in map(lambda l: steam.STEAMID_REGEX.match(l), data) if match}
 
     # saves Report data to the data file
     async def save(self):

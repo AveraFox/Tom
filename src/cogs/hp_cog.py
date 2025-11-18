@@ -17,7 +17,7 @@ def check_in_thread(interaction: discord.Interaction): # function to check if a 
     return True
 
 async def get_steamid(id: str) -> int: # resolve steam profile links and vanity urls
-    if re.fullmatch(steam.STEAMID_REGEX, id) is not None:
+    if steam.STEAMID_REGEX.fullmatch(id) is not None:
         return int(id)
     
     m = re.match(steam.PERM_LINK_PATTERN, id)
