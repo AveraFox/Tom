@@ -59,7 +59,7 @@ class VanityCog(commands.Cog):
                     "\n".join(map(lambda sid: f'"{sid[0]}": {PERM_LINK_PREFIX+sid[1]}', steamids.items())) + "\n")
             if len(unresolved_steamids) > 0:
                 embed.add_field(inline=False, name="", value=
-                    "Could not find profile for " + ",".join(map(lambda vid: f'"{vid}"', unresolved_steamids)))
+                    "Could not find profile for " + ", ".join(map(lambda vid: f'"{vid}"', unresolved_steamids)))
             if len(reported_perms) > 0:
                 embed.add_field(inline=False, name="Reports", value=
                     "\n".join(map(lambda s: f"`{s[0]}` -> {s[1]['report']}{' (unverified)' if not s[1]['verified'] else ''}", reported_perms.items())))
@@ -68,7 +68,7 @@ class VanityCog(commands.Cog):
             
             if len(list_matches) > 0:
                 embed.add_field(inline=False, name="Players present in lists", value=
-                "\n".join(map(lambda s: f"`{s[0]}` -> {','.join(s[1])}", list_matches.items())))
+                "\n".join(map(lambda s: f"`{s[0]}` -> {', '.join(s[1])}", list_matches.items())))
 
             if len(reported_perms) > 0:
                 color = discord.Color.orange()
