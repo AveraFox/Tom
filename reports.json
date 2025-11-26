@@ -6667,7 +6667,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 132,
+        "count": 133,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -7561,6 +7561,14 @@
                 "points": 1,
                 "steamids": [
                     76561199293554694
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1443353043549683742 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 133 total)",
+                "points": 1,
+                "steamids": [
+                    76561199247957599
                 ],
                 "verified": true
             }
