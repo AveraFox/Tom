@@ -1,4 +1,5 @@
 import discord, logging
+from multiprocessing import Process, Queue
 from discord.ext import commands
 from .hp_cog import HPCog
 from .. import statics
@@ -7,6 +8,15 @@ from ..steam import *
 
 logger = logging.getLogger(__name__)
 
+def _load_profile_process(q: Queue):
+    import urllib.request
+    while True:
+        for profile in q.get():
+            try:
+                urllib.request.urlopen(f"https://lime.shadefall.net/profile?id={profile}").close()
+            except:
+                pass
+
 # Extra cog that watches channels for steam profile vanity links and attempts to find the perma link for them
 class VanityCog(commands.Cog):
     def __init__(self, bot: commands.Bot):
@@ -14,6 +24,19 @@ class VanityCog(commands.Cog):
         if self.hp_cog == None:
             raise RuntimeError("Couldn't get HPCog")
         self.bot: commands.Bot = bot
+        self.profile_queue: Queue = None
+        self.profile_process: Process = None
+
+    async def cog_load(self):
+        self.profile_queue: Queue = Queue()
+        self.profile_process: Process = Process(target=_load_profile_process, args=(self.profile_queue,))
+        self.profile_process.start()
+
+    async def cog_unload(self):
+        self.profile_process.terminate()
+        self.profile_process.join()
+        self.profile_process.close()
+        self.profile_queue.close()
 
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message):
@@ -37,7 +60,9 @@ class VanityCog(commands.Cog):
         matches = PERM_LINK_PATTERN.findall(message.content)
         reported_perms = dict()
         list_matches = dict()
-        for sid in set(matches) | set(map(lambda s: s, steamids.values())):
+        mentioned_ids = set(matches) | set(steamids.values())
+        self.profile_queue.put(mentioned_ids)
+        for sid in mentioned_ids:
             sid = int(sid)
             reports = self.hp_cog.reports.find_cheater(sid)
             if len(reports) > 0:
