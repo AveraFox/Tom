@@ -11017,7 +11017,7 @@
         ]
     },
     "536510114618671124": {
-        "count": 4,
+        "count": 5,
         "profile_id": 76561198348240722,
         "reports": [
             {
@@ -11042,6 +11042,14 @@
                 "points": 1,
                 "steamids": [
                     76561198123048734
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1445887736124018759 <@536510114618671124> (Parallel grams) cheater exposed (+1 points, 5 total)",
+                "points": 1,
+                "steamids": [
+                    76561199483215924
                 ],
                 "verified": true
             }
