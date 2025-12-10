@@ -16383,7 +16383,7 @@
         ]
     },
     "889238563206598666": {
-        "count": 53,
+        "count": 55,
         "profile_id": 76561198245429438,
         "reports": [
             {
@@ -16810,6 +16810,15 @@
                 "points": 1,
                 "steamids": [
                     76561199660115222
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1448038378896494775 <@889238563206598666> (Ciam) cheater exposed (+2 points, 55 total)",
+                "points": 2,
+                "steamids": [
+                    76561198190185971,
+                    76561198222089280
                 ],
                 "verified": true
             }
