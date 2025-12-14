@@ -14116,14 +14116,22 @@
         ]
     },
     "650777978040483881": {
-        "count": 1,
-        "profile_id": null,
+        "count": 2,
+        "profile_id": 76561198983560107,
         "reports": [
             {
                 "msg": "https://discord.com/channels/354645865773924352/1121780046928023613/1262225234233397279 ShinSpin (650777978040483881)  1 cheater exposed",
                 "points": 1,
                 "steamids": [],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1449214991558246562 <@650777978040483881> (ShinSpin) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198787835298
+                ],
+                "verified": false
             }
         ]
     },
