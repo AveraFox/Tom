@@ -6711,7 +6711,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 139,
+        "count": 140,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -7654,6 +7654,14 @@
                 "points": 1,
                 "steamids": [
                     76561198059555771
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1450168102011670740 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 140 total)",
+                "points": 1,
+                "steamids": [
+                    76561198765653477
                 ],
                 "verified": true
             }
@@ -11082,7 +11090,7 @@
         ]
     },
     "536510114618671124": {
-        "count": 5,
+        "count": 6,
         "profile_id": 76561198348240722,
         "reports": [
             {
@@ -11115,6 +11123,14 @@
                 "points": 1,
                 "steamids": [
                     76561199483215924
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1449967260780466256 <@536510114618671124> (Parallel grams) cheater exposed (+1 points, 6 total)",
+                "points": 1,
+                "steamids": [
+                    76561198761661584
                 ],
                 "verified": true
             }
@@ -11321,7 +11337,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 219,
+        "count": 221,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -12942,6 +12958,15 @@
                 "points": 1,
                 "steamids": [
                     76561199803002282
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1449515261974548642 <@571009999925542922> (Midnight) cheater exposed (+2 points, 221 total)",
+                "points": 2,
+                "steamids": [
+                    76561199780436235,
+                    76561199572302671
                 ],
                 "verified": true
             }
@@ -14565,7 +14590,7 @@
         ]
     },
     "697244115028672522": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561199065554626,
         "reports": [
             {
@@ -14574,6 +14599,14 @@
                 "steamids": [
                     76561199628809018,
                     76561199545547130
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1449875733613776916 <@697244115028672522> (Mr. Melonworth) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561199345007906
                 ],
                 "verified": true
             }
