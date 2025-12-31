@@ -204,7 +204,7 @@
         ]
     },
     "1009418464731070524": {
-        "count": 6,
+        "count": 7,
         "profile_id": 76561198849230568,
         "reports": [
             {
@@ -260,6 +260,14 @@
                 "points": 1,
                 "steamids": [
                     76561199779948525
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1454161188962435122 <@1009418464731070524> (lemii) cheater exposed (+1 points, 7 total)",
+                "points": 1,
+                "steamids": [
+                    76561199812206394
                 ],
                 "verified": true
             }
@@ -1581,7 +1589,7 @@
         ]
     },
     "1127149848223821916": {
-        "count": 1,
+        "count": 3,
         "profile_id": 76561199630104539,
         "reports": [
             {
@@ -1589,6 +1597,15 @@
                 "points": 1,
                 "steamids": [
                     76561199168756499
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1455460682781692059 <@1127149848223821916> (Walkin\u2019 Nuclear Bomb \u2584\ufe3b\u0337\u033f\u253b\u033f\u2550\u2501\u4e00) cheater exposed (+2 points, 3 total)",
+                "points": 2,
+                "steamids": [
+                    76561198755119987,
+                    76561198004249051
                 ],
                 "verified": true
             }

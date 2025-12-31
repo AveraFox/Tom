@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-12-30 23:22:15",
-        "title": "vorobey-hackerpolice - 2025-12-30 23:22:15",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2025-12-31 01:34:25",
+        "title": "vorobey-hackerpolice - 2025-12-31 01:34:25",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -286,6 +286,15 @@
             "steamid": "[U:1:1819682797]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1454072376001036391 <@1009418464731070524> (lemii) cheater exposed (+1 points, 6 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1851940666]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1454161188962435122 <@1009418464731070524> (lemii) cheater exposed (+1 points, 7 total)"
             ]
         },
         {
@@ -1948,6 +1957,24 @@
             "steamid": "[U:1:1208490771]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1357966190995181668 <@1127149848223821916> (Walkin\u2019 Nuclear Bomb) cheater exposed (+1 points, 1 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:794854259]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1455460682781692059 <@1127149848223821916> (Walkin\u2019 Nuclear Bomb \u2584\ufe3b\u0337\u033f\u253b\u033f\u2550\u2501\u4e00) cheater exposed (+2 points, 3 total)"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:43983323]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1455460682781692059 <@1127149848223821916> (Walkin\u2019 Nuclear Bomb \u2584\ufe3b\u0337\u033f\u253b\u033f\u2550\u2501\u4e00) cheater exposed (+2 points, 3 total)"
             ]
         },
         {
