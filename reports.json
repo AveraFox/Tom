@@ -6260,7 +6260,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 58,
+        "count": 60,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -6701,6 +6701,15 @@
                 "points": 1,
                 "steamids": [
                     76561198203014124
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1455814705233924107 <@292025507518611458> (AMOGUS) cheater exposed (+2 points, 60 total)",
+                "points": 2,
+                "steamids": [
+                    76561199742279516,
+                    76561199525181113
                 ],
                 "verified": true
             }
@@ -11486,7 +11495,7 @@
         ]
     },
     "571009999925542922": {
-        "count": 233,
+        "count": 234,
         "profile_id": 76561199323117199,
         "reports": [
             {
@@ -13191,6 +13200,14 @@
                 "points": 1,
                 "steamids": [
                     76561198805260877
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1455956536567267494 <@571009999925542922> (Midnight) cheater exposed (+1 points, 234 total)",
+                "points": 1,
+                "steamids": [
+                    76561199558552563
                 ],
                 "verified": true
             }
@@ -16772,7 +16789,7 @@
         ]
     },
     "889238563206598666": {
-        "count": 79,
+        "count": 81,
         "profile_id": 76561198245429438,
         "reports": [
             {
@@ -17316,6 +17333,15 @@
                 "steamids": [
                     76561199427753014,
                     76561199078483249
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1455893538498674818 <@889238563206598666> (Ciam) cheater exposed (+2 points, 81 total)",
+                "points": 2,
+                "steamids": [
+                    76561199797362956,
+                    76561198771586195
                 ],
                 "verified": true
             }
