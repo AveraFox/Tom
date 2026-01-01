@@ -25,7 +25,7 @@ async def tfbd_export(reports):
                 sid = steamid64_to_32(sid)
                 if sid not in steamids:
                     steamids[sid] = []
-                steamids[sid] += [report.message]
+                steamids[sid] += [report.thread_url]
 
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     contents = {
