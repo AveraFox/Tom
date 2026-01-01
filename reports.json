@@ -17945,5 +17945,19 @@
                 "verified": true
             }
         ]
+    },
+    "996394516691046541": {
+        "count": 1,
+        "profile_id": 76561199659863354,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1456109876584648835 <@996394516691046541> (engineer) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199505853234
+                ],
+                "verified": true
+            }
+        ]
     }
 }
