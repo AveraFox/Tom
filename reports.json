@@ -1612,7 +1612,7 @@
         ]
     },
     "1138819493020323932": {
-        "count": 8,
+        "count": 7,
         "profile_id": 76561198035711179,
         "reports": [
             {
@@ -1661,14 +1661,6 @@
                 "points": 1,
                 "steamids": [
                     76561198305250431
-                ],
-                "verified": true
-            },
-            {
-                "msg": "https://discord.com/channels/354645865773924352/1376984613783601242 <@1138819493020323932> (Vorobey) cheater exposed (+1 points, 7 total)",
-                "points": 1,
-                "steamids": [
-                    76561197998799792
                 ],
                 "verified": true
             },
@@ -16829,7 +16821,7 @@
         ]
     },
     "889238563206598666": {
-        "count": 82,
+        "count": 83,
         "profile_id": 76561198245429438,
         "reports": [
             {
@@ -17390,6 +17382,14 @@
                 "points": 1,
                 "steamids": [
                     76561198271891759
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1456450439502364846 <@889238563206598666> (Ciam) cheater exposed (+1 points, 83 total)",
+                "points": 1,
+                "steamids": [
+                    76561199785971699
                 ],
                 "verified": true
             }
