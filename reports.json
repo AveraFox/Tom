@@ -287,6 +287,20 @@
             }
         ]
     },
+    "1014552225877606480": {
+        "count": 1,
+        "profile_id": 76561198012877148,
+        "reports": [
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1456994890926919771 <@1014552225877606480> (Le fishe) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198751316805
+                ],
+                "verified": true
+            }
+        ]
+    },
     "1020014289249124444": {
         "count": 1,
         "profile_id": null,
