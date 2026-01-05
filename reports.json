@@ -6807,7 +6807,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 146,
+        "count": 147,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -7799,6 +7799,14 @@
                 "points": 1,
                 "steamids": [
                     76561199522170071
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1457003584322535589 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 147 total)",
+                "points": 1,
+                "steamids": [
+                    76561198794369819
                 ],
                 "verified": true
             }
@@ -15956,7 +15964,7 @@
         ]
     },
     "825341186142109698": {
-        "count": 84,
+        "count": 85,
         "profile_id": 76561199190321580,
         "reports": [
             {
@@ -16576,6 +16584,14 @@
                     76561199276157291
                 ],
                 "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1457198091886137396 <@825341186142109698> (Dxxn) cheater exposed (+1 points, 85 total)",
+                "points": 1,
+                "steamids": [
+                    76561199854953506
+                ],
+                "verified": true
             }
         ]
     },
@@ -16858,7 +16874,7 @@
         ]
     },
     "889238563206598666": {
-        "count": 83,
+        "count": 86,
         "profile_id": 76561198245429438,
         "reports": [
             {
@@ -17427,6 +17443,16 @@
                 "points": 1,
                 "steamids": [
                     76561199785971699
+                ],
+                "verified": true
+            },
+            {
+                "msg": "https://discord.com/channels/354645865773924352/1457092318279503905 <@889238563206598666> (Ciam) cheater exposed (+3 points, 86 total)",
+                "points": 3,
+                "steamids": [
+                    76561199229607409,
+                    76561199310409852,
+                    76561199822375304
                 ],
                 "verified": true
             }
