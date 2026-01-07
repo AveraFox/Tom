@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2026-01-07 16:34:50",
-        "title": "vorobey-hackerpolice - 2026-01-07 16:34:50",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2026-01-07 21:59:19",
+        "title": "vorobey-hackerpolice - 2026-01-07 21:59:19",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -6955,6 +6955,24 @@
             "steamid": "[U:1:1662827310]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1397723573874987119"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:792271945]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1457933975367454760"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1896258709]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1457931520286130430"
             ]
         },
         {
@@ -16173,6 +16191,24 @@
             "steamid": "[U:1:818414683]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1455655840764920000"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1096919657]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1458537138722439349"
+            ]
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1789275766]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1458524752502198406"
             ]
         },
         {
