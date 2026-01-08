@@ -1,5 +1,6 @@
 import json, datetime, aiofiles
 from . import statics
+from . import reports
 
 async def simple_export(reports):
     steamids = []
@@ -24,8 +25,9 @@ async def tfbd_export(reports):
             for sid in report.steamids:
                 sid = steamid64_to_32(sid)
                 if sid not in steamids:
-                    steamids[sid] = []
-                steamids[sid] += [report.thread_url]
+                    steamids[sid] = [[],0]
+                steamids[sid][0] += [report.thread_url]
+                steamids[sid][1] = max(steamids[sid][1], int(report.timestamp.timestamp()))
 
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     contents = {
@@ -39,7 +41,10 @@ async def tfbd_export(reports):
         "players": list(map(lambda s: {
             "attributes": ["cheater"],
             "steamid": s[0],
-            "proof": s[1]
+            "proof": s[1][0],
+            "last_seen": {
+                "time": s[1][1]
+            }
         }, steamids.items()))
     }
 

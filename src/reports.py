@@ -1,26 +1,30 @@
-import aiofiles, json, asyncio, os, re
+import aiofiles, json, asyncio, os
 from typing import List, Optional, Dict, Any, Self
 from . import statics, exports, steam
+from datetime import datetime, timezone
 
 # data classes to interact with the json data (I don't like working with dicts directly)
 
 # class that stores a single report, 
 # stores confirmation message, list of cheater steamids and points awarded for the report
 class Report:
-    def __init__(self, message: str, steamids: List[int], points: int, verified: bool):
+    def __init__(self, message: str, steamids: List[int], points: int, verified: bool, timestamp: datetime):
         self.message: str = message
         self.thread_url: str = message[:message.find(" ")]
         self.steamids: List[int] = steamids
         self.points: int = points
         self.verified: bool = verified
+        self.timestamp: datetime = timestamp
     
     # creates a Report object from a json dict
+    @staticmethod
     def from_json(json_report) -> Self:
         return Report(
             json_report["msg"], 
             json_report["steamids"],
             json_report["points"],
-            json_report["verified"]
+            json_report["verified"],
+            datetime.fromisoformat(json_report["date"])
         )
 
     # creates a dict ready to be converted to json
@@ -29,20 +33,21 @@ class Report:
             "msg": self.message,
             "steamids": self.steamids,
             "points": self.points,
-            "verified": self.verified
+            "verified": self.verified,
+            "date": self.timestamp.isoformat()
         }
 
 # class that represents a person reporting cheaters
 # stores userid, list of Reports and steam profile id
 class Reporter:
-    def __init__(self, userid: str, reports: List[Report], profile_id: Optional[int]):
+    def __init__(self, userid: int, reports: List[Report], profile_id: Optional[int]):
         self.userid: int = userid
         self.reports: List[Report] = reports
-        self.profile_id: int = profile_id
+        self.profile_id: Optional[int] = profile_id
 
     # creates a new report for this reporter
     def add_report(self, msg: str, points: int, steamids: List[int], verified: bool): 
-        self.reports.append(Report(msg, steamids, points, verified))
+        self.reports.append(Report(msg, steamids, points, verified, datetime.now(timezone.utc)))
     
     # looks for a report with the passed thread link and removes it
     # returns True or False depending on if it succeeded or not
@@ -60,6 +65,7 @@ class Reporter:
                 return report
         return None
 
+    @staticmethod
     def from_json(userid: int, json_map: dict) -> Self:
         reports: List[Report] = []
         for report in json_map["reports"]:
@@ -87,15 +93,15 @@ class Reports:
         self._lists: dict[str, set[int]] = dict()
 
     # gets the Reporter object for the given discord id, or creates a new empty one if it doesn't exist
-    def get_or_create(self, reporter_id: int) -> Reporter:
-        reporter_id = str(reporter_id)
+    def get_or_create(self, reporter_idi: int) -> Reporter:
+        reporter_id = str(reporter_idi)
         if reporter_id not in self._reporters:
-            self._reporters[reporter_id] = Reporter(reporter_id, [], None)
+            self._reporters[reporter_id] = Reporter(reporter_idi, [], None)
         return self._reporters[reporter_id]
 
     # gets the Reporter object for the given discord id, or None if it doesn't exist
-    def get(self, reporter_id: int) -> Optional[Reporter]:
-        reporter_id = str(reporter_id)
+    def get(self, reporter_idi: int) -> Optional[Reporter]:
+        reporter_id = str(reporter_idi)
         if reporter_id in self._reporters:
             return self._reporters[reporter_id]
         
@@ -112,6 +118,7 @@ class Reports:
         return {l for l, i in self._lists.items() if steamid in i}
 
     # loads Report data from the data file
+    @staticmethod
     async def load() -> Self:
         async with aiofiles.open(statics.REPORTS_DATA_FILE) as f:
             reports = json.loads(await f.read())
@@ -140,6 +147,7 @@ class Reports:
         return reporter_list[:min(20, len(reporter_list))]
     
     # creates a Reports object from a json dict
+    @staticmethod
     def from_json(json_map: dict) -> Self:
         for key in json_map:
             json_map[key] = Reporter.from_json(int(key), json_map[key])
