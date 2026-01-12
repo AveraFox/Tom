@@ -11889,6 +11889,21 @@
             }
         ]
     },
+    "483679614665752586": {
+        "count": 1,
+        "profile_id": 76561199845104206,
+        "reports": [
+            {
+                "date": "2026-01-12T19:18:41.054784+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1460350831923691615 <@483679614665752586> (doctor hax) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199759371578
+                ],
+                "verified": true
+            }
+        ]
+    },
     "486636244714127370": {
         "count": 3,
         "profile_id": null,
