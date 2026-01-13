@@ -228,7 +228,7 @@
         ]
     },
     "1009418464731070524": {
-        "count": 7,
+        "count": 8,
         "profile_id": 76561198849230568,
         "reports": [
             {
@@ -300,6 +300,15 @@
                 "points": 1,
                 "steamids": [
                     76561199812206394
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-13T21:52:00.622676+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1460748896593510481 <@1009418464731070524> (lemii) cheater exposed (+1 points, 8 total)",
+                "points": 1,
+                "steamids": [
+                    76561199185282686
                 ],
                 "verified": true
             }
