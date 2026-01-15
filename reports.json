@@ -11899,7 +11899,7 @@
         ]
     },
     "483679614665752586": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199845104206,
         "reports": [
             {
@@ -11908,6 +11908,15 @@
                 "points": 1,
                 "steamids": [
                     76561199759371578
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-15T20:29:44.755026+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1461438255663808730 <@483679614665752586> (doctor hax) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198151856400
                 ],
                 "verified": true
             }
