@@ -14965,6 +14965,15 @@
                     76561198773490534
                 ],
                 "verified": true
+            },
+            {
+                "date": "2026-01-16T12:34:30.028117+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1461699762104565764 <@571009999925542922> (Midnight) cheater exposed (+0 points, 237 total)",
+                "points": 0,
+                "steamids": [
+                    76561199580076177
+                ],
+                "verified": true
             }
         ]
     },
@@ -15044,7 +15053,7 @@
         ]
     },
     "579548943663235101": {
-        "count": 59,
+        "count": 60,
         "profile_id": 76561199024884868,
         "reports": [
             {
@@ -15549,6 +15558,15 @@
                 "points": 1,
                 "steamids": [
                     76561199749541494
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-16T12:37:18.960521+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1461683950132138149 <@579548943663235101> (Zardi) cheater exposed (+1 points, 60 total)",
+                "points": 1,
+                "steamids": [
+                    76561199032060440
                 ],
                 "verified": true
             }
