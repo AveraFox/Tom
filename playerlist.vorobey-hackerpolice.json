@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2026-01-18 11:44:38",
-        "title": "vorobey-hackerpolice - 2026-01-18 11:44:38",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2026-01-18 21:28:39",
+        "title": "vorobey-hackerpolice - 2026-01-18 21:28:39",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -14554,6 +14554,18 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:790275458]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1462388922695815330"
+            ],
+            "last_seen": {
+                "time": 1768771719
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:1217151992]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1320364753440477266"
@@ -16210,6 +16222,30 @@
             ],
             "last_seen": {
                 "time": 1768508984
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1905639022]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1462490716797276351"
+            ],
+            "last_seen": {
+                "time": 1768771619
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1150881662]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1462490716797276351"
+            ],
+            "last_seen": {
+                "time": 1768771619
             }
         },
         {
