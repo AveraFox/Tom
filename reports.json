@@ -20369,7 +20369,7 @@
         ]
     },
     "974347956645920829": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561199795035975,
         "reports": [
             {
@@ -20378,6 +20378,15 @@
                 "points": 1,
                 "steamids": [
                     76561199285005987
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-21T13:47:55.104909+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1463522381229199424 <@974347956645920829> (bobman69cool) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199205071881
                 ],
                 "verified": true
             }
