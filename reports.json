@@ -543,6 +543,11 @@
             }
         ]
     },
+    "1059219430170710047": {
+        "count": 0,
+        "profile_id": null,
+        "reports": []
+    },
     "1061665311553757215": {
         "count": 1,
         "profile_id": 76561199470179159,
@@ -6303,7 +6308,7 @@
         ]
     },
     "286378350975647744": {
-        "count": 71,
+        "count": 72,
         "profile_id": 76561198069149120,
         "reports": [
             {
@@ -6903,6 +6908,15 @@
                 "points": 1,
                 "steamids": [
                     76561198788113278
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-25T13:58:11.241939+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1464724317173711049 <@286378350975647744> (Sauli01) cheater exposed (+1 points, 72 total)",
+                "points": 1,
+                "steamids": [
+                    76561198782969629
                 ],
                 "verified": true
             }
