@@ -11846,8 +11846,8 @@
         ]
     },
     "437003977339699200": {
-        "count": 1,
-        "profile_id": null,
+        "count": 2,
+        "profile_id": 76561199187337967,
         "reports": [
             {
                 "date": "2024-09-24T11:41:18.460000+00:00",
@@ -11855,6 +11855,15 @@
                 "points": 1,
                 "steamids": [
                     76561199263487304
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-27T05:09:17.916615+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1464928028072083583 <@437003977339699200> (Small Giant) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198914319730
                 ],
                 "verified": true
             }
