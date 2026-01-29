@@ -6263,7 +6263,7 @@
         ]
     },
     "259163618317172736": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561198280114512,
         "reports": [
             {
@@ -6272,6 +6272,15 @@
                 "points": 1,
                 "steamids": [
                     76561199844629179
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-29T21:20:34.659136+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1466525272210931783 <@259163618317172736> (WOKE) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198759543686
                 ],
                 "verified": true
             }
@@ -7175,7 +7184,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 65,
+        "count": 66,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -7702,6 +7711,15 @@
                     76561199565698749,
                     76561198763178437,
                     76561198752241972
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-29T21:23:08.267532+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1466405097939669244 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 66 total)",
+                "points": 1,
+                "steamids": [
+                    76561199474024343
                 ],
                 "verified": true
             }
@@ -12000,7 +12018,7 @@
         ]
     },
     "451418782678777856": {
-        "count": 3,
+        "count": 4,
         "profile_id": 76561198157038283,
         "reports": [
             {
@@ -12027,6 +12045,15 @@
                 "points": 1,
                 "steamids": [
                     76561199653629626
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-29T21:25:19.005469+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1465843110323159163 <@451418782678777856> (BrokenMartin) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561198217268932
                 ],
                 "verified": true
             }
