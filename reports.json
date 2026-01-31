@@ -9076,7 +9076,7 @@
         ]
     },
     "329400582865420288": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561198396983035,
         "reports": [
             {
@@ -9085,6 +9085,15 @@
                 "points": 1,
                 "steamids": [
                     76561199789947837
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-01-31T18:06:23.480456+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1466504694833872980 <@329400582865420288> (Dullheim) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561197975809379
                 ],
                 "verified": true
             }
@@ -9885,6 +9894,21 @@
                 "points": 1,
                 "steamids": [
                     76561199564207458
+                ],
+                "verified": true
+            }
+        ]
+    },
+    "365145249074642956": {
+        "count": 1,
+        "profile_id": 76561198414556771,
+        "reports": [
+            {
+                "date": "2026-01-31T18:00:13.753012+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1467152775061311612 <@365145249074642956> (Teltta) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199232355544
                 ],
                 "verified": true
             }
