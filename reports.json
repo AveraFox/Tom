@@ -1798,6 +1798,21 @@
             }
         ]
     },
+    "1120999804957364354": {
+        "count": 1,
+        "profile_id": 76561199557465615,
+        "reports": [
+            {
+                "date": "2026-01-31T20:31:52.516873+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1467135395526606961 <@1120999804957364354> (x_x) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199822311403
+                ],
+                "verified": true
+            }
+        ]
+    },
     "1122235653577510953": {
         "count": 1,
         "profile_id": 76561199124377794,
@@ -12216,6 +12231,21 @@
                 "points": 1,
                 "steamids": [
                     76561199630150408
+                ],
+                "verified": true
+            }
+        ]
+    },
+    "474562357700329472": {
+        "count": 1,
+        "profile_id": 76561198024743746,
+        "reports": [
+            {
+                "date": "2026-01-31T20:35:29.728980+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1466857523230281870 <@474562357700329472> (homie ilic) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561197984135346
                 ],
                 "verified": true
             }
