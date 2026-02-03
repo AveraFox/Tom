@@ -7223,7 +7223,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 66,
+        "count": 67,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -7759,6 +7759,15 @@
                 "points": 1,
                 "steamids": [
                     76561199474024343
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-03T22:38:02.798181+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1468195909384011931 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 67 total)",
+                "points": 1,
+                "steamids": [
+                    76561198104142269
                 ],
                 "verified": true
             }
@@ -9195,7 +9204,7 @@
         "reports": []
     },
     "349192941367066624": {
-        "count": 73,
+        "count": 74,
         "profile_id": 76561198262914979,
         "reports": [
             {
@@ -9839,6 +9848,15 @@
                     76561198742821345
                 ],
                 "verified": true
+            },
+            {
+                "date": "2026-02-03T22:38:42.160863+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1468132814665814112 <@349192941367066624> (Konuman) cheater exposed (+1 points, 74 total)",
+                "points": 1,
+                "steamids": [
+                    76561199800476492
+                ],
+                "verified": true
             }
         ]
     },
@@ -9993,7 +10011,7 @@
         ]
     },
     "369475534058553344": {
-        "count": 115,
+        "count": 116,
         "profile_id": 76561198400544043,
         "reports": [
             {
@@ -10941,6 +10959,15 @@
                 "points": 1,
                 "steamids": [
                     76561198748941439
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-03T22:37:10.257449+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1468259513231478980 <@369475534058553344> (havchlk) cheater exposed (+1 points, 116 total)",
+                "points": 1,
+                "steamids": [
+                    76561198741081430
                 ],
                 "verified": true
             }
