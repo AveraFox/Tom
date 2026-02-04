@@ -1799,19 +1799,9 @@
         ]
     },
     "1120999804957364354": {
-        "count": 1,
+        "count": 0,
         "profile_id": 76561199557465615,
-        "reports": [
-            {
-                "date": "2026-01-31T20:31:52.516873+00:00",
-                "msg": "https://discord.com/channels/354645865773924352/1467135395526606961 <@1120999804957364354> (x_x) cheater exposed (+1 points, 1 total)",
-                "points": 1,
-                "steamids": [
-                    76561199822311403
-                ],
-                "verified": true
-            }
-        ]
+        "reports": []
     },
     "1122235653577510953": {
         "count": 1,
