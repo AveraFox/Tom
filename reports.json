@@ -8997,8 +8997,8 @@
         ]
     },
     "318325622239657985": {
-        "count": 1,
-        "profile_id": null,
+        "count": 2,
+        "profile_id": 76561198747711549,
         "reports": [
             {
                 "date": "2026-02-02T13:37:46.494787+00:00",
@@ -9006,6 +9006,15 @@
                 "points": 1,
                 "steamids": [
                     76561199245111940
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-05T12:15:51.984565+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1468894498733035752 <@318325622239657985> (\u0430\u043d\u0433\u0435\u043b) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199649249480
                 ],
                 "verified": true
             }
@@ -12367,7 +12376,7 @@
         ]
     },
     "483679614665752586": {
-        "count": 6,
+        "count": 7,
         "profile_id": 76561199845104206,
         "reports": [
             {
@@ -12413,6 +12422,15 @@
                 "points": 1,
                 "steamids": [
                     76561199732314637
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-05T12:04:39.815235+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1467874987657662507 <@483679614665752586> (doctor hax) cheater exposed (+1 points, 7 total)",
+                "points": 1,
+                "steamids": [
+                    76561198000803480
                 ],
                 "verified": true
             }
