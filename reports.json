@@ -4298,6 +4298,21 @@
             }
         ]
     },
+    "1306667812453875783": {
+        "count": 1,
+        "profile_id": 76561199344017747,
+        "reports": [
+            {
+                "date": "2026-02-07T18:34:18.503999+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1469738760370524160 <@1306667812453875783> (Urbanjelly) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199229378209
+                ],
+                "verified": true
+            }
+        ]
+    },
     "1312517848735809667": {
         "count": 7,
         "profile_id": 76561199707927482,
@@ -7224,7 +7239,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 67,
+        "count": 69,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -7769,6 +7784,16 @@
                 "points": 1,
                 "steamids": [
                     76561198104142269
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-07T18:31:17.963373+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1469737090618097917 <@292025507518611458> (AMOGUS) cheater exposed (+2 points, 69 total)",
+                "points": 2,
+                "steamids": [
+                    76561199770191903,
+                    76561198742456086
                 ],
                 "verified": true
             }
@@ -10039,7 +10064,7 @@
         ]
     },
     "369475534058553344": {
-        "count": 116,
+        "count": 117,
         "profile_id": 76561198400544043,
         "reports": [
             {
@@ -10996,6 +11021,15 @@
                 "points": 1,
                 "steamids": [
                     76561198741081430
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-07T18:30:10.718868+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1469726809355456514 <@369475534058553344> (havchlk) cheater exposed (+1 points, 117 total)",
+                "points": 1,
+                "steamids": [
+                    76561198381477540
                 ],
                 "verified": true
             }
