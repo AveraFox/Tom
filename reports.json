@@ -6292,7 +6292,7 @@
         ]
     },
     "259163618317172736": {
-        "count": 5,
+        "count": 6,
         "profile_id": 76561198280114512,
         "reports": [
             {
@@ -6321,6 +6321,15 @@
                     76561198036183192,
                     76561199025326594,
                     76561198751642073
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-08T12:48:46.361521+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1469837117986312334 <@259163618317172736> (WOKE) cheater exposed (+1 points, 6 total)",
+                "points": 1,
+                "steamids": [
+                    76561198740262146
                 ],
                 "verified": true
             }
@@ -10016,7 +10025,7 @@
         ]
     },
     "365145249074642956": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561198414556771,
         "reports": [
             {
@@ -10034,6 +10043,15 @@
                 "points": 1,
                 "steamids": [
                     76561198103007902
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-08T12:56:21.926073+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1469952571665027179 <@365145249074642956> (Teltta) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561199877803338
                 ],
                 "verified": true
             }
@@ -12750,7 +12768,7 @@
         ]
     },
     "510873040817487914": {
-        "count": 56,
+        "count": 58,
         "profile_id": 76561198063202851,
         "reports": [
             {
@@ -13233,6 +13251,16 @@
                 "points": 1,
                 "steamids": [
                     76561198749899951
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-08T12:57:58.178106+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1470033811457839156 <@510873040817487914> (qareday) cheater exposed (+2 points, 58 total)",
+                "points": 2,
+                "steamids": [
+                    76561199047699527,
+                    76561199203389803
                 ],
                 "verified": true
             }
@@ -19649,6 +19677,11 @@
                 "verified": true
             }
         ]
+    },
+    "874119946823671818": {
+        "count": 0,
+        "profile_id": null,
+        "reports": []
     },
     "877682361498759169": {
         "count": 1,
