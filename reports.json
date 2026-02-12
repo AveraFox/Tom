@@ -10043,7 +10043,7 @@
         ]
     },
     "365145249074642956": {
-        "count": 3,
+        "count": 4,
         "profile_id": 76561198414556771,
         "reports": [
             {
@@ -10070,6 +10070,15 @@
                 "points": 1,
                 "steamids": [
                     76561199877803338
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-12T16:32:39.984471+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1471537153967390933 <@365145249074642956> (Teltta) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561199567584364
                 ],
                 "verified": true
             }
@@ -12239,7 +12248,7 @@
         ]
     },
     "451418782678777856": {
-        "count": 8,
+        "count": 11,
         "profile_id": 76561198157038283,
         "reports": [
             {
@@ -12303,6 +12312,17 @@
                 "points": 1,
                 "steamids": [
                     76561198740506964
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-12T16:37:27.633663+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1471530058916303086 <@451418782678777856> (BrokenMartin) cheater exposed (+3 points, 11 total)",
+                "points": 3,
+                "steamids": [
+                    76561199652354687,
+                    76561199365868480,
+                    76561198272563578
                 ],
                 "verified": true
             }
@@ -15612,6 +15632,15 @@
                 "points": 0,
                 "steamids": [
                     76561198738067583
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-12T16:25:14.845961+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1471424836948594834 <@571009999925542922> (Midnight) cheater exposed (+0 points, 237 total)",
+                "points": 0,
+                "steamids": [
+                    76561199502915957
                 ],
                 "verified": true
             }
