@@ -12398,8 +12398,8 @@
         ]
     },
     "469410914874163201": {
-        "count": 5,
-        "profile_id": null,
+        "count": 6,
+        "profile_id": 76561198358863286,
         "reports": [
             {
                 "date": "2024-04-11T18:49:27.332000+00:00",
@@ -12443,6 +12443,15 @@
                 "points": 1,
                 "steamids": [
                     76561199630150408
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-12T21:53:04.081606+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1471260658359205908 <@469410914874163201> (Vitaly) cheater exposed (+1 points, 6 total)",
+                "points": 1,
+                "steamids": [
+                    76561199230991723
                 ],
                 "verified": true
             }
@@ -16445,7 +16454,7 @@
         ]
     },
     "603399916135383041": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561198308157992,
         "reports": [
             {
@@ -16454,6 +16463,15 @@
                 "points": 1,
                 "steamids": [
                     76561198739039622
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-12T21:46:02.786696+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1471496705076760586 <@603399916135383041> (odo) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198070429325
                 ],
                 "verified": true
             }
@@ -19597,6 +19615,21 @@
                 "points": 1,
                 "steamids": [
                     76561199509484081
+                ],
+                "verified": true
+            }
+        ]
+    },
+    "836626984305295383": {
+        "count": 1,
+        "profile_id": 76561199231367936,
+        "reports": [
+            {
+                "date": "2026-02-12T21:43:04.346841+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1471526955148120136 <@836626984305295383> (Niku) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199319646880
                 ],
                 "verified": true
             }
