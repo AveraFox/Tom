@@ -1768,6 +1768,21 @@
             }
         ]
     },
+    "1109130332105609239": {
+        "count": 1,
+        "profile_id": 76561199630317999,
+        "reports": [
+            {
+                "date": "2026-02-14T17:56:56.145796+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1471972532918943987 <@1109130332105609239> (Gustavo) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199417187464
+                ],
+                "verified": true
+            }
+        ]
+    },
     "1120393187723321516": {
         "count": 2,
         "profile_id": 76561199548982521,
@@ -7885,7 +7900,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 150,
+        "count": 151,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -9036,6 +9051,15 @@
                     76561199873756144
                 ],
                 "verified": true
+            },
+            {
+                "date": "2026-02-14T17:48:17.398661+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1472278192227352687 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 151 total)",
+                "points": 1,
+                "steamids": [
+                    76561199698734780
+                ],
+                "verified": true
             }
         ]
     },
@@ -10043,7 +10067,7 @@
         ]
     },
     "365145249074642956": {
-        "count": 4,
+        "count": 5,
         "profile_id": 76561198414556771,
         "reports": [
             {
@@ -10079,6 +10103,15 @@
                 "points": 1,
                 "steamids": [
                     76561199567584364
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-14T17:46:46.970336+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1472285727269195786 <@365145249074642956> (Teltta) cheater exposed (+1 points, 5 total)",
+                "points": 1,
+                "steamids": [
+                    76561199841689228
                 ],
                 "verified": true
             }
