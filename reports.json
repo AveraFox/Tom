@@ -16397,7 +16397,7 @@
         ]
     },
     "597591442663145472": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561198335358415,
         "reports": [
             {
@@ -16406,6 +16406,15 @@
                 "points": 1,
                 "steamids": [
                     76561198811737080
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-14T16:42:49.191346+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1471770446499152093 <@597591442663145472> (Bradorks) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561199756186755
                 ],
                 "verified": true
             }
