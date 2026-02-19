@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2026-02-19 17:35:38",
-        "title": "vorobey-hackerpolice - 2026-02-19 17:35:38",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2026-02-19 22:31:39",
+        "title": "vorobey-hackerpolice - 2026-02-19 22:31:39",
         "update_url": "https://raw.githubusercontent.com/AveraFox/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -17308,6 +17308,18 @@
             "attributes": [
                 "cheater"
             ],
+            "steamid": "[U:1:408380536]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1473300947441815675"
+            ],
+            "last_seen": {
+                "time": 1771539164
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
             "steamid": "[U:1:195860616]",
             "proof": [
                 "https://discord.com/channels/354645865773924352/1121780046928023613/1228402242105638933"
@@ -23341,6 +23353,30 @@
             ],
             "last_seen": {
                 "time": 1756164952
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:802744924]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1473431897181913118"
+            ],
+            "last_seen": {
+                "time": 1771540299
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:781591850]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1473431897181913118"
+            ],
+            "last_seen": {
+                "time": 1771540299
             }
         },
         {
