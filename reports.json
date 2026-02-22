@@ -15954,7 +15954,7 @@
         ]
     },
     "579548943663235101": {
-        "count": 63,
+        "count": 64,
         "profile_id": 76561199024884868,
         "reports": [
             {
@@ -16487,6 +16487,15 @@
                 "points": 1,
                 "steamids": [
                     76561199697631227
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-22T10:16:47.952524+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1475033336962486373 <@579548943663235101> (Zardi) cheater exposed (+1 points, 64 total)",
+                "points": 1,
+                "steamids": [
+                    76561198772760527
                 ],
                 "verified": true
             }
