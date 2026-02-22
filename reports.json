@@ -2884,6 +2884,21 @@
             }
         ]
     },
+    "1147172725446672605": {
+        "count": 1,
+        "profile_id": 76561199828860911,
+        "reports": [
+            {
+                "date": "2026-02-22T11:39:55.867531+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1475094151325290616 <@1147172725446672605> (sillys) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199828860911
+                ],
+                "verified": true
+            }
+        ]
+    },
     "1174439114297323540": {
         "count": 1,
         "profile_id": 76561199509125371,
@@ -2925,6 +2940,22 @@
                 "points": 1,
                 "steamids": [
                     76561199748734560
+                ],
+                "verified": true
+            }
+        ]
+    },
+    "1183489428069560437": {
+        "count": 2,
+        "profile_id": null,
+        "reports": [
+            {
+                "date": "2026-02-22T11:20:45.287322+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1475079772001402930 <@1183489428069560437> (Repatoxx) cheater exposed (+2 points, 2 total)",
+                "points": 2,
+                "steamids": [
+                    76561198991142613,
+                    76561199030114644
                 ],
                 "verified": true
             }
