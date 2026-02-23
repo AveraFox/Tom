@@ -9238,7 +9238,7 @@
         ]
     },
     "328889284750868480": {
-        "count": 4,
+        "count": 5,
         "profile_id": 76561197961547755,
         "reports": [
             {
@@ -9250,6 +9250,15 @@
                     76561198850043401,
                     76561198323685868,
                     76561198019127587
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-23T18:15:13.345943+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1475551189755101387 <@328889284750868480> (K4N3T) cheater exposed (+1 points, 5 total)",
+                "points": 1,
+                "steamids": [
+                    76561198982971944
                 ],
                 "verified": true
             }
@@ -12457,7 +12466,7 @@
         ]
     },
     "451418782678777856": {
-        "count": 12,
+        "count": 13,
         "profile_id": 76561198157038283,
         "reports": [
             {
@@ -12541,6 +12550,15 @@
                 "points": 1,
                 "steamids": [
                     76561198201937619
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-23T18:30:15.474166+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1475466159133294695 <@451418782678777856> (BrokenMartin) cheater exposed (+1 points, 13 total)",
+                "points": 1,
+                "steamids": [
+                    76561199771985610
                 ],
                 "verified": true
             }
