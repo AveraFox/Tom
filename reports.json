@@ -17030,7 +17030,7 @@
         ]
     },
     "619651001007472655": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561199001114266,
         "reports": [
             {
@@ -17048,6 +17048,15 @@
                 "points": 1,
                 "steamids": [
                     76561199857542254
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-25T12:12:34.342222+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1475964852760739902 <@619651001007472655> (Blueskull) cheater exposed (+1 points, 3 total)",
+                "points": 1,
+                "steamids": [
+                    76561198084283294
                 ],
                 "verified": true
             }
