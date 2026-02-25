@@ -16844,7 +16844,7 @@
         ]
     },
     "603399916135383041": {
-        "count": 15,
+        "count": 17,
         "profile_id": 76561198308157992,
         "reports": [
             {
@@ -16955,6 +16955,16 @@
                 "points": 1,
                 "steamids": [
                     76561199846669697
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-02-25T19:25:38.124617+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1476287408902504489 <@603399916135383041> (odo) cheater exposed (+2 points, 17 total)",
+                "points": 2,
+                "steamids": [
+                    76561199193813255,
+                    76561199824665531
                 ],
                 "verified": true
             }
