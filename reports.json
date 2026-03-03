@@ -4914,7 +4914,7 @@
         ]
     },
     "153199804103524354": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561198105358204,
         "reports": [
             {
@@ -4923,6 +4923,15 @@
                 "points": 1,
                 "steamids": [
                     76561199527759444
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-03T14:14:22.695892+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1478174365802692668 <@153199804103524354> (zzz) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198733965890
                 ],
                 "verified": true
             }
