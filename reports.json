@@ -1,6 +1,6 @@
 {
     "1002220641459634226": {
-        "count": 24,
+        "count": 25,
         "profile_id": 76561199695684975,
         "reports": [
             {
@@ -216,6 +216,15 @@
                 "points": 1,
                 "steamids": [
                     76561199616173481
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-07T18:15:11.934066+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1479905017749180578 <@1002220641459634226> (alinos) cheater exposed (+1 points, 25 total)",
+                "points": 1,
+                "steamids": [
+                    76561198007318304
                 ],
                 "verified": true
             }
