@@ -8015,7 +8015,7 @@
         ]
     },
     "305694184612823040": {
-        "count": 4,
+        "count": 5,
         "profile_id": 76561199804511490,
         "reports": [
             {
@@ -8043,6 +8043,15 @@
                 "points": 1,
                 "steamids": [
                     76561198762238800
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-07T16:33:21.333818+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1479844628068044872 <@305694184612823040> (Exize) cheater exposed (+1 points, 5 total)",
+                "points": 1,
+                "steamids": [
+                    76561198731476623
                 ],
                 "verified": true
             }
@@ -9512,6 +9521,21 @@
                 "points": 1,
                 "steamids": [
                     76561198036121210
+                ],
+                "verified": true
+            }
+        ]
+    },
+    "338026495811387392": {
+        "count": 1,
+        "profile_id": 76561198004449070,
+        "reports": [
+            {
+                "date": "2026-03-07T16:56:02.465974+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1479127590806487183 <@338026495811387392> (John Demolitionsman) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561198770106443
                 ],
                 "verified": true
             }
