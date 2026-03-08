@@ -12803,7 +12803,7 @@
         ]
     },
     "451418782678777856": {
-        "count": 23,
+        "count": 24,
         "profile_id": 76561198157038283,
         "reports": [
             {
@@ -12954,6 +12954,15 @@
                 "points": 1,
                 "steamids": [
                     76561198987780173
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-08T16:17:00.949860+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1480235175508971761 <@451418782678777856> (BrokenMartin) cheater exposed (+1 points, 24 total)",
+                "points": 1,
+                "steamids": [
+                    76561199193869189
                 ],
                 "verified": true
             }
