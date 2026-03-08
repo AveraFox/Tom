@@ -13014,19 +13014,9 @@
         ]
     },
     "469200579290333195": {
-        "count": 1,
+        "count": 0,
         "profile_id": 76561198024042625,
-        "reports": [
-            {
-                "date": "2025-05-06T09:59:09.314000+00:00",
-                "msg": "https://discord.com/channels/354645865773924352/1369252138588442747 <@469200579290333195> (Emi) cheater exposed (+1 points, 1 total)",
-                "points": 1,
-                "steamids": [
-                    76561198024042625
-                ],
-                "verified": true
-            }
-        ]
+        "reports": []
     },
     "469410914874163201": {
         "count": 6,
