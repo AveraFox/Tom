@@ -8192,7 +8192,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 158,
+        "count": 159,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -9405,6 +9405,15 @@
                 "points": 1,
                 "steamids": [
                     76561198784506263
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-11T16:25:40.804598+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1481245154386903072 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 159 total)",
+                "points": 1,
+                "steamids": [
+                    76561198311979208
                 ],
                 "verified": true
             }
@@ -12942,7 +12951,7 @@
         ]
     },
     "451418782678777856": {
-        "count": 26,
+        "count": 27,
         "profile_id": 76561198157038283,
         "reports": [
             {
@@ -13120,6 +13129,15 @@
                 "points": 1,
                 "steamids": [
                     76561199630871205
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-11T16:00:54.296452+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1481320322035617842 <@451418782678777856> (BrokenMartin) cheater exposed (+1 points, 27 total)",
+                "points": 1,
+                "steamids": [
+                    76561198730971353
                 ],
                 "verified": true
             }
@@ -17690,7 +17708,7 @@
         ]
     },
     "624675433694232587": {
-        "count": 3,
+        "count": 4,
         "profile_id": 76561198129636054,
         "reports": [
             {
@@ -17709,6 +17727,15 @@
                 "steamids": [
                     76561198763010652,
                     76561198741857578
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-11T16:02:22.093544+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1481313976422891662 <@624675433694232587> (Airbusman) cheater exposed (+1 points, 4 total)",
+                "points": 1,
+                "steamids": [
+                    76561198750561297
                 ],
                 "verified": true
             }
