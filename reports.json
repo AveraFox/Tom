@@ -10510,7 +10510,7 @@
         ]
     },
     "365145249074642956": {
-        "count": 21,
+        "count": 22,
         "profile_id": 76561198414556771,
         "reports": [
             {
@@ -10699,6 +10699,15 @@
                 "points": 1,
                 "steamids": [
                     76561198730178471
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-11T17:21:33.379260+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1481270053100847184 <@365145249074642956> (Teltta) cheater exposed (+1 points, 22 total)",
+                "points": 1,
+                "steamids": [
+                    76561198782398870
                 ],
                 "verified": true
             }
