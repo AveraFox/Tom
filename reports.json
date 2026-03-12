@@ -8115,7 +8115,7 @@
         ]
     },
     "307653956660625411": {
-        "count": 4,
+        "count": 5,
         "profile_id": 76561199545021803,
         "reports": [
             {
@@ -8143,6 +8143,15 @@
                 "points": 1,
                 "steamids": [
                     76561199808249235
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-12T17:49:46.181229+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1481709595906015284 <@307653956660625411> (noskillch) cheater exposed (+1 points, 5 total)",
+                "points": 1,
+                "steamids": [
+                    76561199347077134
                 ],
                 "verified": true
             }
@@ -8201,7 +8210,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 159,
+        "count": 161,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -9423,6 +9432,24 @@
                 "points": 1,
                 "steamids": [
                     76561198311979208
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-12T17:31:20.114418+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1481701882199019663 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 160 total)",
+                "points": 1,
+                "steamids": [
+                    76561198757944797
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-12T17:38:57.304506+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1481706049726578759 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 161 total)",
+                "points": 1,
+                "steamids": [
+                    76561198730348502
                 ],
                 "verified": true
             }
