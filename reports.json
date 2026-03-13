@@ -10583,7 +10583,7 @@
         ]
     },
     "365145249074642956": {
-        "count": 28,
+        "count": 30,
         "profile_id": 76561198414556771,
         "reports": [
             {
@@ -10835,6 +10835,24 @@
                 "points": 1,
                 "steamids": [
                     76561199740639206
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-13T18:05:13.450398+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1482077023135465502 <@365145249074642956> (Teltta) cheater exposed (+1 points, 29 total)",
+                "points": 1,
+                "steamids": [
+                    76561199019077535
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-13T18:57:37.988729+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1482084799932797011 <@365145249074642956> (Teltta) cheater exposed (+1 points, 30 total)",
+                "points": 1,
+                "steamids": [
+                    76561199505461962
                 ],
                 "verified": true
             }
@@ -13087,7 +13105,7 @@
         ]
     },
     "451418782678777856": {
-        "count": 31,
+        "count": 32,
         "profile_id": 76561199750445142,
         "reports": [
             {
@@ -13311,6 +13329,15 @@
                 "points": 1,
                 "steamids": [
                     76561198727092783
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-13T18:11:02.615451+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1482077999460515850 <@451418782678777856> (BrokenMartin) cheater exposed (+1 points, 32 total)",
+                "points": 1,
+                "steamids": [
+                    76561198727696761
                 ],
                 "verified": true
             }
