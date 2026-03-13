@@ -8071,7 +8071,7 @@
         ]
     },
     "305694184612823040": {
-        "count": 8,
+        "count": 9,
         "profile_id": 76561199804511490,
         "reports": [
             {
@@ -8127,6 +8127,15 @@
                 "points": 1,
                 "steamids": [
                     76561199241685323
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-13T20:38:53.708196+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1482092235724951715 <@305694184612823040> (Exize) cheater exposed (+1 points, 9 total)",
+                "points": 1,
+                "steamids": [
+                    76561198727858929
                 ],
                 "verified": true
             }
@@ -13105,7 +13114,7 @@
         ]
     },
     "451418782678777856": {
-        "count": 32,
+        "count": 33,
         "profile_id": 76561199750445142,
         "reports": [
             {
@@ -13338,6 +13347,15 @@
                 "points": 1,
                 "steamids": [
                     76561198727696761
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-13T20:41:54.124425+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1482115346621010190 <@451418782678777856> (BrokenMartin) cheater exposed (+1 points, 33 total)",
+                "points": 1,
+                "steamids": [
+                    76561199024712971
                 ],
                 "verified": true
             }
@@ -19875,7 +19893,7 @@
         ]
     },
     "771063194084573205": {
-        "count": 1,
+        "count": 2,
         "profile_id": 76561198258715564,
         "reports": [
             {
@@ -19884,6 +19902,15 @@
                 "points": 1,
                 "steamids": [
                     76561199356488024
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-13T20:49:46.354631+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1482041475150909652 <@771063194084573205> (Odin's Ravensus) cheater exposed (+1 points, 2 total)",
+                "points": 1,
+                "steamids": [
+                    76561198773152051
                 ],
                 "verified": true
             }
