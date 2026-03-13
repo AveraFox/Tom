@@ -21131,9 +21131,19 @@
         ]
     },
     "874119946823671818": {
-        "count": 0,
-        "profile_id": null,
-        "reports": []
+        "count": 1,
+        "profile_id": 76561198857117045,
+        "reports": [
+            {
+                "date": "2026-03-13T09:03:19.331203+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1481909211981156373 <@874119946823671818> (LogieBear) cheater exposed (+1 points, 1 total)",
+                "points": 1,
+                "steamids": [
+                    76561199347284129
+                ],
+                "verified": true
+            }
+        ]
     },
     "877682361498759169": {
         "count": 1,
