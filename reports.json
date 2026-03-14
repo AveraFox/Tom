@@ -9636,7 +9636,7 @@
         ]
     },
     "328889284750868480": {
-        "count": 7,
+        "count": 8,
         "profile_id": 76561197961547755,
         "reports": [
             {
@@ -9675,6 +9675,15 @@
                 "points": 1,
                 "steamids": [
                     76561199293011526
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-14T14:24:04.173777+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1482175796746391632 <@328889284750868480> (K4N3T) cheater exposed (+1 points, 8 total)",
+                "points": 1,
+                "steamids": [
+                    76561198730761505
                 ],
                 "verified": true
             }
@@ -10602,7 +10611,7 @@
         ]
     },
     "365145249074642956": {
-        "count": 31,
+        "count": 34,
         "profile_id": 76561198414556771,
         "reports": [
             {
@@ -10881,6 +10890,25 @@
                 "points": 1,
                 "steamids": [
                     76561198726434688
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-14T14:16:53.637170+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1482059380206604298 <@365145249074642956> (Teltta) cheater exposed (+1 points, 32 total)",
+                "points": 1,
+                "steamids": [
+                    76561199653815902
+                ],
+                "verified": true
+            },
+            {
+                "date": "2026-03-14T14:53:13.260474+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1482390218609922270 <@365145249074642956> (Teltta) cheater exposed (+2 points, 34 total)",
+                "points": 2,
+                "steamids": [
+                    76561199409607473,
+                    76561198889853963
                 ],
                 "verified": true
             }
