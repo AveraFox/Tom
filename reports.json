@@ -9948,7 +9948,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 189,
+        "count": 190,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -11391,6 +11391,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1498677493870362794 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 189 total)",
                 "players": {
                     "76561198771458211": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-01T12:01:50.384250+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1499473008786669618 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 190 total)",
+                "players": {
+                    "76561198007656153": "cheater"
                 },
                 "points": 1,
                 "verified": true
@@ -25480,6 +25489,21 @@
                 },
                 "points": 1,
                 "verified": true
+            }
+        ]
+    },
+    "881208687681749023": {
+        "count": 0,
+        "profile_id": 76561199066068833,
+        "reports": [
+            {
+                "date": "2026-05-01T12:04:50.203400+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1499723721559244961 <@881208687681749023> (Spector) cheater exposed (+0 points, 0 total)",
+                "players": {
+                    "76561198154633395": "cheater"
+                },
+                "points": 0,
+                "verified": false
             }
         ]
     },
