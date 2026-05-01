@@ -9567,7 +9567,7 @@
         ]
     },
     "309337035716558858": {
-        "count": 53,
+        "count": 54,
         "profile_id": 76561198189607470,
         "reports": [
             {
@@ -9925,6 +9925,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1498743203879456938 <@309337035716558858> (lukasmaestro) cheater exposed (+1 points, 53 total)",
                 "players": {
                     "76561199252435991": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-01T17:09:17.602436+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1499747640710267000 <@309337035716558858> (lukasmaestro) cheater exposed (+1 points, 54 total)",
+                "players": {
+                    "76561199847561836": "cheater"
                 },
                 "points": 1,
                 "verified": true
@@ -12666,7 +12675,7 @@
         ]
     },
     "365145249074642956": {
-        "count": 96,
+        "count": 97,
         "profile_id": 76561198414556771,
         "reports": [
             {
@@ -13490,6 +13499,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1499718269035216966 <@365145249074642956> (Teltta) cheater exposed (+1 points, 96 total)",
                 "players": {
                     "76561198208933901": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-01T17:12:40.460147+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1499737794929758278 <@365145249074642956> (Teltta) cheater exposed (+1 points, 97 total)",
+                "players": {
+                    "76561199045522771": "cheater"
                 },
                 "points": 1,
                 "verified": true
