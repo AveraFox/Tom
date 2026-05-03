@@ -8355,7 +8355,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 71,
+        "count": 72,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -8927,6 +8927,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1498308747897081947 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 71 total)",
                 "players": {
                     "76561199484723934": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-03T15:13:58.469016+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1500452343550840872 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 72 total)",
+                "players": {
+                    "76561198725140711": "cheater"
                 },
                 "points": 1,
                 "verified": true
