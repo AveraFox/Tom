@@ -12773,7 +12773,7 @@
         ]
     },
     "365145249074642956": {
-        "count": 100,
+        "count": 101,
         "profile_id": 76561198414556771,
         "reports": [
             {
@@ -13627,6 +13627,15 @@
                     "76561199809899624": "cheater"
                 },
                 "points": 2,
+                "verified": true
+            },
+            {
+                "date": "2026-05-04T12:07:05.520757+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1500788201273692190 <@365145249074642956> (Teltta) cheater exposed (+1 points, 101 total)",
+                "players": {
+                    "76561198283076557": "cheater"
+                },
+                "points": 1,
                 "verified": true
             }
         ]
@@ -16587,7 +16596,7 @@
         ]
     },
     "454858232301879297": {
-        "count": 20,
+        "count": 22,
         "profile_id": 76561197994760255,
         "reports": [
             {
@@ -16736,6 +16745,16 @@
                     "76561198026880674": "cheater"
                 },
                 "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-04T12:28:04.209851+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1500691543206662245 <@454858232301879297> (Greenmovie13) cheater exposed (+2 points, 22 total)",
+                "players": {
+                    "76561198429041770": "cheater",
+                    "76561198733603604": "cheater"
+                },
+                "points": 2,
                 "verified": true
             }
         ]
