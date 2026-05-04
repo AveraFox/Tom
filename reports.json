@@ -12811,7 +12811,7 @@
         ]
     },
     "365145249074642956": {
-        "count": 101,
+        "count": 103,
         "profile_id": 76561198414556771,
         "reports": [
             {
@@ -13672,6 +13672,24 @@
                 "msg": "https://discord.com/channels/354645865773924352/1500788201273692190 <@365145249074642956> (Teltta) cheater exposed (+1 points, 101 total)",
                 "players": {
                     "76561198283076557": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-04T22:47:06.824515+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1500924065681248316 <@365145249074642956> (Teltta) cheater exposed (+1 points, 102 total)",
+                "players": {
+                    "76561199875754390": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-04T22:47:38.386612+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1500919775394529443 <@365145249074642956> (Teltta) cheater exposed (+1 points, 103 total)",
+                "players": {
+                    "76561199466342053": "cheater"
                 },
                 "points": 1,
                 "verified": true
