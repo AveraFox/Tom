@@ -25600,7 +25600,7 @@
         ]
     },
     "871096627417468999": {
-        "count": 7,
+        "count": 8,
         "profile_id": 76561197994906928,
         "reports": [
             {
@@ -25654,6 +25654,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1500655019559616672 <@871096627417468999> (True Astro) cheater exposed (+1 points, 7 total)",
                 "players": {
                     "76561199053602986": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-04T11:15:43.847519+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1500682852675620865 <@871096627417468999> (True Astro) cheater exposed (+1 points, 8 total)",
+                "players": {
+                    "76561198006269065": "cheater"
                 },
                 "points": 1,
                 "verified": true
