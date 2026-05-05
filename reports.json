@@ -11979,7 +11979,7 @@
         "reports": []
     },
     "349192941367066624": {
-        "count": 83,
+        "count": 84,
         "profile_id": 76561198262914979,
         "reports": [
             {
@@ -12702,6 +12702,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1492646552672538663 <@349192941367066624> (Konuman) cheater exposed (+1 points, 83 total)",
                 "players": {
                     "76561198716200279": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-04T23:17:39.544199+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1499503421638578537 <@349192941367066624> (Konuman) cheater exposed (+1 points, 84 total)",
+                "players": {
+                    "76561199393343214": "cheater"
                 },
                 "points": 1,
                 "verified": true
@@ -23783,7 +23792,7 @@
         ]
     },
     "771063194084573205": {
-        "count": 9,
+        "count": 10,
         "profile_id": 76561198258715564,
         "reports": [
             {
@@ -23866,11 +23875,20 @@
                 },
                 "points": 1,
                 "verified": true
+            },
+            {
+                "date": "2026-05-04T23:41:00.212778+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1499443849809100840 <@771063194084573205> (Odin's Ravensus) cheater exposed (+1 points, 10 total)",
+                "players": {
+                    "76561199058563133": "cheater"
+                },
+                "points": 1,
+                "verified": true
             }
         ]
     },
     "775476032630947920": {
-        "count": 48,
+        "count": 49,
         "profile_id": 76561198402859419,
         "reports": [
             {
@@ -24293,6 +24311,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1495528369318789243 <@775476032630947920> (moosetwin) cheater exposed (+1 points, 48 total)",
                 "players": {
                     "76561198212577313": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-04T23:25:05.708142+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1500934889472528496 <@775476032630947920> (moosetwin) cheater exposed (+1 points, 49 total)",
+                "players": {
+                    "76561199203125656": "cheater"
                 },
                 "points": 1,
                 "verified": true
