@@ -1,6 +1,6 @@
 {
     "1002220641459634226": {
-        "count": 43,
+        "count": 45,
         "profile_id": 76561199695684975,
         "reports": [
             {
@@ -356,6 +356,24 @@
                     "76561198719537006": "cheater"
                 },
                 "points": 2,
+                "verified": true
+            },
+            {
+                "date": "2026-05-06T19:01:57.404969+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1501563714426372209 <@1002220641459634226> ([VOLVO] ae) cheater exposed (+1 points, 44 total)",
+                "players": {
+                    "76561199087053082": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-06T19:08:10.572546+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1501661261895696625 <@1002220641459634226> ([VOLVO] ae) cheater exposed (+1 points, 45 total)",
+                "players": {
+                    "76561197994762970": "cheater"
+                },
+                "points": 1,
                 "verified": true
             }
         ]
