@@ -316,6 +316,58 @@ class HPCog(commands.Cog):
         await thread.add_tags(statics.CONFIRMED_TAG) # add "Confirmed" tag
 
     @app_commands.command(
+        name="update",
+        description="Update players timestamps"
+    )
+    @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
+    @app_commands.check(check_in_thread)
+    async def update(self, interaction: discord.Interaction, steamids:str):
+        # removes the selected tag from the thread this command was called in
+        if not isinstance((thread := interaction.channel), discord.Thread):
+            await interaction.response.send_message("Can only be used in a report thread", ephemeral=True)
+            return
+        
+        assert isinstance(interaction.channel, discord.Thread)
+        reporter = self.reports.get_or_create(thread.owner_id)
+
+        if not reporter.find_report(thread.jump_url): # look up if report was already approved
+            await interaction.response.send_message("Report is not approved.")
+            return
+
+        steamids_str = steamids.split(",") # get steamids from the command argument
+        steamids_list: set[int] = set()
+        for steamid in steamids_str: # verify each steamid and convert to number
+            steamid_i = await get_steamid(steamid.strip())
+            if not steamid_i:
+                await interaction.response.send_message(f"Cheater SteamID \"{steamid}\" is not valid", ephemeral=True)
+                return
+            steamids_list.add(steamid_i)
+
+        passed, updatedUsers = reporter.update_report(thread.jump_url, steamids_list)
+        if not passed:
+            await interaction.response.send_message("Error occured while updating.", ephemeral=True)
+            return
+
+        # save report record to disk
+        await self.reports.save()
+        # mark toplist for rebuild
+        self.toplist_needs_rebuild = True
+
+        msg = [
+            "Updated timestamps for:",
+            '\n'.join(map(lambda x: f'`{x}`', updatedUsers))
+        ]
+        idDiff = list(steamids_list - updatedUsers)
+        if idDiff:
+            msg.extend([
+                "",
+                "Users that werent approved in this report:",
+                "\n".join(map(lambda x: f'`{x}`', idDiff))
+            ])
+
+        await interaction.response.send_message("\n".join(msg))
+
+    @app_commands.command(
         name="unapprove",
         description="Unapprove a report"
     )
@@ -331,7 +383,8 @@ class HPCog(commands.Cog):
             await interaction.response.send_message("User does not have any reports", ephemeral=True)
             return
         
-        if not reporter.remove_report(thread.jump_url): # try to remove report from user, returns False if no matching reports were found
+        # remove all reports from the thread ie. if someones timestamp gets updated
+        if not reporter.remove_report_v_predicate(thread.jump_url, key=lambda _: True): # try to remove report from user, returns False if no matching reports were found
             await interaction.response.send_message("This thread has not been confirmed", ephemeral=True)
             return
         
