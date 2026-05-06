@@ -17359,6 +17359,22 @@
             }
         ]
     },
+    "495827837257908234": {
+        "count": 2,
+        "profile_id": 76561198859929173,
+        "reports": [
+            {
+                "date": "2026-05-06T17:50:47.944286+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1501640201804710201 <@495827837257908234> (Mold) cheater exposed (+2 points, 2 total)",
+                "players": {
+                    "76561198786945604": "cheater",
+                    "76561199275103991": "cheater"
+                },
+                "points": 2,
+                "verified": true
+            }
+        ]
+    },
     "497502624036421632": {
         "count": 0,
         "profile_id": null,
