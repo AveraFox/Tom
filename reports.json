@@ -793,7 +793,7 @@
         ]
     },
     "1083466350376276069": {
-        "count": 169,
+        "count": 170,
         "profile_id": 76561199071473686,
         "reports": [
             {
@@ -2058,6 +2058,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1500935492735209604 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 169 total)",
                 "players": {
                     "76561198709855727": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-06T15:23:37.186602+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1501604447309004940 <@1083466350376276069> (Luggworm) cheater exposed (+1 points, 170 total)",
+                "players": {
+                    "76561199348055063": "cheater"
                 },
                 "points": 1,
                 "verified": true
@@ -16094,7 +16103,7 @@
         ]
     },
     "451418782678777856": {
-        "count": 81,
+        "count": 82,
         "profile_id": 76561199750445142,
         "reports": [
             {
@@ -16711,6 +16720,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1501216986422710483 <@451418782678777856> (BrokenMartin) cheater exposed (+1 points, 81 total)",
                 "players": {
                     "76561199813135826": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-06T15:13:52.950787+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1501602827493965974 <@451418782678777856> (BrokenMartin) cheater exposed (+1 points, 82 total)",
+                "players": {
+                    "76561198708667881": "cheater"
                 },
                 "points": 1,
                 "verified": true
