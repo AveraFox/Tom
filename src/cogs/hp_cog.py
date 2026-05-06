@@ -5,7 +5,7 @@ import re
 import traceback
 from io import StringIO
 from discord.ext import commands, tasks
-from discord import app_commands
+from discord import NotFound, app_commands
 
 from .. import statics, steam
 from ..reports import PlayerKind, Reports
@@ -281,7 +281,7 @@ class HPCog(commands.Cog):
         if not allow_duplicate:
             for steamid in steamids_dict: # check steamids if they were reported before
                 reports = self.reports.find_reported(steamid)
-                if len(reports) > 0 and (not verified or any(map(lambda r: r[2], reports))):
+                if len(reports) > 0 and (not verified or any(map(lambda r: r[1], reports))):
                     await interaction.response.send_message(f"Cheater {steamid} was already reported:\n{chr(10).join(map(lambda r: r[0] + (' -- (unverified)' if not r[1] else ''), reports))}", ephemeral=True)
                     return
 
@@ -290,9 +290,21 @@ class HPCog(commands.Cog):
             await self.log_channel.send(f"Associated SteamID {reporter_steamid_i} with user {owner.mention}", silent=True)
 
         # log channel message
-        msg = f"{thread.jump_url} {owner.mention} ({owner.global_name}) cheater exposed (+{points} points, {reporter.points()+points} total)"
+        msg = f"{thread.jump_url} {owner.mention} ({owner.display_name}) cheater exposed (+{points} points, {reporter.points()+points} total)"
         # add report to internal record
         reporter.add_report(msg, points, steamids_dict, verified)
+
+        try:
+            if verified:
+                await interaction.response.send_message(statics.Images.TOM_APPROVE) # send tom approved gif :D
+            else:
+                await interaction.response.send_message(f"-# unverified report[.]({statics.Images.TOM_APPROVE})")
+        except NotFound:
+            if verified:
+                await interaction.channel.send(statics.Images.TOM_APPROVE) # send tom approved gif :D
+            else:
+                await interaction.channel.send(f"-# unverified report[.]({statics.Images.TOM_APPROVE})")
+            
         # save data to json
         await self.reports.save()
         # mark toplist for rebuild
@@ -302,11 +314,6 @@ class HPCog(commands.Cog):
 
         await thread.remove_tags(*statics.TAGS) # remove "Needs info", "Not a cheater" and "Already reported" tags
         await thread.add_tags(statics.CONFIRMED_TAG) # add "Confirmed" tag
-
-        if verified:
-            await interaction.response.send_message(statics.Images.TOM_APPROVE) # send tom approved gif :D
-        else:
-            await interaction.response.send_message(f"-# unverified report[.]({statics.Images.TOM_APPROVE})")
 
     @app_commands.command(
         name="unapprove",
