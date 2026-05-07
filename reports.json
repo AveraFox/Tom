@@ -7169,7 +7169,7 @@
         ]
     },
     "286378350975647744": {
-        "count": 138,
+        "count": 140,
         "profile_id": 76561198069149120,
         "reports": [
             {
@@ -8277,6 +8277,16 @@
                     "76561198706009541": "cheater"
                 },
                 "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-07T22:20:44.571229+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1502071740799520859 <@286378350975647744> (Sauli01) cheater exposed (+2 points, 140 total)",
+                "players": {
+                    "76561198086158757": "cheater",
+                    "76561198792341220": "cheater"
+                },
+                "points": 2,
                 "verified": true
             }
         ]
@@ -18475,7 +18485,7 @@
         ]
     },
     "551621415959265284": {
-        "count": 13,
+        "count": 14,
         "profile_id": 76561199177593557,
         "reports": [
             {
@@ -18545,6 +18555,15 @@
                     "76561199027251254": "cheater"
                 },
                 "points": 2,
+                "verified": true
+            },
+            {
+                "date": "2026-05-07T22:26:13.394832+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1501649974633566268 <@551621415959265284> (BossZe) cheater exposed (+1 points, 14 total)",
+                "players": {
+                    "76561198711165544": "cheater"
+                },
+                "points": 1,
                 "verified": true
             }
         ]
