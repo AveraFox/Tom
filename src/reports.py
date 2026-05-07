@@ -90,8 +90,8 @@ class Reporter:
                 return report
         return None
     
-    def remove_report_v_predicate(self, link: str, /, *, key: Callable[[Report], bool]) -> bool:
-        report = self.find_report_a_index(link)
+    def remove_report_via_predicate(self, link: str, /, *, key: Callable[[Report], bool]) -> bool:
+        report = self.find_report_with_index(link)
         if report:
             for _, r in report:
                 if key(r):
@@ -99,24 +99,25 @@ class Reporter:
             return True
         return False
     
-    def find_report_a_index(
+    def find_report_with_index(
         self, thread_link: str
-    ) -> Optional[list[tuple[int, Report]]]:  # could return None or a Report
+    ) -> list[tuple[int, Report]]:  # could return None or a Report
         t = []
         for index, report in enumerate(self.reports):
             if thread_link in report.message:
                 t.append( (index, report) )
         return t
     
-    def update_report(self, link:str, users: set[int]) -> tuple[bool, list[int]]:
-        r = self.find_report_a_index(link)
+    def update_report(self, link:str, users: set[int]) -> set[int]:
+        r = self.find_report_with_index(link)
+        allUpdated: set[int] = set()
+
         if len(r) < 1:
-            return (False, None)
+            return allUpdated
         
-        allUpdated = set()
         for index, report in r:
 
-            updatedUsers = {}
+            updatedUsers: dict[int, PlayerKind] = {}
             points = report.points
             pCopy = report.players.copy()
             for p in users:
@@ -129,7 +130,7 @@ class Reporter:
                 continue
 
             if len(pCopy) <= 0: # if all of the users of a report are updated
-                self.remove_report_v_predicate(link, key=lambda rep: all(rep.players.get(key) for key in updatedUsers.keys()))
+                self.remove_report_via_predicate(link, key=lambda rep: all(rep.players.get(key) for key in updatedUsers.keys()))
             else: # retain the users that were not updated
                 self.reports[index] = Report(re.sub(r"\(\+\d+ points, (\d+) total\)$", f"(+{points} points, \\1 total)", report.message),
                                             pCopy,
@@ -144,7 +145,7 @@ class Reporter:
                             updatedUsers,
                             report.verified)
         
-        return (True, allUpdated)
+        return allUpdated
 
     @staticmethod
     def from_json(userid: int, json_map: dict) -> Self:

@@ -322,12 +322,9 @@ class HPCog(commands.Cog):
     @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
     @app_commands.check(check_in_thread)
     async def update(self, interaction: discord.Interaction, steamids:str):
-        # removes the selected tag from the thread this command was called in
-        if not isinstance((thread := interaction.channel), discord.Thread):
-            await interaction.response.send_message("Can only be used in a report thread", ephemeral=True)
-            return
-        
+
         assert isinstance(interaction.channel, discord.Thread)
+        thread: discord.Thread = interaction.channel
         reporter = self.reports.get_or_create(thread.owner_id)
 
         if not reporter.find_report(thread.jump_url): # look up if report was already approved
@@ -343,15 +340,10 @@ class HPCog(commands.Cog):
                 return
             steamids_list.add(steamid_i)
 
-        passed, updatedUsers = reporter.update_report(thread.jump_url, steamids_list)
-        if not passed:
+        updatedUsers = reporter.update_report(thread.jump_url, steamids_list)
+        if not updatedUsers:
             await interaction.response.send_message("Error occured while updating.", ephemeral=True)
             return
-
-        # save report record to disk
-        await self.reports.save()
-        # mark toplist for rebuild
-        self.toplist_needs_rebuild = True
 
         msg = [
             "Updated timestamps for:",
@@ -366,6 +358,9 @@ class HPCog(commands.Cog):
             ])
 
         await interaction.response.send_message("\n".join(msg))
+
+        # save report record to disk
+        await self.reports.save()
 
     @app_commands.command(
         name="unapprove",
@@ -384,7 +379,7 @@ class HPCog(commands.Cog):
             return
         
         # remove all reports from the thread ie. if someones timestamp gets updated
-        if not reporter.remove_report_v_predicate(thread.jump_url, key=lambda _: True): # try to remove report from user, returns False if no matching reports were found
+        if not reporter.remove_report_via_predicate(thread.jump_url, key=lambda _: True): # try to remove report from user, returns False if no matching reports were found
             await interaction.response.send_message("This thread has not been confirmed", ephemeral=True)
             return
         
