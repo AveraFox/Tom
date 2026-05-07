@@ -17414,7 +17414,7 @@
         ]
     },
     "495827837257908234": {
-        "count": 2,
+        "count": 3,
         "profile_id": 76561198859929173,
         "reports": [
             {
@@ -17425,6 +17425,15 @@
                     "76561199275103991": "cheater"
                 },
                 "points": 2,
+                "verified": true
+            },
+            {
+                "date": "2026-05-07T17:19:04.139420+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1501951768228003880 <@495827837257908234> (Mold) cheater exposed (+1 points, 3 total)",
+                "players": {
+                    "76561199429800712": "cheater"
+                },
+                "points": 1,
                 "verified": true
             }
         ]
@@ -25819,6 +25828,21 @@
         "count": 0,
         "profile_id": 76561199000490449,
         "reports": []
+    },
+    "852912807367540756": {
+        "count": 1,
+        "profile_id": 76561199576959153,
+        "reports": [
+            {
+                "date": "2026-05-07T17:36:30.646642+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1501985864371404951 <@852912807367540756> (Krav) cheater exposed (+1 points, 1 total)",
+                "players": {
+                    "76561198370162415": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            }
+        ]
     },
     "862447359718850580": {
         "count": 9,
