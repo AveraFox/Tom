@@ -69,7 +69,6 @@ class HPCog(commands.Cog):
         self.error_channel = await self.bot.fetch_channel(statics.ERROR_CHANNEL_ID)
         self.update_toplist.start() # start loop task to update the toplist regularly
         self.nag_officers.start()
-        await self.nag_officers()
 
     async def interaction_check(self, interaction: discord.Interaction) -> bool: 
         # usually used to check some condition for all app_commands in this Cog, but just log user and the command that was run
