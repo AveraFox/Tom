@@ -6,7 +6,8 @@ import traceback
 from io import StringIO
 from discord.ext import commands, tasks
 from discord import NotFound, app_commands
-from datetime import datetime, timezone
+from datetime import datetime, timezone, time, timedelta
+from typing import Iterator, AsyncIterator, TypeVar, AsyncGenerator
 
 from .. import statics, steam
 from ..reports import PlayerKind, Reports
@@ -21,6 +22,20 @@ def check_in_thread(interaction: discord.Interaction): # function to check if a 
         raise NotInThreadError()
     return True
 
+T = TypeVar("T")
+
+async def join(it1: Iterator[T], it2: AsyncIterator[T]) -> AsyncGenerator[T]:
+    while True:
+        val = next(it1, "end")
+        if val != "end":
+            yield val
+            continue
+        val = await anext(it2, "end")
+        if val != "end":
+            yield val
+            continue
+        return
+        
 async def get_steamid(id: str) -> int | None: # resolve steam profile links and vanity urls
     if steam.STEAMID_REGEX.fullmatch(id) is not None:
         return int(id)
@@ -53,6 +68,8 @@ class HPCog(commands.Cog):
         self.log_channel = await self.bot.fetch_channel(statics.REPORT_CHANNEL_ID)
         self.error_channel = await self.bot.fetch_channel(statics.ERROR_CHANNEL_ID)
         self.update_toplist.start() # start loop task to update the toplist regularly
+        self.nag_officers.start()
+        await self.nag_officers()
 
     async def interaction_check(self, interaction: discord.Interaction) -> bool: 
         # usually used to check some condition for all app_commands in this Cog, but just log user and the command that was run
@@ -76,6 +93,30 @@ class HPCog(commands.Cog):
             sio = StringIO(msg)
             await self.error_channel.send(file=discord.File(sio, filename="error.txt"))
             logger.error(msg)
+            
+    @tasks.loop(time=time(hour=12))
+    async def nag_officers(self):
+        logger.info("Looking for reports to nag about")
+        open_reports: list[tuple[str, timedelta]] = []
+        tags_handled = [tag.id for tag in (statics.TAGS + [statics.CONFIRMED_TAG])] 
+        channel = await self.bot.fetch_channel(statics.REPORT_FORUM.id)
+        assert isinstance(channel, discord.ForumChannel)
+        now = datetime.now(timezone.utc)
+        async for thread in join(iter(channel.threads), channel.archived_threads(limit=None)):
+            if thread.archived:
+                continue
+            tags = [t.id for t in thread.applied_tags]
+            
+            if statics.REPORT_TAG.id in tags and not any(map(lambda t: t in tags, tags_handled)) and (now - thread.created_at).days >= 1:
+                open_reports.append((thread.jump_url, (now - thread.created_at)))
+                
+        if len(open_reports) > 0:
+            open_reports.sort(key=lambda e: e[1], reverse=True)
+            await self.log_channel.send("**Stale reports:**\n" + "\n".join([f"{link} ({delta.days} days)" for link, delta in open_reports]))
+            logging.info(f"{len(open_reports)} stale reports")
+        else:
+            logging.info("Nothing to nag :)")
+                
 
     @tasks.loop(minutes=1.0) # runs this function every minute
     async def update_toplist(self):
@@ -387,7 +428,7 @@ class HPCog(commands.Cog):
         not_reported_ids = set(steamids_list) - set(report.players.keys())
         
         if len(not_reported_ids) > 0:
-            await interaction.response.send_message(f"**These players were not in this report**\n{chr(10).join([str(id) for id in not_reported_ids])}", ephemeral=True)
+            await interaction.response.send_message(f"**These players were not in this report**\n{'\n'.join([str(id) for id in not_reported_ids])}", ephemeral=True)
             return
             
         if date is None:
