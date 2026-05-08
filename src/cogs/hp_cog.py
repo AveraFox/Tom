@@ -24,7 +24,7 @@ def check_in_thread(interaction: discord.Interaction): # function to check if a 
 
 T = TypeVar("T")
 
-async def join(it1: Iterator[T], it2: AsyncIterator[T]) -> AsyncGenerator[T]:
+async def join(it1: "Iterator[T]", it2: "AsyncIterator[T]")-> "AsyncGenerator[T]":
     while True:
         val = next(it1, "end")
         if val != "end":
