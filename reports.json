@@ -10186,7 +10186,7 @@
         ]
     },
     "310412566138585089": {
-        "count": 4,
+        "count": 6,
         "profile_id": 76561198154952759,
         "reports": [
             {
@@ -10215,6 +10215,16 @@
                     "76561198710487628": "cheater"
                 },
                 "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-08T07:11:22.034395+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1502042934235627731 <@310412566138585089> (Exe_Red) cheater exposed (+2 points, 6 total)",
+                "players": {
+                    "76561198217349060": "cheater",
+                    "76561198705829685": "cheater"
+                },
+                "points": 2,
                 "verified": true
             }
         ]
