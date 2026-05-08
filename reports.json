@@ -24151,7 +24151,7 @@
         ]
     },
     "775476032630947920": {
-        "count": 50,
+        "count": 51,
         "profile_id": 76561198402859419,
         "reports": [
             {
@@ -24604,6 +24604,15 @@
                 },
                 "points": 0,
                 "verified": false
+            },
+            {
+                "date": "2026-05-08T11:44:14.810080+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1502255595250782348 <@775476032630947920> (moosetwin) cheater exposed (+1 points, 51 total)",
+                "players": {
+                    "76561198708460228": "cheater"
+                },
+                "points": 1,
+                "verified": true
             }
         ]
     },
