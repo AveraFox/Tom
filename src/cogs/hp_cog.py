@@ -387,7 +387,7 @@ class HPCog(commands.Cog):
         not_reported_ids = set(steamids_list) - set(report.players.keys())
         
         if len(not_reported_ids) > 0:
-            await interaction.response.send_message(f"**These players were not in this report**\n{'\n'.join([str(id) for id in not_reported_ids])}", ephemeral=True)
+            await interaction.response.send_message(f"**These players were not in this report**\n{chr(10).join([str(id) for id in not_reported_ids])}", ephemeral=True)
             return
             
         if date is None:
