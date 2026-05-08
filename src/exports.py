@@ -4,13 +4,13 @@ import aiofiles
 from . import statics
 from . import reports
 
-async def simple_export(reps):
+async def simple_export(reps: "reports.Reports"):
     steamids = []
     for reporter in reps._reporters.values():
         for report in reporter.reports:
             if not report.verified:
                 continue
-            steamids += [p for p, t in report.players.items() if t == reports.PlayerKind.CHEATER]
+            steamids += [p for p, d in report.players.items() if d.kind == reports.PlayerKind.CHEATER]
     steamids = set(map(lambda i: str(i), steamids))
     async with aiofiles.open(statics.ID_LIST_FILE, "w") as f:
         await f.write("\n".join(sorted(steamids)))
@@ -18,7 +18,7 @@ async def simple_export(reps):
 def steamid64_to_32(id: int) -> str:
     return f"[U:1:{id-statics.STEAMID64_OFFSET}]"
 
-async def tfbd_export(reps):
+async def tfbd_export(reps: "reports.Reports"):
     class PlayerRecord:
         def __init__(self) -> None:
             self.proof: list[str] = []
@@ -30,13 +30,13 @@ async def tfbd_export(reps):
         for report in reporter.reports:
             if not report.verified:
                 continue
-            for steamid, kind in report.players.items():
+            for steamid, data in report.players.items():
                 sid = steamid64_to_32(steamid)
                 if sid not in steamids:
                     steamids[sid] = PlayerRecord()
                 steamids[sid].proof.append(report.thread_url)
-                steamids[sid].last_seen = max(steamids[sid].last_seen, int(report.timestamp.timestamp()))
-                steamids[sid].attrs.add(kind)
+                steamids[sid].last_seen = max(steamids[sid].last_seen, int(data.last_seen.timestamp()))
+                steamids[sid].attrs.add(data.kind)
 
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     contents = {
@@ -60,6 +60,6 @@ async def tfbd_export(reps):
     async with aiofiles.open(statics.TFBD_LIST_NAME, "w") as f:
         await f.write(json.dumps(contents, indent=4))
 
-async def export(reports):
+async def export(reports: "reports.Reports"):
     await simple_export(reports)
     await tfbd_export(reports)

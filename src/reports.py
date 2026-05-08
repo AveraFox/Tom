@@ -14,6 +14,25 @@ class PlayerKind(str, enum.Enum):
     CHEATER = "cheater"
     EXPLOITER = "exploiter"
 
+class PlayerData:
+    def __init__(self, kind: PlayerKind, last_seen: datetime) -> Self:
+        self.kind: PlayerKind = kind
+        self.last_seen: datetime = last_seen
+        pass
+        
+    def to_json(self) -> dict[str, Any]:
+        return {
+            "kind": self.kind,
+            "last_seen": self.last_seen.isoformat()
+        }
+        
+    @staticmethod
+    def from_json(json) -> Self:
+        return PlayerData(
+            PlayerKind(json["kind"]), 
+            datetime.fromisoformat(json["last_seen"])
+        )
+
 
 # class that stores a single report,
 # stores confirmation message, list of cheater steamids and points awarded for the report
@@ -21,14 +40,14 @@ class Report:
     def __init__(
         self,
         message: str,
-        players: dict[int, PlayerKind],
+        players: dict[int, PlayerData],
         points: int,
         verified: bool,
         timestamp: datetime,
     ):
         self.message: str = message
         self.thread_url: str = message[: message.find(" ")]
-        self.players: dict[int, PlayerKind] = players
+        self.players: dict[int, PlayerData] = players
         self.points: int = points
         self.verified: bool = verified
         self.timestamp: datetime = timestamp
@@ -38,7 +57,7 @@ class Report:
     def from_json(json_report) -> Self:
         return Report(
             json_report["msg"],
-            {int(p): PlayerKind(k) for p, k in json_report["players"].items()},
+            {int(p): PlayerData.from_json(d) for p, d in json_report["players"].items()},
             json_report["points"],
             json_report["verified"],
             datetime.fromisoformat(json_report["date"]),
@@ -48,7 +67,7 @@ class Report:
     def to_json(self) -> Dict[str, Any]:
         return {
             "msg": self.message,
-            "players": self.players,
+            "players": {p: d.to_json() for p, d in self.players.items()},
             "points": self.points,
             "verified": self.verified,
             "date": self.timestamp.isoformat(),
@@ -67,8 +86,9 @@ class Reporter:
     def add_report(
         self, msg: str, points: int, players: dict[int, PlayerKind], verified: bool
     ):
+        ts = datetime.now(timezone.utc)
         self.reports.append(
-            Report(msg, players, points, verified, datetime.now(timezone.utc))
+            Report(msg, {id: PlayerData(kind, ts) for id, kind in players.items()}, points, verified, ts)
         )
 
     # looks for a report with the passed thread link and removes it
