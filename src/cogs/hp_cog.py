@@ -6,6 +6,7 @@ import traceback
 from io import StringIO
 from discord.ext import commands, tasks
 from discord import NotFound, app_commands
+from datetime import datetime, timezone
 
 from .. import statics, steam
 from ..reports import PlayerKind, Reports
@@ -275,7 +276,7 @@ class HPCog(commands.Cog):
             steamids_dict[steamid_i] = type
         
         if len(steamids_dict) == 0:
-            await interaction.response.send_message("At least one cheater SteamID is required, or \"none\"")
+            await interaction.response.send_message("At least one cheater SteamID is required")
             return
         
         if not allow_duplicate:
@@ -345,6 +346,69 @@ class HPCog(commands.Cog):
         await self.log_channel.send(f"{thread.jump_url} <@{thread.owner_id}> unapproved ({reporter.points()} points)", silent=True)
         # send a message that it was unapproved
         await interaction.response.send_message("Report unapproved")
+        
+    @app_commands.command(
+        name="update_seen",
+        description="Updates the time a cheater was last seen active"
+    )
+    @app_commands.describe(
+        steamids="Comma seperated list of steamids, ex. \"76561199796492647,76561199532619504\".",
+        date="Time at which the player was last seen (YYYY-MM-DD), leave empty to use current time",
+    )
+    @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
+    @app_commands.check(check_in_thread)
+    @app_commands.rename(steamids="cheater_steamids")
+    async def update_seen(self, 
+        interaction: discord.Interaction, 
+        steamids: str, 
+        date: str | None = None
+    ):            
+        assert isinstance(interaction.channel, discord.Thread)
+        thread: discord.Thread = interaction.channel
+        reporter = self.reports.get(thread.owner_id)
+        
+        if reporter is None or (report := reporter.find_report(thread.jump_url)) is None: # look up if report was already approved
+            await interaction.response.send_message("Report was not approved", ephemeral=True)
+            return
+
+        steamids_str = steamids.split(",") # get steamids from the command argument
+        steamids_list: list[int] = []
+        for steamid in steamids_str: # verify each steamid and convert to number
+            steamid_i = await get_steamid(steamid.strip())
+            if not steamid_i:
+                await interaction.response.send_message(f"Cheater SteamID \"{steamid}\" is not valid", ephemeral=True)
+                return
+            steamids_list.append(steamid_i)
+        
+        if len(steamids_list) == 0:
+            await interaction.response.send_message("At least one cheater SteamID is required")
+            return
+            
+        not_reported_ids = set(steamids_list) - set(report.players.keys())
+        
+        if len(not_reported_ids) > 0:
+            await interaction.response.send_message(f"**These players were not in this report**\n{'\n'.join([str(id) for id in not_reported_ids])}", ephemeral=True)
+            return
+            
+        if date is None:
+            ts = datetime.now(timezone.utc)
+        else:
+            try:
+                ts = datetime.fromisoformat(date)
+            except ValueError:
+                await interaction.response.send_message("Invalid date format", ephemeral=True)
+                return
+        
+        msg = "**Updated last active time for**"
+        
+        for id in steamids_list:
+            msg += f"\n`{id}`: {report.players[id].last_seen.date().isoformat()} -> {ts.date().isoformat()}"
+            report.players[id].last_seen = ts
+        
+        await interaction.response.send_message(msg)
+        
+        # save data to json
+        await self.reports.save()
 
 async def setup(bot: commands.Bot):
     # create new HPCog (just a self-contained module that provides commands) and add it to the bot
