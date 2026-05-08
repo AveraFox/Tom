@@ -10238,7 +10238,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 190,
+        "count": 191,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -11690,6 +11690,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1499473008786669618 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 190 total)",
                 "players": {
                     "76561198007656153": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-08T21:03:09.746396+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1502409185021657128 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 191 total)",
+                "players": {
+                    "76561198419289455": "cheater"
                 },
                 "points": 1,
                 "verified": true
@@ -21527,7 +21536,7 @@
         ]
     },
     "596293134217117715": {
-        "count": 5,
+        "count": 6,
         "profile_id": 76561198450744978,
         "reports": [
             {
@@ -21571,6 +21580,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1497613193441185832 <@596293134217117715> (unely) cheater exposed (+1 points, 5 total)",
                 "players": {
                     "76561198950722117": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-08T21:06:45.318712+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1502416212888522762 <@596293134217117715> (unely) cheater exposed (+1 points, 6 total)",
+                "players": {
+                    "76561198379568068": "cheater"
                 },
                 "points": 1,
                 "verified": true
