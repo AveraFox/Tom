@@ -4,8 +4,8 @@
         "authors": [
             "All contributors in the hackerpolice channel"
         ],
-        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2026-05-07 22:26:13",
-        "title": "vorobey-hackerpolice - 2026-05-07 22:26:13",
+        "description": "List of cheaters reported in the hackerpolice channel on the Vorobey discord server, last updated 2026-05-07 23:44:24",
+        "title": "vorobey-hackerpolice - 2026-05-07 23:44:24",
         "update_url": "https://raw.githubusercontent.com/Nocrex/Tom/refs/heads/main/playerlist.vorobey-hackerpolice.json"
     },
     "players": [
@@ -23686,6 +23686,54 @@
             ],
             "last_seen": {
                 "time": 1778093083
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:101522288]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1502026989626851399"
+            ],
+            "last_seen": {
+                "time": 1778197464
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1789398682]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1502026989626851399"
+            ],
+            "last_seen": {
+                "time": 1778197464
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:1897960784]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1502026989626851399"
+            ],
+            "last_seen": {
+                "time": 1778197464
+            }
+        },
+        {
+            "attributes": [
+                "cheater"
+            ],
+            "steamid": "[U:1:295953114]",
+            "proof": [
+                "https://discord.com/channels/354645865773924352/1502026989626851399"
+            ],
+            "last_seen": {
+                "time": 1778197464
             }
         },
         {
