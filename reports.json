@@ -10186,7 +10186,7 @@
         ]
     },
     "310412566138585089": {
-        "count": 4,
+        "count": 5,
         "profile_id": 76561198154952759,
         "reports": [
             {
@@ -10213,6 +10213,15 @@
                 "msg": "https://discord.com/channels/354645865773924352/1500104738820063393 <@310412566138585089> (Exe_Red) cheater exposed (+1 points, 4 total)",
                 "players": {
                     "76561198710487628": "cheater"
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-08T12:57:49.924306+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1502042934235627731 <@310412566138585089> (Exe_Red) cheater exposed (+1 points, 5 total)",
+                "players": {
+                    "76561198705829685": "cheater"
                 },
                 "points": 1,
                 "verified": true
@@ -16185,7 +16194,7 @@
         ]
     },
     "451418782678777856": {
-        "count": 87,
+        "count": 88,
         "profile_id": 76561199750445142,
         "reports": [
             {
@@ -16834,6 +16843,15 @@
                     "76561199858226512": "cheater"
                 },
                 "points": 4,
+                "verified": true
+            },
+            {
+                "date": "2026-05-08T12:15:32.402401+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1502282751762759691 <@451418782678777856> (BrokenMartin) cheater exposed (+1 points, 88 total)",
+                "players": {
+                    "76561199132531241": "cheater"
+                },
+                "points": 1,
                 "verified": true
             }
         ]
