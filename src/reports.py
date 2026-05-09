@@ -151,8 +151,8 @@ class Reports:
             return self._reporters[reporter_id]
 
     # looks up if a cheater has been reported before, if yes returns the first Report
-    def find_reported(self, steamid: int) -> List[tuple[str, bool, PlayerKind]]:
-        matching_reports: List[tuple[str, bool, PlayerKind]] = []
+    def find_reported(self, steamid: int) -> List[tuple[str, bool, PlayerData]]:
+        matching_reports: List[tuple[str, bool, PlayerData]] = []
         for reporter in self._reporters.values():
             for report in reporter.reports:
                 if steamid in report.players:
