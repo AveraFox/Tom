@@ -35,7 +35,7 @@ async def join(it1: "Iterator[T]", it2: "AsyncIterator[T]")-> "AsyncGenerator[T]
             yield val
             continue
         return
-        
+
 async def get_steamid(id: str) -> int | None: # resolve steam profile links and vanity urls
     if steam.STEAMID_REGEX.fullmatch(id) is not None:
         return int(id)
@@ -65,8 +65,8 @@ class HPCog(commands.Cog):
     async def cog_load(self):
         self.reports: Reports = await Reports.load()
         logger.info("reports loaded")
-        self.log_channel = await self.bot.fetch_channel(statics.REPORT_CHANNEL_ID)
-        self.error_channel = await self.bot.fetch_channel(statics.ERROR_CHANNEL_ID)
+        self.log_channel: discord.TextChannel = await self.bot.fetch_channel(statics.REPORT_CHANNEL_ID)
+        self.error_channel: discord.TextChannel = await self.bot.fetch_channel(statics.ERROR_CHANNEL_ID)
         self.update_toplist.start() # start loop task to update the toplist regularly
         self.nag_officers.start()
 
@@ -92,26 +92,36 @@ class HPCog(commands.Cog):
             sio = StringIO(msg)
             await self.error_channel.send(file=discord.File(sio, filename="error.txt"))
             logger.error(msg)
-            
-    @tasks.loop(time=time(hour=12))
-    async def nag_officers(self):
-        logger.info("Looking for reports to nag about")
-        open_reports: list[tuple[str, timedelta]] = []
+    
+    async def get_open_reports(self) -> list[discord.Thread]:
+        open_reports: list[discord.Thread] = []
         tags_handled = [tag.id for tag in (statics.TAGS + [statics.CONFIRMED_TAG])] 
         channel = await self.bot.fetch_channel(statics.REPORT_FORUM.id)
         assert isinstance(channel, discord.ForumChannel)
-        now = datetime.now(timezone.utc)
-        async for thread in join(iter(channel.threads), channel.archived_threads(limit=None)):
+        async for thread in join(iter(channel.threads), channel.archived_threads()):
             if thread.archived:
                 continue
             tags = [t.id for t in thread.applied_tags]
             
-            if statics.REPORT_TAG.id in tags and not any(map(lambda t: t in tags, tags_handled)) and (now - thread.created_at).days >= 1:
-                open_reports.append((thread.jump_url, (now - thread.created_at)))
+            if statics.REPORT_TAG.id in tags and not any(map(lambda t: t in tags, tags_handled)):
+                open_reports.append(thread)
+        
+        return open_reports
+            
+    @tasks.loop(time=time(hour=12))
+    async def nag_officers(self):
+        logger.info("Looking for reports to nag about")
+        open_reports = await self.get_open_reports()
+        
+        now = datetime.now(timezone.utc)
+        
+        open_reports = [(t.jump_url, (now - t.created_at)) for t in open_reports if (now - t.created_at).days >= 1]
                 
         if len(open_reports) > 0:
             open_reports.sort(key=lambda e: e[1], reverse=True)
-            await self.log_channel.send("**Stale reports:**\n" + "\n".join([f"{link} ({delta.days} days)" for link, delta in open_reports]))
+            emb = discord.Embed(title="Stale reports", description="\n".join([f"{link} ({delta.days} days)" for link, delta in open_reports]))
+            emb.colour = discord.Color.orange()
+            await self.log_channel.send(embed=emb)
             logging.info(f"{len(open_reports)} stale reports")
         else:
             logging.info("Nothing to nag :)")
@@ -449,6 +459,34 @@ class HPCog(commands.Cog):
         
         # save data to json
         await self.reports.save()
+        
+    @app_commands.command(
+        name="open_reports",
+        description="Sends a list of open reports, can only be used in the modding channel"
+    )
+    @app_commands.checks.has_any_role(*statics.CONFIRM_ROLE_WHITELIST)
+    @app_commands.checks.cooldown(1, 10*60, key=lambda int: int.guild_id)
+    async def openreports(self, 
+        interaction: discord.Interaction, 
+    ):
+        if interaction.channel_id != statics.REPORT_CHANNEL_ID:
+            await interaction.response.send_message("Can only be used in the modding channel", ephemeral=True)
+            return
+            
+        await interaction.response.defer()
+            
+        open_reports = await self.get_open_reports()
+        
+        if len(open_reports) > 0:
+            open_reports.sort(key=lambda t: t.created_at)
+            now = datetime.now(timezone.utc)
+            emb = discord.Embed(title="Open reports", description="\n".join([f"{thread.jump_url} ({(now - thread.created_at).days} days)" for thread in open_reports]))
+            emb.colour = discord.Color.orange()
+        else:
+            emb = discord.Embed(title="No open reports")
+            emb.color = discord.Color.green()
+            
+        await interaction.followup.send(embed=emb)
 
 async def setup(bot: commands.Bot):
     # create new HPCog (just a self-contained module that provides commands) and add it to the bot
