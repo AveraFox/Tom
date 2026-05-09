@@ -480,8 +480,7 @@ class HPCog(commands.Cog):
         if len(open_reports) > 0:
             open_reports.sort(key=lambda t: t.created_at)
             now = datetime.now(timezone.utc)
-            emb = discord.Embed(title="Open reports", description="\n".join([f"{thread.jump_url} ({(now - thread.created_at).days} days)" for thread in open_reports]))
-            emb.colour = discord.Color.orange()
+            emb = discord.Embed(title=f"{len(open_reports)} open reports", description="\n".join([f"{thread.jump_url} ({(now - thread.created_at).days} day(s) old)" for thread in open_reports]))
         else:
             emb = discord.Embed(title="No open reports")
             emb.color = discord.Color.green()
