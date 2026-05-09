@@ -212,7 +212,7 @@ class HPCog(commands.Cog):
 
         if len(reports) > 0:
             embed.insert_field_at(0, inline=False, name="Reports", value=
-                '\n'.join(map(lambda r: f"{r[0]} [{r[2].name}]" + (' -- (unverified)' if not r[1] else ''), reports)))
+                '\n'.join(map(lambda r: f"{r[0]} [{r[2].kind.name}]" + (' -- (unverified)' if not r[1] else ''), reports)))
             embed.color = discord.Color.orange()
         
         if len(reports) + len(lists) == 0:
