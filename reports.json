@@ -33439,7 +33439,7 @@
         ]
     },
     "771063194084573205": {
-        "count": 11,
+        "count": 13,
         "profile_id": 76561198258715564,
         "reports": [
             {
@@ -33573,11 +33573,27 @@
                 },
                 "points": 1,
                 "verified": true
+            },
+            {
+                "date": "2026-05-10T20:59:33.863941+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1503113030450413802 <@771063194084573205> (Odin's Ravensus) cheater exposed (+2 points, 13 total)",
+                "players": {
+                    "76561199829463383": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-10T20:59:33.863941+00:00"
+                    },
+                    "76561199831951549": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-10T20:59:33.863941+00:00"
+                    }
+                },
+                "points": 2,
+                "verified": true
             }
         ]
     },
     "775476032630947920": {
-        "count": 54,
+        "count": 55,
         "profile_id": 76561198402859419,
         "reports": [
             {
@@ -34222,6 +34238,18 @@
                     }
                 },
                 "points": 2,
+                "verified": true
+            },
+            {
+                "date": "2026-05-10T20:33:05.374566+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1503124546184544446 <@775476032630947920> (moosetwin) cheater exposed (+1 points, 55 total)",
+                "players": {
+                    "76561198795315972": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-10T20:33:05.374566+00:00"
+                    }
+                },
+                "points": 1,
                 "verified": true
             }
         ]
