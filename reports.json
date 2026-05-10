@@ -24434,7 +24434,7 @@
         ]
     },
     "510873040817487914": {
-        "count": 58,
+        "count": 59,
         "profile_id": 76561198063202851,
         "reports": [
             {
@@ -25135,6 +25135,18 @@
                     }
                 },
                 "points": 2,
+                "verified": true
+            },
+            {
+                "date": "2026-05-10T12:16:08.800724+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1502600547818016919 <@510873040817487914> (qareday) cheater exposed (+1 points, 59 total)",
+                "players": {
+                    "76561198753599184": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-10T12:16:08.800724+00:00"
+                    }
+                },
+                "points": 1,
                 "verified": true
             }
         ]
