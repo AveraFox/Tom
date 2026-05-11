@@ -376,7 +376,7 @@ class HPCog(commands.Cog):
         
         if roles_added:
             await thread_owner.add_roles(*roles_added)
-            msg += f"\nAdded {', '.join(map(lambda x: f"<@&{x.id}>", roles_added))} role{'s' if len(roles_added) > 1 else ''} to user."
+            msg += f"\nAdded {', '.join(map(lambda x: f'<@&{x.id}>', roles_added))} role{'s' if len(roles_added) > 1 else ''} to user."
 
         # send confirmation message in log channel
         await self.log_channel.send(msg, silent=True, allowed_mentions=discord.AllowedMentions(roles=False))
@@ -418,7 +418,7 @@ class HPCog(commands.Cog):
         msg = f"{thread.jump_url} <@{thread.owner_id}> unapproved ({new_points} points)"
         if roles_removed:
             await thread_owner.remove_roles(*roles_removed)
-            msg += f"\nRemoved {', '.join(map(lambda x: f"<@&{x.id}>", roles_removed))} role{'s' if len(roles_removed) > 1 else ''} from user."
+            msg += f"\nRemoved {', '.join(map(lambda x: f'<@&{x.id}>', roles_removed))} role{'s' if len(roles_removed) > 1 else ''} from user."
 
         # save report record to disk
         await self.reports.save()
