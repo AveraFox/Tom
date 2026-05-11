@@ -343,14 +343,11 @@ class HPCog(commands.Cog):
             reporter.profile_id = reporter_steamid_i
             await self.log_channel.send(f"Associated SteamID {reporter_steamid_i} with user {owner.mention}", silent=True)
 
-        role_mapping: list[tuple[int, Object]] = [
-            (8, statics.DETECTIVE_ROLE)
-        ]
         roles_added: list[Object] = []
         new_points = (prior_points := reporter.points()) + points
         thread_owner = interaction.guild.get_member(thread.owner_id) or await interaction.guild.fetch_member(thread.owner_id)
         if thread_owner:
-            for pts, role in role_mapping:
+            for pts, role in statics.ROLE_MAPPING:
                 if (prior_points < pts and
                     new_points >= pts and
                     not any(role.id == x.id for x in thread_owner.roles)):
@@ -408,14 +405,11 @@ class HPCog(commands.Cog):
             await interaction.response.send_message("This thread has not been confirmed", ephemeral=True)
             return
         
-        role_mapping: list[tuple[int, Object]] = [
-            (8, statics.DETECTIVE_ROLE)
-        ]
         roles_removed: list[Object] = []
         new_points = reporter.points()
         thread_owner = interaction.guild.get_member(thread.owner_id) or await interaction.guild.fetch_member(thread.owner_id)
         if thread_owner:
-            for pts, role in role_mapping:
+            for pts, role in statics.ROLE_MAPPING:
                 if (prior_points >= pts and
                     new_points < pts and
                     any(role.id == x.id for x in thread_owner.roles)):

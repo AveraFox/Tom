@@ -16,7 +16,9 @@ CONFIRM_ROLE_WHITELIST = [
     518203583825575964,  # Moderator
     425686371974512640   # Admin
 ]
-DETECTIVE_ROLE = Object(1221416226371141703)
+ROLE_MAPPING: list[tuple[int, Object]] = [
+    (8, Object(1221416226371141703)) # detective role
+]
 TAGS = [
     Object(1309945406385426432), # not enough info
     Object(1311759650261172334), # already reported
