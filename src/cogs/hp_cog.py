@@ -5,8 +5,8 @@ import re
 import traceback
 from io import StringIO
 from discord.ext import commands, tasks
-from discord import NotFound, app_commands
-from datetime import datetime, timezone, time, timedelta
+from discord import NotFound, app_commands, Object
+from datetime import datetime, timezone, time
 from typing import Iterator, AsyncIterator, TypeVar, AsyncGenerator
 
 from .. import statics, steam
@@ -340,8 +340,21 @@ class HPCog(commands.Cog):
             reporter.profile_id = reporter_steamid_i
             await self.log_channel.send(f"Associated SteamID {reporter_steamid_i} with user {owner.mention}", silent=True)
 
+        role_mapping: list[tuple[int, Object]] = [
+            (8, statics.DETECTIVE_ROLE)
+        ]
+        roles_added: list[Object] = []
+        new_points = (prior_points := reporter.points()) + points
+        thread_owner = interaction.guild.get_member(thread.owner_id) or await interaction.guild.fetch_member(thread.owner_id)
+        if thread_owner:
+            for pts, role in role_mapping:
+                if (prior_points < pts and
+                    new_points >= pts and
+                    not any(role.id == x.id for x in thread_owner.roles)):
+                    roles_added.append(role)
+
         # log channel message
-        msg = f"{thread.jump_url} {owner.mention} ({owner.display_name}) cheater exposed (+{points} points, {reporter.points()+points} total)"
+        msg = f"{thread.jump_url} {owner.mention} ({owner.display_name}) cheater exposed (+{points} points, {new_points} total)"
         # add report to internal record
         reporter.add_report(msg, points, steamids_dict, verified)
 
@@ -360,8 +373,13 @@ class HPCog(commands.Cog):
         await self.reports.save()
         # mark toplist for rebuild
         self.toplist_needs_rebuild = True
+        
+        if roles_added:
+            await thread_owner.add_roles(*roles_added)
+            msg += f"\nAdded {', '.join(map(lambda x: f"<@&{x.id}>", roles_added))} role{'s' if len(roles_added) > 1 else ''} to user."
+
         # send confirmation message in log channel
-        await self.log_channel.send(msg, silent=True)
+        await self.log_channel.send(msg, silent=True, allowed_mentions=discord.AllowedMentions(roles=False))
 
         await thread.remove_tags(*statics.TAGS) # remove "Needs info", "Not a cheater" and "Already reported" tags
         await thread.add_tags(statics.CONFIRMED_TAG) # add "Confirmed" tag
@@ -382,10 +400,29 @@ class HPCog(commands.Cog):
             await interaction.response.send_message("User does not have any reports", ephemeral=True)
             return
         
+        prior_points = reporter.points()
         if not reporter.remove_report(thread.jump_url): # try to remove report from user, returns False if no matching reports were found
             await interaction.response.send_message("This thread has not been confirmed", ephemeral=True)
             return
         
+        role_mapping: list[tuple[int, Object]] = [
+            (8, statics.DETECTIVE_ROLE)
+        ]
+        roles_removed: list[Object] = []
+        new_points = reporter.points()
+        thread_owner = interaction.guild.get_member(thread.owner_id) or await interaction.guild.fetch_member(thread.owner_id)
+        if thread_owner:
+            for pts, role in role_mapping:
+                if (prior_points >= pts and
+                    new_points < pts and
+                    any(role.id == x.id for x in thread_owner.roles)):
+                    roles_removed.append(role)
+
+        msg = f"{thread.jump_url} <@{thread.owner_id}> unapproved ({new_points} points)"
+        if roles_removed:
+            await thread_owner.remove_roles(*roles_removed)
+            msg += f"\nRemoved {', '.join(map(lambda x: f"<@&{x.id}>", roles_removed))} role{'s' if len(roles_removed) > 1 else ''} from user."
+
         # save report record to disk
         await self.reports.save()
         # mark toplist for rebuild
@@ -393,7 +430,7 @@ class HPCog(commands.Cog):
         # remove the "Confirmed" tag
         await thread.remove_tags(statics.CONFIRMED_TAG)
         # log unapproval in log channel
-        await self.log_channel.send(f"{thread.jump_url} <@{thread.owner_id}> unapproved ({reporter.points()} points)", silent=True)
+        await self.log_channel.send(msg, silent=True, allowed_mentions=discord.AllowedMentions(roles=False))
         # send a message that it was unapproved
         await interaction.response.send_message("Report unapproved")
         
