@@ -282,7 +282,7 @@ class HPCog(commands.Cog):
         interaction: discord.Interaction, 
         steamids: str, 
         verified: bool,
-        points: int = 1, 
+        points: int | None = None, 
         reporter_steamid: typing.Optional[str] = None,
         allow_duplicate: bool = False,
         skip_reporter_steamid_check: bool = False
@@ -328,6 +328,9 @@ class HPCog(commands.Cog):
         if len(steamids_dict) == 0:
             await interaction.response.send_message("At least one cheater SteamID is required")
             return
+
+        if points is None:
+            points = len(steamids_dict)
         
         if not allow_duplicate:
             for steamid in steamids_dict: # check steamids if they were reported before
