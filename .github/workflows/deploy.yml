@@ -1,0 +1,22 @@
+name: Deploy Tom
+
+on:
+  push:
+    branches:
+        - deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+              cd /home/${{ secrets.USERNAME }}
+              ./sync.sh
