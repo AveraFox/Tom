@@ -14,6 +14,8 @@ All of the players in the lists were reported by a member on the discord server 
 
 New reports are usually uploaded hourly.
 
+**The current bot code is in the `deploy` branch**
+
 ## Features
 - Approved report count per person
 - Lookup previous reports of steamid
