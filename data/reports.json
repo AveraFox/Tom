@@ -23596,6 +23596,18 @@
                 },
                 "points": 1,
                 "verified": true
+            },
+            {
+                "date": "2026-05-13T10:36:17.150708+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1504069074727075883 <@451418782678777856> (BrokenMartin) cheater exposed (+0 points, 95 total)",
+                "players": {
+                    "76561198708639335": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-13T10:36:17.150708+00:00"
+                    }
+                },
+                "points": 0,
+                "verified": false
             }
         ]
     },
