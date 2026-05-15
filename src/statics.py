@@ -34,7 +34,7 @@ TAG_CHOICES = [ # Options for mark/unmark command autocomplete (value is index o
 ]
 CONFIRMED_TAG = Object(1313271682059993239)
 REPORTS_DATA_FILE = "../data/data/reports.json"
-ID_LIST_FILE="../reported_ids.txt"
+ID_LIST_FILE="../data/reported_ids.txt"
 EXTERNAL_LIST_DIR="../data/lists"
 TFBD_LIST_NAME="../data/playerlist.vorobey-hackerpolice.json"
 STEAMID64_OFFSET = 76561197960265728
