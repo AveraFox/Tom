@@ -345,7 +345,12 @@ class HPCog(commands.Cog):
 
         roles_added: list[Object] = []
         new_points = (prior_points := reporter.points()) + points
-        thread_owner = interaction.guild.get_member(thread.owner_id) or await interaction.guild.fetch_member(thread.owner_id)
+        
+        try:
+            thread_owner = interaction.guild.get_member(thread.owner_id) or await interaction.guild.fetch_member(thread.owner_id)
+        except NotFound:
+            thread_owner = None
+            
         if thread_owner:
             for pts, role in statics.ROLE_MAPPING:
                 if (prior_points < pts and
@@ -407,7 +412,12 @@ class HPCog(commands.Cog):
         
         roles_removed: list[Object] = []
         new_points = reporter.points()
-        thread_owner = interaction.guild.get_member(thread.owner_id) or await interaction.guild.fetch_member(thread.owner_id)
+        
+        try:
+            thread_owner = interaction.guild.get_member(thread.owner_id) or await interaction.guild.fetch_member(thread.owner_id)
+        except NotFound:
+            thread_owner = None
+            
         if thread_owner:
             for pts, role in statics.ROLE_MAPPING:
                 if (prior_points >= pts and
