@@ -14199,7 +14199,7 @@
         ]
     },
     "310505171954434049": {
-        "count": 198,
+        "count": 199,
         "profile_id": 76561198217926783,
         "reports": [
             {
@@ -16297,6 +16297,18 @@
                     "76561198453537841": {
                         "kind": "cheater",
                         "last_seen": "2026-05-13T20:06:25.684758+00:00"
+                    }
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-17T02:38:35.614119+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1505193413492998165 <@310505171954434049> (Master Of Noob) cheater exposed (+1 points, 199 total)",
+                "players": {
+                    "76561199773360297": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-17T02:38:35.614119+00:00"
                     }
                 },
                 "points": 1,
@@ -36752,7 +36764,7 @@
         ]
     },
     "871096627417468999": {
-        "count": 8,
+        "count": 10,
         "profile_id": 76561197994906928,
         "reports": [
             {
@@ -36838,6 +36850,30 @@
                     "76561198006269065": {
                         "kind": "cheater",
                         "last_seen": "2026-05-04T11:15:43.847519+00:00"
+                    }
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-17T02:49:14.165469+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1505386786057355304 <@871096627417468999> (True Astro) cheater exposed (+1 points, 9 total)",
+                "players": {
+                    "76561198705183576": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-17T02:49:14.165469+00:00"
+                    }
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-17T02:53:02.988865+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1505390209599012894 <@871096627417468999> (True Astro) cheater exposed (+1 points, 10 total)",
+                "players": {
+                    "76561198713093561": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-17T02:53:02.988865+00:00"
                     }
                 },
                 "points": 1,
