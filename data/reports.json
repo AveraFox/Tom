@@ -11670,7 +11670,7 @@
         ]
     },
     "292025507518611458": {
-        "count": 74,
+        "count": 75,
         "profile_id": 76561198042509428,
         "reports": [
             {
@@ -12487,6 +12487,18 @@
                     "76561199845780257": {
                         "kind": "cheater",
                         "last_seen": "2026-05-15T22:22:22.089705+00:00"
+                    }
+                },
+                "points": 1,
+                "verified": true
+            },
+            {
+                "date": "2026-05-18T08:18:30.888926+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1505787167153061888 <@292025507518611458> (AMOGUS) cheater exposed (+1 points, 75 total)",
+                "players": {
+                    "76561198905249863": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-18T08:18:30.888926+00:00"
                     }
                 },
                 "points": 1,
@@ -24269,6 +24281,24 @@
                 },
                 "points": 1,
                 "verified": false
+            }
+        ]
+    },
+    "463913931354931210": {
+        "count": 1,
+        "profile_id": 76561198164668247,
+        "reports": [
+            {
+                "date": "2026-05-18T08:15:11.750044+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1505760950018379806 <@463913931354931210> (Bekymre) cheater exposed (+1 points, 1 total)",
+                "players": {
+                    "76561199734400296": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-18T08:15:11.750044+00:00"
+                    }
+                },
+                "points": 1,
+                "verified": true
             }
         ]
     },
