@@ -19684,6 +19684,18 @@
                 },
                 "points": 2,
                 "verified": true
+            },
+            {
+                "date": "2026-05-18T22:48:31.578575+00:00",
+                "msg": "https://discord.com/channels/354645865773924352/1294001947963031596 <@365145249074642956> (Teltta) cheater exposed (+0 points, 119 total)",
+                "players": {
+                    "76561199789548661": {
+                        "kind": "cheater",
+                        "last_seen": "2026-05-18T22:48:31.578575+00:00"
+                    }
+                },
+                "points": 0,
+                "verified": true
             }
         ]
     },
